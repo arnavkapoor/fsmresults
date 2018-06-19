@@ -1,0 +1,362 @@
+Device: Tesla K20Xm 
+Compute units: 14 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 5977800704 
+Global memory cache size (in bytes): 229376 
+Version: OpenCL 1.2 CUDA 
+Reading file ../kernel-gen/' 
+Reading file ../kernel-gen/@ 
+Reading file ../kernel-gen/` 
+Reading file ../kernel-gen/\200 
+Reading file ../kernel-gen/\240 
+Reading file ../kernel-gen/\300 
+Reading file ../kernel-gen/\340 
+Reading file ../kernel-gen/\001 
+Reading file ../kernel-gen/! 
+Reading file ../kernel-gen/A 
+Reading file ../kernel-gen/a 
+Reading file ../kernel-gen/\201 
+Reading file ../kernel-gen/\241 
+Reading file ../kernel-gen/\301 
+Reading file ../kernel-gen/\341 
+Reading file ../kernel-gen/B 
+Reading file ../kernel-gen/b 
+Reading file ../kernel-gen/\202 
+Reading file ../kernel-gen/\242 
+Reading file ../kernel-gen/\302 
+Reading file ../kernel-gen/\342 
+Reading file ../kernel-gen/# 
+Reading file ../kernel-gen/C 
+Reading file ../kernel-gen/c 
+Reading file ../kernel-gen/\203 
+Reading file ../kernel-gen/\243 
+Reading file ../kernel-gen/\303 
+Reading file ../kernel-gen/\343 
+Reading file ../kernel-gen/\004 
+Reading file ../kernel-gen/$ 
+Reading file ../kernel-gen/D 
+Reading file ../kernel-gen/d 
+Reading file ../kernel-gen/\204 
+Reading file ../kernel-gen/\244 
+Reading file ../kernel-gen/\304 
+Reading file ../kernel-gen/\344 
+Reading file ../kernel-gen/\005 
+Reading file ../kernel-gen/% 
+Reading file ../kernel-gen/E 
+Reading file ../kernel-gen/e 
+Reading file ../kernel-gen/\205 
+Reading file ../kernel-gen/\245 
+Reading file ../kernel-gen/\305 
+Reading file ../kernel-gen/\345 
+Reading file ../kernel-gen/\006 
+Reading file ../kernel-gen/& 
+Reading file ../kernel-gen/F 
+Reading file ../kernel-gen/f 
+Reading file ../kernel-gen/\206 
+Reading file ../kernel-gen/\246 
+Reading file ../kernel-gen/\306 
+Reading file ../kernel-gen/\346 
+Reading file ../kernel-gen/\a 
+Reading file ../kernel-gen/G 
+Reading file ../kernel-gen/g 
+Reading file ../kernel-gen/\207 
+Reading file ../kernel-gen/\247 
+Reading file ../kernel-gen/\307 
+Reading file ../kernel-gen/\347 
+Reading file ../kernel-gen/\b 
+Reading file ../kernel-gen/( 
+Reading file ../kernel-gen/H 
+Reading file ../kernel-gen/h 
+Reading file ../kernel-gen/\210 
+Reading file ../kernel-gen/\250 
+Reading file ../kernel-gen/\310 
+Reading file ../kernel-gen/\350 
+Reading file ../kernel-gen/\t 
+Reading file ../kernel-gen/) 
+Reading file ../kernel-gen/I 
+Reading file ../kernel-gen/i 
+Reading file ../kernel-gen/\211 
+Reading file ../kernel-gen/\251 
+Reading file ../kernel-gen/\311 
+Reading file ../kernel-gen/\351 
+Reading file ../kernel-gen/* 
+Reading file ../kernel-gen/J 
+Reading file ../kernel-gen/j 
+Reading file ../kernel-gen/\212 
+Reading file ../kernel-gen/\252 
+Reading file ../kernel-gen/\312 
+Reading file ../kernel-gen/\352 
+Reading file ../kernel-gen/\v 
+Reading file ../kernel-gen/+ 
+Reading file ../kernel-gen/K 
+Reading file ../kernel-gen/k 
+Reading file ../kernel-gen/\213 
+Reading file ../kernel-gen/\253 
+Reading file ../kernel-gen/\313 
+Reading file ../kernel-gen/\353 
+Reading file ../kernel-gen/\f 
+Reading file ../kernel-gen/, 
+Reading file ../kernel-gen/L 
+Reading file ../kernel-gen/l 
+Reading file ../kernel-gen/\214 
+Reading file ../kernel-gen/\254 
+Reading file ../kernel-gen/\314 
+Reading file ../kernel-gen/\354 
+Reading file ../kernel-gen/\r 
+Reading file ../kernel-gen/- 
+Reading file ../kernel-gen/M 
+Reading file ../kernel-gen/m 
+Reading file ../kernel-gen/\215 
+Reading file ../kernel-gen/\255 
+Reading file ../kernel-gen/\315 
+Reading file ../kernel-gen/\355 
+Reading file ../kernel-gen/\016 
+Reading file ../kernel-gen/N 
+Reading file ../kernel-gen/n 
+Reading file ../kernel-gen/\216 
+Reading file ../kernel-gen/\256 
+Reading file ../kernel-gen/\316 
+Reading file ../kernel-gen/\356 
+Reading file ../kernel-gen/\017 
+Reading file ../kernel-gen/O 
+Reading file ../kernel-gen/o 
+Reading file ../kernel-gen/\217 
+Reading file ../kernel-gen/\257 
+Reading file ../kernel-gen/\317 
+Reading file ../kernel-gen/\357 
+Reading file ../kernel-gen/\020 
+Reading file ../kernel-gen/0 
+Reading file ../kernel-gen/P 
+Reading file ../kernel-gen/p 
+Reading file ../kernel-gen/\220 
+Reading file ../kernel-gen/\260 
+Reading file ../kernel-gen/\320 
+Reading file ../kernel-gen/\360 
+Reading file ../kernel-gen/\021 
+Reading file ../kernel-gen/1 
+Reading file ../kernel-gen/Q 
+Reading file ../kernel-gen/q 
+Reading file ../kernel-gen/\221 
+Reading file ../kernel-gen/\261 
+Reading file ../kernel-gen/\321 
+Reading file ../kernel-gen/\361 
+Reading file ../kernel-gen/\022 
+Reading file ../kernel-gen/2 
+Reading file ../kernel-gen/R 
+Reading file ../kernel-gen/r 
+Reading file ../kernel-gen/\222 
+Reading file ../kernel-gen/\262 
+Reading file ../kernel-gen/\322 
+Reading file ../kernel-gen/\362 
+Reading file ../kernel-gen/\023 
+Reading file ../kernel-gen/3 
+Reading file ../kernel-gen/S 
+Reading file ../kernel-gen/s 
+Reading file ../kernel-gen/\223 
+Reading file ../kernel-gen/\263 
+Reading file ../kernel-gen/\323 
+Reading file ../kernel-gen/\363 
+Reading file ../kernel-gen/\024 
+Reading file ../kernel-gen/4 
+Reading file ../kernel-gen/T 
+Reading file ../kernel-gen/t 
+Reading file ../kernel-gen/\224 
+Reading file ../kernel-gen/\264 
+Reading file ../kernel-gen/\324 
+Reading file ../kernel-gen/\364 
+Reading file ../kernel-gen/\025 
+Reading file ../kernel-gen/5 
+Reading file ../kernel-gen/U 
+Reading file ../kernel-gen/u 
+Reading file ../kernel-gen/\225 
+Reading file ../kernel-gen/\265 
+Reading file ../kernel-gen/\325 
+Reading file ../kernel-gen/\365 
+Reading file ../kernel-gen/\026 
+Reading file ../kernel-gen/6 
+Reading file ../kernel-gen/V 
+Reading file ../kernel-gen/v 
+Reading file ../kernel-gen/\226 
+Reading file ../kernel-gen/\266 
+Reading file ../kernel-gen/\326 
+Reading file ../kernel-gen/\366 
+Reading file ../kernel-gen/\027 
+Reading file ../kernel-gen/7 
+Reading file ../kernel-gen/W 
+Reading file ../kernel-gen/w 
+Reading file ../kernel-gen/\227 
+Reading file ../kernel-gen/\267 
+Reading file ../kernel-gen/\327 
+Reading file ../kernel-gen/\367 
+Reading file ../kernel-gen/\030 
+Reading file ../kernel-gen/8 
+Reading file ../kernel-gen/X 
+Reading file ../kernel-gen/x 
+Reading file ../kernel-gen/\230 
+Reading file ../kernel-gen/\270 
+Reading file ../kernel-gen/\330 
+Reading file ../kernel-gen/\370 
+Reading file ../kernel-gen/\031 
+Reading file ../kernel-gen/9 
+Reading file ../kernel-gen/Y 
+Reading file ../kernel-gen/y 
+Reading file ../kernel-gen/\231 
+Reading file ../kernel-gen/\271 
+Reading file ../kernel-gen/\331 
+Reading file ../kernel-gen/\371 
+Reading file ../kernel-gen/\032 
+Reading file ../kernel-gen/: 
+Reading file ../kernel-gen/Z 
+Reading file ../kernel-gen/z 
+Reading file ../kernel-gen/\232 
+Reading file ../kernel-gen/\272 
+Reading file ../kernel-gen/\332 
+Reading file ../kernel-gen/\372 
+Reading file ../kernel-gen/\033 
+Reading file ../kernel-gen/; 
+Reading file ../kernel-gen/[ 
+Reading file ../kernel-gen/{ 
+Reading file ../kernel-gen/\233 
+Reading file ../kernel-gen/\273 
+Reading file ../kernel-gen/\333 
+Reading file ../kernel-gen/\373 
+Reading file ../kernel-gen/\034 
+Reading file ../kernel-gen/< 
+Reading file ../kernel-gen/\ 
+Reading file ../kernel-gen/| 
+Reading file ../kernel-gen/\234 
+Reading file ../kernel-gen/\274 
+Reading file ../kernel-gen/\334 
+Reading file ../kernel-gen/\374 
+Reading file ../kernel-gen/\035 
+Reading file ../kernel-gen/= 
+Reading file ../kernel-gen/] 
+Reading file ../kernel-gen/} 
+Reading file ../kernel-gen/\235 
+Reading file ../kernel-gen/\275 
+Reading file ../kernel-gen/\335 
+Reading file ../kernel-gen/\375 
+Reading file ../kernel-gen/\036 
+Reading file ../kernel-gen/> 
+Reading file ../kernel-gen/^ 
+Reading file ../kernel-gen/~ 
+Reading file ../kernel-gen/\236 
+Reading file ../kernel-gen/\276 
+Reading file ../kernel-gen/\336 
+Reading file ../kernel-gen/\376 
+Reading file ../kernel-gen/\037 
+Reading file ../kernel-gen/? 
+Reading file ../kernel-gen/_ 
+Reading file ../kernel-gen/\177 
+Reading file ../kernel-gen/\237 
+Reading file ../kernel-gen/\277 
+Reading file ../kernel-gen/\337 
+Reading file ../kernel-gen/\377 
+Reading file ../kernel-gen/\002 
+Reading file ../kernel-gen/\003 
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/allregexnew/qq.fsm
+Number of test cases: 65536
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+10.208640	12.339904	12.028128	36.670160
+8.087584	7.695328	11.925312	31.784903
+8.069664	7.891200	11.974272	32.027741
+8.057472	7.953312	11.989920	32.075513
+11.774144	12.485952	11.895424	41.041385
+11.976480	12.551104	12.007616	41.302173
+11.926304	12.572064	11.900480	41.111227
+12.089024	12.709856	11.987328	41.405538
+12.119040	12.655296	11.875776	41.269488
+12.095936	12.650912	11.850368	41.206561
+12.145184	12.641056	11.980544	41.385703
+12.084064	12.745440	12.019296	41.460224
+12.172352	12.666464	11.881056	41.332484
+12.155552	12.636992	11.958208	41.363983
+12.063264	12.696480	11.994432	41.343170
+12.074560	12.646400	11.949024	41.272002
+11.975712	6.290816	12.022752	34.477354
+8.046336	5.845728	11.829824	29.709290
+8.182816	5.505120	11.847680	29.502840
+8.078080	5.316384	11.924480	29.265309
+8.004480	5.295904	11.974080	29.239538
+8.019136	5.211328	11.854016	29.035951
+7.955424	5.387424	11.864416	29.316642
+7.881536	5.191008	11.814208	29.044471
+7.910048	5.250112	11.975840	29.109982
+7.921152	5.362752	11.863072	29.058439
+7.879072	6.992800	12.002880	30.892750
+7.807808	6.706144	11.982304	30.537677
+7.822176	5.681024	11.934400	29.386344
+7.824384	5.528224	11.862208	29.783531
+8.124672	6.475840	11.911552	30.631474
+7.894880	5.377280	11.882112	29.085119
+7.857120	5.355200	11.926240	29.089589
+7.820544	6.543648	11.986240	30.237779
+7.811136	6.824736	11.938336	30.596763
+7.800608	6.023968	11.956864	29.820617
+7.788256	5.794656	11.876032	29.497531
+7.797728	6.876544	11.975552	30.728204
+7.763104	6.647744	11.961696	30.337093
+7.761152	6.990272	11.954368	30.811944
+7.753280	6.896128	11.916480	30.737144
+7.795328	5.865920	11.945600	29.645524
+7.782432	6.240800	11.919232	29.905055
+7.886336	6.023520	11.809216	29.893043
+7.768576	7.012576	11.877312	30.637690
+7.746304	5.258240	11.862656	28.814554
+7.778912	6.220096	11.998784	30.502756
+7.844576	5.369472	12.044160	29.471829
+7.807712	5.327968	11.975264	29.284515
+7.801472	6.051392	12.048768	30.143773
+7.768608	6.661920	12.015296	30.721220
+7.815712	5.854624	12.049216	30.030560
+7.830848	5.360352	11.961344	29.421195
+7.851712	5.782112	12.071616	29.836750
+7.823904	5.727488	11.965952	29.753499
+7.796864	5.868832	12.033920	30.070579
+7.753248	6.085696	11.893344	29.971614
+7.769312	5.698208	11.862912	29.982858
+7.882208	6.669344	12.034624	30.984172
+7.862912	6.612672	11.956384	30.712350
+7.749408	6.605504	11.957184	30.539912
+7.691520	6.790752	12.037824	30.787570
+7.731552	6.705888	11.969696	30.877664
+7.747648	6.751264	11.976128	30.970204
+7.705312	6.760672	11.953248	30.639017
+7.690112	6.729856	11.938880	30.609754
+7.686368	6.065216	12.025152	29.980903
+7.976544	5.636416	12.048736	29.996058
+7.887872	5.317856	11.965888	29.419518
+7.897856	5.191456	12.011520	29.324325
+7.826720	5.213344	11.938720	29.173258
+7.765600	5.243712	12.058976	29.273271
+7.727904	5.376256	12.010400	29.248268
+7.701888	5.267072	12.000320	29.188414
+7.716128	5.372064	12.050912	29.514573
+7.679104	5.326752	12.237280	29.562414
+7.657792	5.288768	12.049440	29.388788
+7.647712	7.077664	11.883232	30.877316
+7.615072	5.207744	11.876288	28.889563
+7.646016	6.935808	11.943680	30.871938
+7.641056	6.957376	12.001856	30.923061
+7.618304	5.277344	11.847840	29.064376
+7.618144	5.204576	12.009056	29.071290
+7.616032	7.145856	11.926368	30.985709
+7.786368	6.047136	11.989472	30.065271
+7.876896	6.172224	12.055776	30.423556
+7.862176	7.319360	11.988160	31.531099
+7.814944	5.466784	12.062752	29.564579
+7.863072	5.482624	11.958976	29.521487
+7.829760	5.502560	11.981856	29.475322
+7.812768	5.458880	11.885856	29.396959
+7.859488	5.453344	12.027264	29.450039
+7.891648	5.455328	12.036224	29.604528
+7.849760	5.405824	12.073056	29.543766
+7.851168	7.254080	12.000384	31.292662
+7.858624	6.274688	11.914080	30.344915
+7.838368	6.232768	11.839808	30.224439
+7.837504	6.260384	11.975456	30.400020
+7.768864	5.436096	11.988416	29.486077
+7.834528	5.932832	11.906592	29.983487

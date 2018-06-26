@@ -4,7 +4,7 @@ import plotly.figure_factory as FF
 import math
 import numpy as np
 import pandas as pd
-df = pd.read_csv('total-time-opensrc.csv')
+df = pd.read_csv('largefsmstotalnetwork2606.csv')
 
 
 testcases=(df['FSM'].drop_duplicates().values.tolist())
@@ -86,4 +86,4 @@ layout = go.Layout(
 
 fig = go.Figure(data=data, layout=layout)
 #py.iplot(fig, filename='grouped-bar')
-py.image.save_as(fig, 'totaltimeopensrc.png')
+py.image.save_as(fig, 'largetotaltimenetwork2606.png')

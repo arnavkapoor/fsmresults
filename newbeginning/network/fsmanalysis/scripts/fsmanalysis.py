@@ -8,13 +8,15 @@ for folder, sub_folders, files in os.walk(path):
             d=dict()
             for line in read_file:
                 line = line.strip().split()
-                if line[1] not in d:
-                    d[line[1]] = 1
-                else:
-                    d[line[1]] += 1
+                if(len(line) == 4):
+                    if line[1] not in d:
+                        d[line[1]] = 1
+                    else:
+                        d[line[1]] += 1
 
         filename=file_path.rsplit('/')[-1]
         file = csv.writer(open('/home/arnav/fsmresults/newbeginning/network/fsmanalysis/data/results/' + filename + ".csv", 'w'))
         file.writerow(['State', 'Transitions', 'Percentage Transitions'])
         for key,values in d.items():
-            file.writerow([key,values,values/totalnetwork])
+           file.writerow([key,values,values/totalnetwork])
+           

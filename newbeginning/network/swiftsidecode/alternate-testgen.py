@@ -25,7 +25,7 @@ for elements in prefixlist:
         prefixdict[elements[0]]=""
 
 namefile=(sys.argv[1].rsplit('/',1)[1])
-filewrite= open(os.path.join('/afs/inf.ed.ac.uk/user/v/v1akapoo/fsm/tests/transition-pair-tests-network',namefile),"w")
+filewrite= open(os.path.join('./transition-pair-tests-network',namefile),"w")
 
 userinput = []
 currstate = []

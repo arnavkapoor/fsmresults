@@ -6,77 +6,17 @@ Global memory size (in bytes): 11996954624
 Global memory cache size (in bytes): 245760 
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 4096
-Reading file ../kernel-gen/W 
-Reading file ../kernel-gen/$ 
-Reading file ../kernel-gen/Z 
-Reading file ../kernel-gen/p 
-Reading file ../kernel-gen/! 
-Reading file ../kernel-gen/% 
-Reading file ../kernel-gen/R 
-Reading file ../kernel-gen/k 
-Reading file ../kernel-gen/S 
-Reading file ../kernel-gen/U 
-Reading file ../kernel-gen/E 
-Reading file ../kernel-gen/V 
-Reading file ../kernel-gen/D 
-Reading file ../kernel-gen/8 
 LDIM = 512
-Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/whois.fsm
-Size of FSM with 286 transitions is 1716 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 7, input .
 0.025920	0.028352	1.057664	1.951021
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 7, input .
 0.026080	0.026816	0.440640	0.870573
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 7, input .
 0.025792	0.026752	0.440608	0.863659
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 7, input .
 0.025920	0.026784	0.442272	0.865126
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 7, input .
 0.025792	0.026752	0.444288	0.858141
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 7, input .
 0.025920	0.026752	0.441376	0.857722
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 7, input .
 0.025760	0.026752	0.441248	0.858841
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 7, input .
 0.025792	0.026784	0.440320	0.854091
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 7, input .
 0.025792	0.026752	0.442944	0.860307
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 7, input .
 0.025760	0.026784	0.440320	0.848713
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 7, input .
 0.025760	0.026880	0.441632	0.847316

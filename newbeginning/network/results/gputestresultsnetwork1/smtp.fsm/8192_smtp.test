@@ -7,40 +7,16 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 8192
 LDIM = 512
-Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/smtp.fsm
-Size of FSM with 201 transitions is 1206 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-
-Couldn't find transition for state 8, input .
 0.049024	0.052256	0.838208	2.334170
-
-Couldn't find transition for state 8, input .
 0.049472	0.082880	0.435904	1.180041
-
-Couldn't find transition for state 8, input .
 0.049440	0.051840	0.437888	1.169076
-
-Couldn't find transition for state 8, input .
 0.049440	0.051744	0.439328	1.064104
-
-Couldn't find transition for state 8, input .
 0.049568	0.051552	0.436736	1.025692
-
-Couldn't find transition for state 8, input .
 0.049568	0.051680	0.438592	1.047621
-
-Couldn't find transition for state 8, input .
 0.049472	0.051616	0.438176	1.086105
-
-Couldn't find transition for state 8, input .
 0.049440	0.051584	0.437248	1.072206
-
-Couldn't find transition for state 8, input .
 0.049472	0.051712	0.440256	1.066828
-
-Couldn't find transition for state 8, input .
 0.049600	0.051648	0.438944	1.043920
-
-Couldn't find transition for state 8, input .
 0.049472	0.051648	0.435904	1.038542

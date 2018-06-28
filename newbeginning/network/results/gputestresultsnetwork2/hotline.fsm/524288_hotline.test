@@ -1,0 +1,119 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 524288
+Reading file ../kernel-gen/\214 
+Reading file ../kernel-gen/e 
+Reading file ../kernel-gen/\360 
+Reading file ../kernel-gen/; 
+Reading file ../kernel-gen/\370 
+Reading file ../kernel-gen/8 
+Reading file ../kernel-gen/\022 
+Reading file ../kernel-gen/\202 
+Reading file ../kernel-gen/\230 
+Reading file ../kernel-gen/Q 
+Reading file ../kernel-gen/\350 
+Reading file ../kernel-gen/\221 
+Reading file ../kernel-gen/\177 
+Reading file ../kernel-gen/\340 
+Reading file ../kernel-gen/\255 
+Reading file ../kernel-gen/\306 
+Reading file ../kernel-gen/E 
+Reading file ../kernel-gen/\224 
+Reading file ../kernel-gen/\222 
+Reading file ../kernel-gen/J 
+Reading file ../kernel-gen/k 
+Reading file ../kernel-gen/z 
+Reading file ../kernel-gen/\031 
+Reading file ../kernel-gen/\365 
+Reading file ../kernel-gen/\377 
+Reading file ../kernel-gen/\205 
+Reading file ../kernel-gen/\260 
+Reading file ../kernel-gen/t 
+Reading file ../kernel-gen/\333 
+Reading file ../kernel-gen/\371 
+Reading file ../kernel-gen/| 
+Reading file ../kernel-gen/} 
+Reading file ../kernel-gen/\347 
+Reading file ../kernel-gen/\330 
+Reading file ../kernel-gen/W 
+Reading file ../kernel-gen/\220 
+Reading file ../kernel-gen/# 
+Reading file ../kernel-gen/% 
+Reading file ../kernel-gen/\247 
+Reading file ../kernel-gen/\335 
+Reading file ../kernel-gen/\376 
+Reading file ../kernel-gen/_ 
+Reading file ../kernel-gen/\003 
+Reading file ../kernel-gen/\344 
+Reading file ../kernel-gen/\235 
+Reading file ../kernel-gen/A 
+Reading file ../kernel-gen/\351 
+Reading file ../kernel-gen/0 
+Reading file ../kernel-gen/' 
+Reading file ../kernel-gen/m 
+Reading file ../kernel-gen/\324 
+Reading file ../kernel-gen/[ 
+Reading file ../kernel-gen/\367 
+Reading file ../kernel-gen/\320 
+Reading file ../kernel-gen/\334 
+Reading file ../kernel-gen/\226 
+Reading file ../kernel-gen/Z 
+Reading file ../kernel-gen/] 
+Reading file ../kernel-gen/\237 
+Reading file ../kernel-gen/\v 
+Reading file ../kernel-gen/( 
+Reading file ../kernel-gen/\274 
+Reading file ../kernel-gen/\017 
+Reading file ../kernel-gen/~ 
+Reading file ../kernel-gen/$ 
+Reading file ../kernel-gen/\277 
+Reading file ../kernel-gen/) 
+Reading file ../kernel-gen/\244 
+Reading file ../kernel-gen/\356 
+Reading file ../kernel-gen/, 
+Reading file ../kernel-gen/\317 
+Reading file ../kernel-gen/\252 
+Reading file ../kernel-gen/p 
+Reading file ../kernel-gen/& 
+Reading file ../kernel-gen/K 
+Reading file ../kernel-gen/\366 
+Reading file ../kernel-gen/5 
+Reading file ../kernel-gen/\036 
+Reading file ../kernel-gen/\263 
+Reading file ../kernel-gen/\323 
+Reading file ../kernel-gen/9 
+Reading file ../kernel-gen/v 
+Reading file ../kernel-gen/\236 
+Reading file ../kernel-gen/\361 
+Reading file ../kernel-gen/^ 
+Reading file ../kernel-gen/H 
+Reading file ../kernel-gen/C 
+Reading file ../kernel-gen/< 
+Reading file ../kernel-gen/: 
+Reading file ../kernel-gen/\346 
+Reading file ../kernel-gen/\206 
+Reading file ../kernel-gen/G 
+Reading file ../kernel-gen/\035 
+Reading file ../kernel-gen/x 
+Reading file ../kernel-gen/b 
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/hotline.fsm
+Size of FSM with 5070 transitions is 30420 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+9.325920	15.695264	86.815232	114.847950
+7.466624	5.817536	86.889440	103.973360
+7.506816	5.876416	86.762336	103.916579
+7.468672	6.388448	87.033792	105.591866
+8.227424	5.849536	86.798432	104.655082
+7.526016	5.875200	86.861792	104.040966
+7.502464	5.820960	86.903520	104.000738
+7.446240	12.147040	86.748672	110.541179
+11.565056	12.837248	86.953920	115.697292
+11.611008	12.817792	87.129984	115.883978
+11.536192	12.813216	86.892800	115.553558

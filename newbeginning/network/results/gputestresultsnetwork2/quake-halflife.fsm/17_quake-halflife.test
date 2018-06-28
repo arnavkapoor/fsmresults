@@ -1,0 +1,24 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 1024
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/quake-halflife.fsm
+Size of FSM with 18 transitions is 108 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+0.011552	0.008352	0.739008	1.174942
+0.011424	0.008224	0.060672	0.355912
+0.011200	0.008192	0.062240	0.355633
+0.011200	0.008224	0.060384	0.348230
+0.011168	0.008192	0.072384	0.357030
+0.011200	0.008192	0.059744	0.340477
+0.011168	0.008352	0.059936	0.387340
+0.011200	0.008224	0.061408	0.338870
+0.011168	0.008224	0.062336	0.348160
+0.011200	0.008224	0.059456	0.350465
+0.011200	0.008224	0.060288	0.309468

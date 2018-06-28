@@ -1,0 +1,10053 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 524288
+Reading file ../kernel-gen/{ 
+Reading file ../kernel-gen/v 
+Reading file ../kernel-gen/E 
+Reading file ../kernel-gen/\002 
+Reading file ../kernel-gen/A 
+Reading file ../kernel-gen/2 
+Reading file ../kernel-gen/\246 
+Reading file ../kernel-gen/m 
+Reading file ../kernel-gen/\026 
+Reading file ../kernel-gen/\030 
+Reading file ../kernel-gen/\024 
+Reading file ../kernel-gen/\355 
+Reading file ../kernel-gen/\033 
+Reading file ../kernel-gen/N 
+Reading file ../kernel-gen/\311 
+Reading file ../kernel-gen/\315 
+Reading file ../kernel-gen/\343 
+Reading file ../kernel-gen/] 
+Reading file ../kernel-gen/\314 
+Reading file ../kernel-gen/\364 
+Reading file ../kernel-gen/; 
+Reading file ../kernel-gen/\273 
+Reading file ../kernel-gen/P 
+Reading file ../kernel-gen/$ 
+Reading file ../kernel-gen/\203 
+Reading file ../kernel-gen/\324 
+Reading file ../kernel-gen/3 
+Reading file ../kernel-gen/# 
+Reading file ../kernel-gen/\a 
+Reading file ../kernel-gen/' 
+Reading file ../kernel-gen/\342 
+Reading file ../kernel-gen/\322 
+Reading file ../kernel-gen/u 
+Reading file ../kernel-gen/% 
+Reading file ../kernel-gen/| 
+Reading file ../kernel-gen/\223 
+Reading file ../kernel-gen/\217 
+Reading file ../kernel-gen/f 
+Reading file ../kernel-gen/\274 
+Reading file ../kernel-gen/\230 
+Reading file ../kernel-gen/6 
+Reading file ../kernel-gen/\025 
+Reading file ../kernel-gen/k 
+Reading file ../kernel-gen/\357 
+Reading file ../kernel-gen/z 
+Reading file ../kernel-gen/\210 
+Reading file ../kernel-gen/\211 
+Reading file ../kernel-gen/\376 
+Reading file ../kernel-gen/\345 
+Reading file ../kernel-gen/\312 
+Reading file ../kernel-gen/\031 
+Reading file ../kernel-gen/\352 
+Reading file ../kernel-gen/\354 
+Reading file ../kernel-gen/} 
+Reading file ../kernel-gen/8 
+Reading file ../kernel-gen/- 
+Reading file ../kernel-gen/\220 
+Reading file ../kernel-gen/\310 
+Reading file ../kernel-gen/M 
+Reading file ../kernel-gen/\227 
+Reading file ../kernel-gen/\245 
+Reading file ../kernel-gen/\b 
+Reading file ../kernel-gen/\251 
+Reading file ../kernel-gen/\262 
+Reading file ../kernel-gen/\201 
+Reading file ../kernel-gen/\206 
+Reading file ../kernel-gen/i 
+Reading file ../kernel-gen/\367 
+Reading file ../kernel-gen/\242 
+Reading file ../kernel-gen/o 
+Reading file ../kernel-gen/O 
+Reading file ../kernel-gen/! 
+Reading file ../kernel-gen/T 
+Reading file ../kernel-gen/\004 
+Reading file ../kernel-gen/\207 
+Reading file ../kernel-gen/\233 
+Reading file ../kernel-gen/\346 
+Reading file ../kernel-gen/\321 
+Reading file ../kernel-gen/e 
+Reading file ../kernel-gen/\307 
+Reading file ../kernel-gen/V 
+Reading file ../kernel-gen/\333 
+Reading file ../kernel-gen/t 
+Reading file ../kernel-gen/\331 
+Reading file ../kernel-gen/\360 
+Reading file ../kernel-gen/\266 
+Reading file ../kernel-gen/B 
+Reading file ../kernel-gen/\261 
+Reading file ../kernel-gen/\374 
+Reading file ../kernel-gen/\313 
+Reading file ../kernel-gen/\005 
+Reading file ../kernel-gen/Z 
+Reading file ../kernel-gen/\032 
+Reading file ../kernel-gen/y 
+Reading file ../kernel-gen/( 
+Reading file ../kernel-gen/\275 
+Reading file ../kernel-gen/\351 
+Reading file ../kernel-gen/w 
+Reading file ../kernel-gen/\021 
+Reading file ../kernel-gen/\027 
+Reading file ../kernel-gen/\247 
+Reading file ../kernel-gen/\356 
+Reading file ../kernel-gen/\334 
+Reading file ../kernel-gen/\353 
+Reading file ../kernel-gen/\243 
+Reading file ../kernel-gen/G 
+Reading file ../kernel-gen/d 
+Reading file ../kernel-gen/\225 
+Reading file ../kernel-gen/\216 
+Reading file ../kernel-gen/\224 
+Reading file ../kernel-gen/\305 
+Reading file ../kernel-gen/9 
+Reading file ../kernel-gen/\337 
+Reading file ../kernel-gen/b 
+Reading file ../kernel-gen/\034 
+Reading file ../kernel-gen/\330 
+Reading file ../kernel-gen/\340 
+Reading file ../kernel-gen/J 
+Reading file ../kernel-gen/\327 
+Reading file ../kernel-gen/\v 
+Reading file ../kernel-gen/\362 
+Reading file ../kernel-gen/\267 
+Reading file ../kernel-gen/F 
+Reading file ../kernel-gen/\265 
+Reading file ../kernel-gen/\177 
+Reading file ../kernel-gen/\r 
+Reading file ../kernel-gen/Q 
+Reading file ../kernel-gen/\323 
+Reading file ../kernel-gen/\212 
+Reading file ../kernel-gen/\237 
+Reading file ../kernel-gen/\256 
+Reading file ../kernel-gen/@ 
+Reading file ../kernel-gen/n 
+Reading file ../kernel-gen/\270 
+Reading file ../kernel-gen/* 
+Reading file ../kernel-gen/\317 
+Reading file ../kernel-gen/` 
+Reading file ../kernel-gen/\t 
+Reading file ../kernel-gen/\231 
+Reading file ../kernel-gen/\200 
+Reading file ../kernel-gen/\003 
+Reading file ../kernel-gen/\302 
+Reading file ../kernel-gen/\023 
+Reading file ../kernel-gen/\344 
+Reading file ../kernel-gen/\016 
+Reading file ../kernel-gen/, 
+Reading file ../kernel-gen/C 
+Reading file ../kernel-gen/\320 
+Reading file ../kernel-gen/) 
+Reading file ../kernel-gen/\037 
+Reading file ../kernel-gen/\300 
+Reading file ../kernel-gen/\277 
+Reading file ../kernel-gen/^ 
+Reading file ../kernel-gen/\347 
+Reading file ../kernel-gen/x 
+Reading file ../kernel-gen/\326 
+Reading file ../kernel-gen/1 
+Reading file ../kernel-gen/_ 
+Reading file ../kernel-gen/\020 
+Reading file ../kernel-gen/\202 
+Reading file ../kernel-gen/\377 
+Reading file ../kernel-gen/r 
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/skypetoskype.fsm
+Size of FSM with 3796 transitions is 22776 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 6, input 75
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state 6, input 01
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 54
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 67
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 43
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 07
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 16
+.
+
+Couldn't find transition for state 6, input 71
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 40
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 00
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 12
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state 6, input 53
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 15
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state 6, input 11
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 37
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 50
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state 6, input 66
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 10
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state 6, input 52
+.
+
+Couldn't find transition for state 6, input 03
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 44
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state 6, input 55
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 24
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 23
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 33
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 17
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 14
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input ¯„.
+
+Couldn't find transition for state -1, input „.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 45
+.
+
+Couldn't find transition for state -1, input .
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+9.208992	15.800192	71.450880	99.601215
+
+Couldn't find transition for state 6, input 75
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state 6, input 01
+.
+
+Couldn't find transition for state 6, input 54
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 67
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 43
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 07
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 16
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 71
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 40
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 00
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 12
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state 6, input 53
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 15
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state 6, input 11
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state 6, input 37
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state 6, input 50
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 66
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 10
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 52
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 03
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 44
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 55
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 24
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 23
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 33
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 17
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state 6, input 14
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input ¯„.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input „.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input .
+
+Couldn't find transition for state 6, input 45
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+7.692992	5.815520	71.661728	89.126537
+
+Couldn't find transition for state 6, input 75
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state 6, input 01
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state 6, input 54
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state 6, input 67
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 43
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state 6, input 07
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 16
+.
+
+Couldn't find transition for state 6, input 71
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 40
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 00
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 12
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state 6, input 53
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 15
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 11
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 37
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state 6, input 50
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 66
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 10
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 03
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state 6, input 52
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 44
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state 6, input 55
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 24
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 23
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 33
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 17
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 14
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state 6, input ¯„.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input „.
+
+Couldn't find transition for state 6, input 45
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input .
+
+Couldn't find transition for state -1, input 
+.
+7.650112	5.830432	71.588928	89.055019
+
+Couldn't find transition for state 6, input 75
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state 6, input 01
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 54
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 67
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state 6, input 43
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 07
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 16
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 71
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 40
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state 6, input 00
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 12
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state 6, input 53
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 15
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state 6, input 11
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 37
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 50
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 66
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 10
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state 6, input 52
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 03
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 44
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state 6, input 55
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 24
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state 6, input 23
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 33
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 17
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 14
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input ¯„.
+
+Couldn't find transition for state -1, input „.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 45
+.
+
+Couldn't find transition for state -1, input .
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+7.638880	13.336992	71.532608	96.906593
+
+Couldn't find transition for state 6, input 75
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state 6, input 01
+.
+
+Couldn't find transition for state 6, input 54
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 67
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 43
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state 6, input 07
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 16
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 71
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 40
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 00
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 12
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state 6, input 53
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state 6, input 15
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state 6, input 11
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 37
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state 6, input 50
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 66
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 10
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state 6, input 52
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 03
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 44
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state 6, input 55
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 24
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state 6, input 23
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 33
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 17
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 14
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input ¯„.
+
+Couldn't find transition for state -1, input „.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 45
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input .
+
+Couldn't find transition for state -1, input 
+.
+12.215392	12.845216	71.556064	101.145688
+
+Couldn't find transition for state 6, input 75
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state 6, input 01
+.
+
+Couldn't find transition for state 6, input 54
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 67
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 43
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state 6, input 07
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 16
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 71
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 40
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 00
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 12
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state 6, input 53
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 15
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 11
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 37
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 50
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 66
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 10
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 52
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 03
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 44
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state 6, input 55
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 24
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 23
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 33
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 17
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 14
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input ¯„.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input „.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 45
+.
+
+Couldn't find transition for state -1, input .
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+11.669056	12.839392	71.651136	100.656379
+
+Couldn't find transition for state 6, input 75
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state 6, input 01
+.
+
+Couldn't find transition for state 6, input 54
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 67
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 43
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 07
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 16
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 71
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 40
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 00
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state 6, input 12
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 53
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 15
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state 6, input 11
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 37
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state 6, input 50
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 66
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 10
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 52
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state 6, input 03
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 44
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state 6, input 55
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 24
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 23
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 33
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 17
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state 6, input 14
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state 6, input ¯„.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input „.
+
+Couldn't find transition for state 6, input 45
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input .
+
+Couldn't find transition for state -1, input 
+.
+11.626144	17.773632	71.609120	110.158795
+
+Couldn't find transition for state 6, input 75
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state 6, input 01
+.
+
+Couldn't find transition for state 6, input 54
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 67
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state 6, input 43
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 07
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 16
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 71
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 40
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 00
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state 6, input 12
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 53
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 15
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 11
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 37
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 50
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 66
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 10
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state 6, input 52
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 03
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 44
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state 6, input 55
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 24
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state 6, input 23
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 33
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 17
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 14
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input ¯„.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input „.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input .
+
+Couldn't find transition for state 6, input 45
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+18.213472	7.764448	71.171040	101.852205
+
+Couldn't find transition for state 6, input 75
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state 6, input 01
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 54
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 67
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 43
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state 6, input 07
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 16
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 71
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 40
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 00
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state 6, input 12
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state 6, input 53
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state 6, input 15
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state 6, input 11
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 37
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 50
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 66
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 10
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 52
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 03
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 44
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 55
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 24
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state 6, input 23
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 33
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 17
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 14
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input ¯„.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input „.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 45
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input .
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+6.593408	7.846400	71.256128	89.718233
+
+Couldn't find transition for state 6, input 75
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state 6, input 01
+.
+
+Couldn't find transition for state 6, input 54
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 67
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state 6, input 43
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 07
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 16
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 71
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 40
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 00
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 12
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 53
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 15
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 11
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state 6, input 37
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state 6, input 50
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 66
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 10
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 52
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 03
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 44
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state 6, input 55
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 24
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 23
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 33
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 17
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 14
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input ¯„.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input „.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input .
+
+Couldn't find transition for state 6, input 45
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+6.562432	7.891328	71.367744	89.838570
+
+Couldn't find transition for state 6, input 75
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state 6, input 01
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 54
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 67
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 43
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state 6, input 07
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 65
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 16
+.
+
+Couldn't find transition for state 6, input 71
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 40
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 00
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 47
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state 6, input 61
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 12
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 74
+.
+
+Couldn't find transition for state 6, input 53
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 57
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 15
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state 6, input 11
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 37
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 13
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state 6, input 64
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 50
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 77
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 04
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 27
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 41
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state 6, input 26
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 66
+.
+
+Couldn't find transition for state 6, input 34
+.
+
+Couldn't find transition for state 6, input 51
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 10
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state 6, input 52
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 03
+.
+
+Couldn't find transition for state 6, input 21
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 44
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 76
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 73
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state 6, input 55
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 25
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 24
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 46
+.
+
+Couldn't find transition for state 6, input 02
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 31
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 1
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 23
+.
+
+Couldn't find transition for state 6, input 36
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state 6, input 32
+.
+
+Couldn't find transition for state 6, input 20
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 42
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state 6, input 30
+.
+
+Couldn't find transition for state -1, input 0
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 33
+.
+
+Couldn't find transition for state -1, input 3
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 17
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state 6, input 06
+.
+
+Couldn't find transition for state -1, input 6
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 14
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 22
+.
+
+Couldn't find transition for state -1, input 4
+.
+
+Couldn't find transition for state 6, input 35
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input 72
+.
+
+Couldn't find transition for state -1, input 2
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state 6, input ¯„.
+
+Couldn't find transition for state 6, input 05
+.
+
+Couldn't find transition for state 6, input 45
+.
+
+Couldn't find transition for state -1, input „.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input .
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+6.559552	7.862080	71.416288	89.878869

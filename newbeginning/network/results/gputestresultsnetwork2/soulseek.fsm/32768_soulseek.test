@@ -1,0 +1,47 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 32768
+Reading file ../kernel-gen/\001 
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/soulseek.fsm
+Size of FSM with 3574 transitions is 21444 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 14, input .
+0.604416	0.204928	6.611520	11.032571
+
+Couldn't find transition for state 14, input .
+0.398848	0.209280	6.054816	7.602030
+
+Couldn't find transition for state 14, input .
+0.240352	0.203648	5.946784	7.251287
+
+Couldn't find transition for state 14, input .
+0.263200	0.203264	6.059296	7.425122
+
+Couldn't find transition for state 14, input .
+0.260224	0.203296	6.560096	7.907726
+
+Couldn't find transition for state 14, input .
+0.251264	0.203264	6.639808	8.015561
+
+Couldn't find transition for state 14, input .
+0.250368	0.203616	6.029824	7.380353
+
+Couldn't find transition for state 14, input .
+0.257536	0.203712	6.113280	7.457668
+
+Couldn't find transition for state 14, input .
+0.257952	0.203488	6.037152	7.406195
+
+Couldn't find transition for state 14, input .
+0.248512	0.203648	6.096352	7.459275
+
+Couldn't find transition for state 14, input .
+0.260800	0.203296	6.061536	7.410245

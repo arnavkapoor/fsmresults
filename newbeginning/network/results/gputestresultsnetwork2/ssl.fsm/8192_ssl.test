@@ -1,0 +1,123 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 8192
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/ssl.fsm
+Size of FSM with 6588 transitions is 39528 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+0.049216	0.052448	3.412544	4.791821
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+0.049568	0.051488	2.649504	3.279195
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+0.049536	0.054272	2.655808	3.281500
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+0.049504	0.051712	2.670560	3.272909
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+0.049696	0.051680	2.651872	3.259639
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+0.049504	0.051552	2.652288	3.254821
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+0.049696	0.051712	2.670688	3.245531
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+0.049472	0.051680	2.653344	3.229328
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+0.049536	0.051712	2.650016	3.233588
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+0.049504	0.062656	2.653824	3.221576
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+0.049536	0.051616	2.656992	3.234636

@@ -1,0 +1,72 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 4096
+Reading file ../kernel-gen/) 
+Reading file ../kernel-gen/+ 
+Reading file ../kernel-gen/\r 
+Reading file ../kernel-gen/C 
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/whois.fsm
+Size of FSM with 286 transitions is 1716 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.025888	0.027136	1.082528	1.885858
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.026176	0.026688	0.457760	0.977082
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.025888	0.026592	0.455104	0.940205
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.026144	0.026592	0.456576	0.856187
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.026048	0.026592	0.457856	0.869177
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.025888	0.026592	0.455200	0.857304
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.026016	0.026624	0.457984	0.860237
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.026176	0.026560	0.455168	0.870783
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.026016	0.026656	0.457856	0.862332
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.026080	0.026624	0.457120	0.872249
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.026080	0.026624	0.454656	0.848993

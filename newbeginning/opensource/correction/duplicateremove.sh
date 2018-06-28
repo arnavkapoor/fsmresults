@@ -1,4 +1,6 @@
 for file in ~/fsmresults/newbeginning/opensource/opensrcexpanded/*
 do
-	sort -u -o "$file" "$file"
+	awk '!x[$0]++' $file > temp.text
+	cat temp.text > $file
+	rm temp.text
 done

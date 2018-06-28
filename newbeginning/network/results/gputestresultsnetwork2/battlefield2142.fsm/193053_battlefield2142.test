@@ -7,6 +7,7 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 193536
 LDIM = 1008
+<<<<<<< HEAD
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
 2.896256	6.320416	5.605920	16.755448
@@ -19,4 +20,64 @@ trans-inputs	trans-results	exec-kernel	time-total
 1.965056	1.799712	5.528000	10.979702
 1.938880	2.073632	5.631776	11.332890
 2.100032	2.091680	5.523456	11.436186
+=======
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/battlefield2142.fsm
+Size of FSM with 1540 transitions is 9240 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 2, input .
+2.896256	6.320416	5.605920	16.755448
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 2, input .
+2.300576	1.800640	5.401664	11.199911
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 2, input .
+2.010944	1.885184	5.518368	11.093054
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 2, input .
+2.436160	1.849152	5.526272	11.531519
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 2, input .
+2.143264	1.779904	5.648160	11.274922
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 2, input .
+1.983552	1.833888	5.401760	10.879898
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 2, input .
+1.955616	1.830080	5.552384	11.026915
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 2, input .
+1.965056	1.799712	5.528000	10.979702
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 2, input .
+1.938880	2.073632	5.631776	11.332890
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 2, input .
+2.100032	2.091680	5.523456	11.436186
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 2, input .
+>>>>>>> 17a2e92c776f541bc7bacfe936b3eadfb8990232
 2.308352	5.480224	5.596768	15.611307

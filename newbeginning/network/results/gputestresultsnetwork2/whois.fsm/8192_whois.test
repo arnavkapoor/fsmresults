@@ -6,6 +6,7 @@ Global memory size (in bytes): 11996954624
 Global memory cache size (in bytes): 245760 
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 8192
+<<<<<<< HEAD
 LDIM = 512
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
@@ -19,4 +20,98 @@ trans-inputs	trans-results	exec-kernel	time-total
 0.049536	0.051616	0.486464	1.003900
 0.049536	0.051488	0.484864	1.100631
 0.049440	0.051616	0.484736	1.102167
+=======
+Reading file ../kernel-gen/) 
+Reading file ../kernel-gen/+ 
+Reading file ../kernel-gen/\r 
+Reading file ../kernel-gen/C 
+Reading file ../kernel-gen/R 
+Reading file ../kernel-gen/; 
+Reading file ../kernel-gen/` 
+Reading file ../kernel-gen/6 
+Reading file ../kernel-gen/( 
+Reading file ../kernel-gen/X 
+Reading file ../kernel-gen/~ 
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/whois.fsm
+Size of FSM with 286 transitions is 1716 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 2, input 	.
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.049024	0.052160	1.000032	2.370697
+
+Couldn't find transition for state 2, input 	.
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.049504	0.051552	0.485504	1.037494
+
+Couldn't find transition for state 2, input 	.
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.049440	0.051456	0.485664	1.080656
+
+Couldn't find transition for state 2, input 	.
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.049472	0.051424	0.486944	1.091552
+
+Couldn't find transition for state 2, input 	.
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.049472	0.051456	0.488064	1.086174
+
+Couldn't find transition for state 2, input 	.
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.049536	0.051488	0.487328	1.111037
+
+Couldn't find transition for state 2, input 	.
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.049440	0.051328	0.486720	1.006205
+
+Couldn't find transition for state 2, input 	.
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.049536	0.051616	0.486464	1.003900
+
+Couldn't find transition for state 2, input 	.
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.049536	0.051488	0.484864	1.100631
+
+Couldn't find transition for state 2, input 	.
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+0.049440	0.051616	0.484736	1.102167
+
+Couldn't find transition for state 2, input 	.
+
+Couldn't find transition for state 2, input .
+
+Couldn't find transition for state 5, input 	.
+>>>>>>> 17a2e92c776f541bc7bacfe936b3eadfb8990232
 0.049440	0.051424	0.485408	1.103565

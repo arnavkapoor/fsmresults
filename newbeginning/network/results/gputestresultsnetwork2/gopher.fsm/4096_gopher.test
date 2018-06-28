@@ -7,6 +7,7 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 4096
 LDIM = 512
+<<<<<<< HEAD
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
 0.025760	0.027360	1.806752	2.592863
@@ -19,4 +20,152 @@ trans-inputs	trans-results	exec-kernel	time-total
 0.026208	0.026784	1.177536	1.612290
 0.026016	0.026784	1.181440	1.620181
 0.026144	0.026752	1.190336	1.601324
+=======
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/gopher.fsm
+Size of FSM with 3265 transitions is 19590 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 22, input O.
+
+Couldn't find transition for state 22, input H.
+
+Couldn't find transition for state 22, input }.
+
+Couldn't find transition for state 22, input ^.
+
+Couldn't find transition for state 22, input W.
+
+Couldn't find transition for state 22, input 1.
+0.025760	0.027360	1.806752	2.592863
+
+Couldn't find transition for state 22, input O.
+
+Couldn't find transition for state 22, input H.
+
+Couldn't find transition for state 22, input }.
+
+Couldn't find transition for state 22, input ^.
+
+Couldn't find transition for state 22, input W.
+
+Couldn't find transition for state 22, input 1.
+0.031904	0.026784	1.183936	1.649655
+
+Couldn't find transition for state 22, input O.
+
+Couldn't find transition for state 22, input H.
+
+Couldn't find transition for state 22, input }.
+
+Couldn't find transition for state 22, input ^.
+
+Couldn't find transition for state 22, input W.
+
+Couldn't find transition for state 22, input 1.
+0.025984	0.026816	1.190080	1.642670
+
+Couldn't find transition for state 22, input O.
+
+Couldn't find transition for state 22, input }.
+
+Couldn't find transition for state 22, input H.
+
+Couldn't find transition for state 22, input ^.
+
+Couldn't find transition for state 22, input W.
+
+Couldn't find transition for state 22, input 1.
+0.026240	0.026752	1.171392	1.605655
+
+Couldn't find transition for state 22, input O.
+
+Couldn't find transition for state 22, input H.
+
+Couldn't find transition for state 22, input }.
+
+Couldn't find transition for state 22, input ^.
+
+Couldn't find transition for state 22, input W.
+
+Couldn't find transition for state 22, input 1.
+0.026144	0.026816	1.191744	1.632194
+
+Couldn't find transition for state 22, input O.
+
+Couldn't find transition for state 22, input }.
+
+Couldn't find transition for state 22, input H.
+
+Couldn't find transition for state 22, input ^.
+
+Couldn't find transition for state 22, input W.
+
+Couldn't find transition for state 22, input 1.
+0.026144	0.026816	1.186912	1.588264
+
+Couldn't find transition for state 22, input O.
+
+Couldn't find transition for state 22, input H.
+
+Couldn't find transition for state 22, input }.
+
+Couldn't find transition for state 22, input ^.
+
+Couldn't find transition for state 22, input W.
+
+Couldn't find transition for state 22, input 1.
+0.026048	0.026912	1.188288	1.606353
+
+Couldn't find transition for state 22, input O.
+
+Couldn't find transition for state 22, input }.
+
+Couldn't find transition for state 22, input H.
+
+Couldn't find transition for state 22, input ^.
+
+Couldn't find transition for state 22, input W.
+
+Couldn't find transition for state 22, input 1.
+0.026208	0.026784	1.177536	1.612290
+
+Couldn't find transition for state 22, input O.
+
+Couldn't find transition for state 22, input H.
+
+Couldn't find transition for state 22, input }.
+
+Couldn't find transition for state 22, input ^.
+
+Couldn't find transition for state 22, input W.
+
+Couldn't find transition for state 22, input 1.
+0.026016	0.026784	1.181440	1.620181
+
+Couldn't find transition for state 22, input O.
+
+Couldn't find transition for state 22, input H.
+
+Couldn't find transition for state 22, input }.
+
+Couldn't find transition for state 22, input ^.
+
+Couldn't find transition for state 22, input W.
+
+Couldn't find transition for state 22, input 1.
+0.026144	0.026752	1.190336	1.601324
+
+Couldn't find transition for state 22, input O.
+
+Couldn't find transition for state 22, input H.
+
+Couldn't find transition for state 22, input ^.
+
+Couldn't find transition for state 22, input }.
+
+Couldn't find transition for state 22, input W.
+
+Couldn't find transition for state 22, input 1.
+>>>>>>> 17a2e92c776f541bc7bacfe936b3eadfb8990232
 0.026016	0.026912	1.194368	1.610125

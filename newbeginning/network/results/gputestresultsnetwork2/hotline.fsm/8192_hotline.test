@@ -6,7 +6,14 @@ Global memory size (in bytes): 11996954624
 Global memory cache size (in bytes): 245760 
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 8192
+<<<<<<< HEAD
 LDIM = 512
+=======
+Reading file ../kernel-gen/\214 
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/hotline.fsm
+Size of FSM with 5070 transitions is 30420 bytes.
+>>>>>>> 17a2e92c776f541bc7bacfe936b3eadfb8990232
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
 0.048992	0.052384	3.767200	5.083618

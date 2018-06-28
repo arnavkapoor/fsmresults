@@ -7,6 +7,7 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 16384
 LDIM = 512
+<<<<<<< HEAD
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
 0.095968	0.101856	3.993056	6.315482
@@ -19,4 +20,218 @@ trans-inputs	trans-results	exec-kernel	time-total
 0.096384	0.106784	3.709696	4.588722
 0.100928	0.101312	3.702240	4.593820
 0.096352	0.101248	3.702464	4.591935
+=======
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/ssl.fsm
+Size of FSM with 6588 transitions is 39528 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state 9, input 67
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+0.095968	0.101856	3.993056	6.315482
+
+Couldn't find transition for state 9, input 67
+.
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+0.096320	0.101216	3.706624	4.637052
+
+Couldn't find transition for state 9, input 67
+.
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+0.096352	0.101280	3.694912	4.562602
+
+Couldn't find transition for state 9, input 67
+.
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+0.096384	0.101248	3.712320	4.567490
+
+Couldn't find transition for state 9, input 67
+.
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+0.096352	0.101216	3.697088	4.595008
+
+Couldn't find transition for state 9, input 67
+.
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+0.096384	0.101344	3.710208	4.557363
+
+Couldn't find transition for state 9, input 67
+.
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+0.096352	0.106848	3.708096	4.561763
+
+Couldn't find transition for state 9, input 67
+.
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+0.096384	0.106784	3.709696	4.588722
+
+Couldn't find transition for state 9, input 67
+.
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+0.100928	0.101312	3.702240	4.593820
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state 9, input 67
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+0.096352	0.101248	3.702464	4.591935
+
+Couldn't find transition for state 9, input 67
+.
+
+Couldn't find transition for state 9, input 75
+.
+
+Couldn't find transition for state -1, input 7
+.
+
+Couldn't find transition for state -1, input 5
+.
+
+Couldn't find transition for state -1, input 
+.
+
+Couldn't find transition for state -1, input 
+.
+>>>>>>> 17a2e92c776f541bc7bacfe936b3eadfb8990232
 0.096480	0.101280	3.704992	4.600176

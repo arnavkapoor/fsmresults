@@ -6,6 +6,7 @@ Global memory size (in bytes): 11996954624
 Global memory cache size (in bytes): 245760 
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 65536
+<<<<<<< HEAD
 LDIM = 512
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
@@ -19,4 +20,66 @@ trans-inputs	trans-results	exec-kernel	time-total
 0.593280	0.697984	10.053280	12.253330
 0.580544	0.565408	10.023744	12.045133
 0.578208	0.698112	9.676032	11.845456
+=======
+Reading file ../kernel-gen/\001 
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/soulseek.fsm
+Size of FSM with 3574 transitions is 21444 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 10, input .
+0.868544	1.561088	10.057920	15.496487
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 10, input .
+0.653728	0.731872	10.131136	12.462505
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 10, input .
+0.587136	0.671168	9.976608	12.108199
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 10, input .
+0.581024	0.707040	10.034464	12.202416
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 10, input .
+0.579776	0.716672	9.986176	12.164911
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 10, input .
+0.584096	0.723840	9.624352	11.850484
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 10, input .
+0.583040	0.695552	9.989856	12.192568
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 10, input .
+0.593280	0.697984	10.053280	12.253330
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 10, input .
+0.580544	0.565408	10.023744	12.045133
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 10, input .
+0.578208	0.698112	9.676032	11.845456
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 10, input .
+>>>>>>> 17a2e92c776f541bc7bacfe936b3eadfb8990232
 0.607680	0.677536	9.995840	12.211286

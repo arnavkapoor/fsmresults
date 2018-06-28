@@ -6,6 +6,7 @@ Global memory size (in bytes): 11996954624
 Global memory cache size (in bytes): 245760 
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 1024
+<<<<<<< HEAD
 LDIM = 512
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
@@ -19,4 +20,44 @@ trans-inputs	trans-results	exec-kernel	time-total
 0.011200	0.008544	0.451136	0.744789
 0.011168	0.008192	0.451680	0.751703
 0.011200	0.008256	0.453632	0.723418
+=======
+Reading file ../kernel-gen/) 
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/whois.fsm
+Size of FSM with 286 transitions is 1716 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 2, input .
+0.011232	0.008416	1.486304	2.063046
+
+Couldn't find transition for state 2, input .
+0.011168	0.008096	0.452256	0.777754
+
+Couldn't find transition for state 2, input .
+0.011168	0.008224	0.449504	0.736059
+
+Couldn't find transition for state 2, input .
+0.011200	0.008224	0.452000	0.742066
+
+Couldn't find transition for state 2, input .
+0.011200	0.008224	0.451744	0.757850
+
+Couldn't find transition for state 2, input .
+0.011200	0.008224	0.452128	0.780688
+
+Couldn't find transition for state 2, input .
+0.011200	0.008224	0.452736	0.749678
+
+Couldn't find transition for state 2, input .
+0.011200	0.008544	0.451136	0.744789
+
+Couldn't find transition for state 2, input .
+0.011168	0.008192	0.451680	0.751703
+
+Couldn't find transition for state 2, input .
+0.011200	0.008256	0.453632	0.723418
+
+Couldn't find transition for state 2, input .
+>>>>>>> 17a2e92c776f541bc7bacfe936b3eadfb8990232
 0.011200	0.008256	0.450304	0.725513

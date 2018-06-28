@@ -7,6 +7,7 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 65536
 LDIM = 512
+<<<<<<< HEAD
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
 1.008416	2.549216	9.572544	15.145604
@@ -19,4 +20,64 @@ trans-inputs	trans-results	exec-kernel	time-total
 0.574912	0.602752	9.704096	11.764231
 0.585024	0.671232	9.573728	11.766396
 0.580992	0.757408	9.568576	11.785881
+=======
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/irc.fsm
+Size of FSM with 4256 transitions is 25536 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input .
+1.008416	2.549216	9.572544	15.145604
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input .
+0.695712	0.569952	9.434432	11.626783
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input .
+0.602656	0.697728	9.460000	11.695506
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input .
+0.600800	0.717024	9.535008	11.754244
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input .
+0.604832	0.672448	9.567040	11.734059
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input .
+0.569760	0.688672	9.585568	11.779595
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input .
+0.561856	0.728032	9.501664	11.656186
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input .
+0.574912	0.602752	9.704096	11.764231
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input .
+0.585024	0.671232	9.573728	11.766396
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input .
+0.580992	0.757408	9.568576	11.785881
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input .
+>>>>>>> 17a2e92c776f541bc7bacfe936b3eadfb8990232
 0.580000	0.600576	9.572864	11.650878

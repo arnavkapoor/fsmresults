@@ -7,21 +7,40 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 65536
 LDIM = 512
-<<<<<<< HEAD
-=======
 Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/tsp.fsm
 Size of FSM with 5123 transitions is 30738 bytes.
->>>>>>> 17a2e92c776f541bc7bacfe936b3eadfb8990232
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-0.850080	2.774560	11.076736	16.244139
-0.686528	0.750240	11.049152	13.409136
-0.606816	0.774944	10.974624	13.291383
-0.598816	0.769056	10.966208	13.242494
-0.586560	0.762880	11.030848	13.263167
-0.583040	0.816448	11.135712	13.498602
-0.609504	0.790080	10.866688	13.249688
-0.607520	0.789856	10.972096	13.317644
-0.580096	0.601280	10.998112	13.065586
-0.599264	0.761568	11.018912	13.322253
-0.619136	0.807552	10.955072	13.300043
+
+Couldn't find transition for state 25, input .
+0.908224	2.825728	11.188448	16.116609
+
+Couldn't find transition for state 25, input .
+0.669376	0.726912	11.155296	13.374775
+
+Couldn't find transition for state 25, input .
+0.584672	0.700352	11.192672	13.278952
+
+Couldn't find transition for state 25, input .
+0.562560	0.653280	11.089504	13.130609
+
+Couldn't find transition for state 25, input .
+0.576960	0.706624	11.024608	13.106863
+
+Couldn't find transition for state 25, input .
+0.582656	0.650528	11.007488	13.048476
+
+Couldn't find transition for state 25, input .
+0.577408	0.691648	10.984192	13.057974
+
+Couldn't find transition for state 25, input .
+0.582272	0.661120	11.090880	13.124253
+
+Couldn't find transition for state 25, input .
+0.579808	0.675808	11.105856	13.160291
+
+Couldn't find transition for state 25, input .
+0.581216	0.688288	11.162624	13.228107
+
+Couldn't find transition for state 25, input .
+0.578368	0.690144	10.888800	12.972557

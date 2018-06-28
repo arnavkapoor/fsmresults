@@ -1,0 +1,46 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 1024
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/tftp.fsm
+Size of FSM with 1600 transitions is 9600 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 13, input .
+0.011296	0.008352	1.470816	1.807566
+
+Couldn't find transition for state 13, input .
+0.011168	0.008192	0.834080	1.091762
+
+Couldn't find transition for state 13, input .
+0.011168	0.008192	0.831712	1.078352
+
+Couldn't find transition for state 13, input .
+0.011200	0.008256	0.826976	1.085196
+
+Couldn't find transition for state 13, input .
+0.011168	0.008192	0.839072	1.080656
+
+Couldn't find transition for state 13, input .
+0.011168	0.008256	0.832640	1.095044
+
+Couldn't find transition for state 13, input .
+0.011168	0.008224	0.838112	1.085755
+
+Couldn't find transition for state 13, input .
+0.011168	0.008224	0.836640	1.083101
+
+Couldn't find transition for state 13, input .
+0.011168	0.008192	0.829824	1.082962
+
+Couldn't find transition for state 13, input .
+0.011168	0.008192	0.841792	1.077724
+
+Couldn't find transition for state 13, input .
+0.011168	0.008192	0.837280	1.084777

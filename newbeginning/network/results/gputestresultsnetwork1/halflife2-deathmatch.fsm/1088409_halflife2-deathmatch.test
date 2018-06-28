@@ -1,0 +1,24 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 1088512
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/halflife2-deathmatch.fsm
+Size of FSM with 4305 transitions is 25830 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+17.973312	29.548320	241.765920	291.515728
+15.359744	12.305088	241.129600	275.934383
+15.543552	12.301856	241.770912	276.801254
+20.190528	12.824768	241.660800	282.477687
+27.240928	12.351040	241.773792	288.674508
+13.887968	12.260128	241.393344	274.706919
+13.032256	12.292448	242.079072	274.618570
+13.571040	12.352960	241.707968	274.817827
+13.283328	12.291744	241.473824	274.219006
+13.562496	12.327008	242.060288	275.147409
+13.575488	25.855552	241.105792	287.991809

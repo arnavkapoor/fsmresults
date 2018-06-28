@@ -1,0 +1,90 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 4096
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/tftp.fsm
+Size of FSM with 1600 transitions is 9600 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input 	.
+
+Couldn't find transition for state 13, input .
+0.025888	0.028128	1.484448	2.174234
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input 	.
+
+Couldn't find transition for state 13, input .
+0.025920	0.026784	0.845056	1.296816
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input 	.
+
+Couldn't find transition for state 13, input .
+0.025760	0.026752	0.843520	1.273629
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 13, input .
+
+Couldn't find transition for state 15, input 	.
+0.025920	0.026752	0.847072	1.288993
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input 	.
+
+Couldn't find transition for state 13, input .
+0.025760	0.026848	0.844000	1.250790
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input 	.
+
+Couldn't find transition for state 13, input .
+0.025920	0.026848	0.847360	1.213844
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input 	.
+
+Couldn't find transition for state 13, input .
+0.025760	0.026944	0.846496	1.284803
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 13, input .
+
+Couldn't find transition for state 15, input 	.
+0.025920	0.026752	0.848288	1.236124
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input 	.
+
+Couldn't find transition for state 13, input .
+0.025792	0.026912	0.847168	1.284664
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 15, input 	.
+
+Couldn't find transition for state 13, input .
+0.025984	0.026784	0.846784	1.242619
+
+Couldn't find transition for state 14, input .
+
+Couldn't find transition for state 13, input .
+
+Couldn't find transition for state 15, input 	.
+0.025760	0.026752	0.854016	1.217685

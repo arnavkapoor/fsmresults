@@ -1,0 +1,24 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 4096
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/lpd.fsm
+Size of FSM with 4892 transitions is 29352 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+0.025984	0.032096	2.569504	3.466999
+0.025984	0.026560	1.669440	2.225078
+0.025984	0.026624	1.668576	2.207338
+0.026016	0.026720	1.682720	2.216138
+0.025984	0.026784	1.681760	2.236253
+0.029824	0.026688	1.672064	2.187783
+0.025952	0.026848	1.673024	2.159497
+0.025952	0.026688	1.687360	2.187364
+0.025952	0.026816	1.671616	2.155586
+0.026016	0.026688	1.675936	2.153421
+0.025920	0.026784	1.674496	2.175491

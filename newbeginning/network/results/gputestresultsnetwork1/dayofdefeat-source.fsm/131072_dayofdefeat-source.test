@@ -1,0 +1,24 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 131072
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/dayofdefeat-source.fsm
+Size of FSM with 2028 transitions is 12168 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+1.726112	4.148160	16.821888	23.904838
+1.322400	1.013216	16.534624	20.028429
+1.194464	1.167392	16.504864	20.022004
+1.189376	0.936512	17.255040	20.530449
+1.196512	1.063488	16.661344	20.065096
+1.278400	0.902848	16.653920	20.084163
+1.217440	1.050144	16.660480	20.185363
+1.226240	1.153536	16.603264	20.279230
+1.205088	1.165952	16.504288	20.164481
+1.225440	1.098560	17.224096	20.759111
+1.221696	1.187456	16.522304	20.272874

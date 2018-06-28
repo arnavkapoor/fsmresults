@@ -2,7 +2,7 @@ import csv
 
 rowsall = []
 
-with open("mergedresultsnetwork1.csv", 'r') as csvfile:
+with open("mergedresultsnetwork2.csv", 'r') as csvfile:
     csvreader = csv.reader(csvfile)
     for row in csvreader:
         rowsall.append(row)
@@ -17,7 +17,7 @@ for i in range(0,len(rowsall)-1):
 		a1.append(rowsall[i])
 	else:
 		name=rowsall[i][0]
-		file = csv.writer(open("./individualcsv/"+name+".csv",'w'))
+		file = csv.writer(open("./individualcsv/"+name+"2.csv",'w'))
 		file.writerow(['FSM', 'Testcases', 'Cores' ,'Total CPU' , 'Execution GPU Optimised', 'Total GPU Optimised' , 'Execution GPU Unoptimised', 'Total GPU Unoptimised']),
 		for elements in a1:
 			print(elements) 

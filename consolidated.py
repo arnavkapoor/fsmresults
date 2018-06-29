@@ -1,10 +1,10 @@
 import os,csv
-path = '/home/arnav/cputestresultsswift'
-path2 = '/home/arnav/gputestresultsswift'
+path = '/home/arnav/fsmresults/cputestresultsswiftoptimum'
+path2 = '/home/arnav/fsmresults/gputestresultsswift'
 
 
-file = csv.writer(open('cpuresultsbaselinenetwork.csv', 'w'))
-file.writerow(['Fsm', 'No_of_testcases', 'No_of_threads', 'Time taken']),
+file = csv.writer(open('cpuresultsoptimumnetwork.csv', 'w'))
+file.writerow(['FSM', 'Testcases', 'Cores', 'Total CPU']),
 
 for folder, sub_folders, files in os.walk(path):
     for special_file in files:
@@ -24,8 +24,8 @@ for folder, sub_folders, files in os.walk(path):
             if count == 11 and special_file[0]!= "0":
                 file.writerow([special_file[2],special_file[0],special_file[1],time[5]])
 
-file2 = csv.writer(open('gpuresultsbaselinenetwork.csv', 'w'))
-file2.writerow(['Fsm', 'No_of_testcases', 'Execution Time', 'Total Time taken']),
+file2 = csv.writer(open('gpuresultsnotoptimumnetwork.csv', 'w'))
+file2.writerow(['FSM', 'Testcases', 'Execution GPU', 'Total GPU']),
 
 for folder, sub_folders, files in os.walk(path2):
     for special_file in files:

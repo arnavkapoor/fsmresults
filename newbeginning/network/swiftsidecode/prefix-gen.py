@@ -25,7 +25,6 @@ valid_digits = []
 wildcard_compare = []
 
 for ele in fsm:
-    print(ele)
     if(len(ele) == 2):
         if(ele[0] == '.b'):
             base = int(ele[1]) 

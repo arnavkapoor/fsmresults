@@ -1,8 +1,8 @@
 import os,csv
-path = './cputestresultsnetwork1'
-path2 = './gputestresultsnetwork1'
-
-file = csv.writer(open('cpuresultsnetwork1.csv', 'w'))
+path = './cputestresultsnetwork2'
+path2 = './gputestresultsnetwork2'
+neededfiles = ['aim.test','battlefield2.test','counterstrike-source.test','dns.test','h323.test','halflife-2-deathmatch.test','hotline.test','ntp.test','rtp.test','ssl.test','tsp.test','yahoo.test']
+file = csv.writer(open('cpuresultsnetwork2.csv', 'w'))
 file.writerow(['Fsm', 'No_of_testcases', 'No_of_threads', 'Time taken']),
 
 for folder, sub_folders, files in os.walk(path):
@@ -20,10 +20,10 @@ for folder, sub_folders, files in os.walk(path):
                    pass    
             special_file=special_file.split('_')        
             time.sort()
-            if count == 11 and special_file[0]!= "0":
+            if count == 11 and special_file[0]!= "0" and special_file[2] in neededfiles:
                 file.writerow([special_file[2],special_file[0],special_file[1],time[5]])
 
-file2 = csv.writer(open('gpuresultsnetwork1.csv', 'w'))
+file2 = csv.writer(open('gpuresultsnetwork2.csv', 'w'))
 file2.writerow(['Fsm', 'No_of_testcases', 'Execution Time', 'Total Time taken']),
 
 for folder, sub_folders, files in os.walk(path2):
@@ -48,5 +48,5 @@ for folder, sub_folders, files in os.walk(path2):
             special_file=special_file.split('_')  
             totaltime.sort()
             exectime.sort()
-            if count == 11 and special_file[0]!= "0":
+            if count == 11 and special_file[0]!= "0" and special_file[1] in neededfiles:
                 file2.writerow([special_file[1],special_file[0],exectime[5],totaltime[5]])

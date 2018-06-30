@@ -8,8 +8,7 @@ import pandas as pd
 import matplotlib as mplt
 import itertools
 import matplotlib.pyplot as plt 
-neededfiles = ['aim.test','battlefield2.test','counterstrike-source.test','dns.test','h323.test','hotline.test','ntp.test','rtp.test','ssl.test','tsp.test','yahoo.test']
-
+neededfiles = ['aim.test','battlefield2.test','counterstrike-source.test','dns.test','h323.test','halflife2-deathmatch.test''hotline.test','ntp.test','rtp.test','ssl.test','tsp.test','yahoo.test']
 for filename in neededfiles:
     df = pd.read_csv('./individualcsv/'+filename+'2.csv')
     testcases=(df['Testcases'].drop_duplicates().values.tolist())

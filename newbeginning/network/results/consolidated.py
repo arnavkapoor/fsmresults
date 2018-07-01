@@ -21,7 +21,7 @@ for folder, sub_folders, files in os.walk(path):
                    pass    
             special_file=special_file.split('_')        
             time.sort()
-            if count == 11 and special_file[0]!= "0" and special_file[2] in neededfiles:
+            if count == 31 and special_file[0]!= "0" and special_file[2] in neededfiles:
                 #print(special_file[2],special_file[0],special_file[1],time[5])
                 file.writerow([special_file[2],special_file[0],special_file[1],time[5]])
 
@@ -50,5 +50,5 @@ for folder, sub_folders, files in os.walk(path2):
             special_file=special_file.split('_')  
             totaltime.sort()
             exectime.sort()
-            if count == 11 and special_file[0]!= "0" and special_file[1] in neededfiles:
+            if count == 31 and special_file[0]!= "0" and special_file[1] in neededfiles:
                 file2.writerow([special_file[1],special_file[0],exectime[5],totaltime[5]])

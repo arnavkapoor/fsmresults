@@ -7,16 +7,100 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 16384
 LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/ftp.fsm
+Size of FSM with 498 transitions is 2988 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-0.095520	0.109760	1.429312	3.465672
-0.096288	0.101568	0.784992	1.704201
-0.096000	0.101568	0.776864	1.678849
-0.096352	0.101536	0.782272	1.655243
-0.096320	0.101536	0.774688	1.652030
-0.096352	0.101536	0.777280	1.651471
-0.095968	0.101536	0.778912	1.648817
-0.095936	0.101600	0.781248	1.652798
-0.096320	0.101536	0.775744	1.623185
-0.095968	0.101568	0.772640	1.616410
-0.096320	0.101536	0.776128	1.620182
+
+Couldn't find transition for state 9, input .
+0.095744	0.102272	1.296480	3.426560
+
+Couldn't find transition for state 9, input .
+0.096512	0.101152	0.792864	1.636455
+
+Couldn't find transition for state 9, input .
+0.096416	0.101248	0.784128	1.596366
+
+Couldn't find transition for state 9, input .
+0.096352	0.101120	0.782688	1.683598
+
+Couldn't find transition for state 9, input .
+0.096352	0.101120	0.784480	1.596924
+
+Couldn't find transition for state 9, input .
+0.096352	0.108416	0.792544	1.705179
+
+Couldn't find transition for state 9, input .
+0.096320	0.101152	0.784288	1.609356
+
+Couldn't find transition for state 9, input .
+0.096320	0.101088	0.789728	1.584773
+
+Couldn't find transition for state 9, input .
+0.096448	0.101184	0.784384	1.565705
+
+Couldn't find transition for state 9, input .
+0.096352	0.101184	0.782400	1.566125
+
+Couldn't find transition for state 9, input .
+0.096768	0.101504	0.785984	1.589172
+
+Couldn't find transition for state 9, input .
+0.096672	0.101536	0.787584	1.584283
+
+Couldn't find transition for state 9, input .
+0.096800	0.107424	0.793632	1.603071
+
+Couldn't find transition for state 9, input .
+0.096288	0.101248	0.787808	1.584283
+
+Couldn't find transition for state 9, input .
+0.096384	0.101152	0.785472	1.558721
+
+Couldn't find transition for state 9, input .
+0.096320	0.101120	0.787200	1.571642
+
+Couldn't find transition for state 9, input .
+0.096416	0.101120	0.786208	1.556486
+
+Couldn't find transition for state 9, input .
+0.096352	0.101088	0.780768	1.538677
+
+Couldn't find transition for state 9, input .
+0.096384	0.101152	0.784960	1.552715
+
+Couldn't find transition for state 9, input .
+0.096384	0.101792	0.784992	1.546639
+
+Couldn't find transition for state 9, input .
+0.101824	0.101216	0.791552	1.601115
+
+Couldn't find transition for state 9, input .
+0.096288	0.101632	0.789152	1.554810
+
+Couldn't find transition for state 9, input .
+0.096320	0.101664	0.786496	1.564378
+
+Couldn't find transition for state 9, input .
+0.096416	0.101120	0.779232	1.531902
+
+Couldn't find transition for state 9, input .
+0.096320	0.101024	0.790912	1.552925
+
+Couldn't find transition for state 9, input .
+0.096800	0.101600	0.789280	1.559769
+
+Couldn't find transition for state 9, input .
+0.096320	0.101504	0.789344	1.556766
+
+Couldn't find transition for state 9, input .
+0.096288	0.101632	0.787392	1.568220
+
+Couldn't find transition for state 9, input .
+0.096320	0.101120	0.793920	1.567940
+
+Couldn't find transition for state 9, input .
+0.096480	0.101088	0.791936	1.553622
+
+Couldn't find transition for state 9, input .
+0.096320	0.101088	0.783840	1.547128

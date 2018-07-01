@@ -7,16 +7,100 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 16384
 LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/lpd.fsm
+Size of FSM with 4892 transitions is 29352 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-0.095488	0.113152	3.578624	5.830084
-0.096032	0.101056	3.147616	4.081115
-0.095936	0.101024	3.132288	4.055203
-0.095936	0.101056	3.138304	4.008340
-0.095904	0.106592	3.134592	3.997514
-0.095904	0.100992	3.137056	4.039001
-0.095936	0.101056	3.134656	3.994721
-0.095936	0.101088	3.140864	4.010086
-0.095936	0.101024	3.130592	4.013438
-0.095936	0.100960	3.133792	3.997724
-0.095936	0.101056	3.138816	3.969857
+
+Couldn't find transition for state 27, input .
+0.100096	0.101792	3.640000	5.082083
+
+Couldn't find transition for state 27, input .
+0.096448	0.101536	3.145056	3.835832
+
+Couldn't find transition for state 27, input .
+0.096640	0.101536	3.164256	3.842606
+
+Couldn't find transition for state 27, input .
+0.096736	0.101504	3.136160	3.801889
+
+Couldn't find transition for state 27, input .
+0.096672	0.101504	3.142720	3.789178
+
+Couldn't find transition for state 27, input .
+0.096672	0.101536	3.145600	3.812225
+
+Couldn't find transition for state 27, input .
+0.096704	0.101440	3.156192	3.823331
+
+Couldn't find transition for state 27, input .
+0.096256	0.101504	3.145792	3.810968
+
+Couldn't find transition for state 27, input .
+0.096704	0.101568	3.149344	3.821165
+
+Couldn't find transition for state 27, input .
+0.096576	0.101664	3.145408	3.818651
+
+Couldn't find transition for state 27, input .
+0.096672	0.101536	3.150272	3.815578
+
+Couldn't find transition for state 27, input .
+0.096608	0.101536	3.159200	3.825077
+
+Couldn't find transition for state 27, input .
+0.096800	0.101568	3.142208	3.818511
+
+Couldn't find transition for state 27, input .
+0.096640	0.101568	3.151968	3.819698
+
+Couldn't find transition for state 27, input .
+0.096800	0.101536	3.155264	3.819140
+
+Couldn't find transition for state 27, input .
+0.096640	0.101536	3.137856	3.802307
+
+Couldn't find transition for state 27, input .
+0.096640	0.101568	3.158816	3.820816
+
+Couldn't find transition for state 27, input .
+0.096704	0.101536	3.141152	3.827591
+
+Couldn't find transition for state 27, input .
+0.096608	0.101504	3.155040	3.829406
+
+Couldn't find transition for state 27, input .
+0.096224	0.101536	3.154944	3.824098
+
+Couldn't find transition for state 27, input .
+0.096288	0.101536	3.153088	3.830943
+
+Couldn't find transition for state 27, input .
+0.096640	0.101536	3.143840	3.818092
+
+Couldn't find transition for state 27, input .
+0.096256	0.101440	3.144960	3.834505
+
+Couldn't find transition for state 27, input .
+0.096640	0.108608	3.150752	3.920689
+
+Couldn't find transition for state 27, input .
+0.096352	0.101056	3.148096	3.890727
+
+Couldn't find transition for state 27, input .
+0.099296	0.108288	3.147680	3.989273
+
+Couldn't find transition for state 27, input .
+0.096320	0.101120	3.144608	3.974118
+
+Couldn't find transition for state 27, input .
+0.096256	0.101632	3.149952	3.857622
+
+Couldn't find transition for state 27, input .
+0.096288	0.101120	3.153440	3.844353
+
+Couldn't find transition for state 27, input .
+0.096288	0.101056	3.141472	3.806778
+
+Couldn't find transition for state 27, input .
+0.096320	0.101152	3.147712	3.810480

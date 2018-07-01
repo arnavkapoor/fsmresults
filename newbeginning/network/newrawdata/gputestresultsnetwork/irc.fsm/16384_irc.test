@@ -7,16 +7,100 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 16384
 LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/irc.fsm
+Size of FSM with 4256 transitions is 25536 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-0.095488	0.103136	3.104064	4.954412
-0.095904	0.101056	2.622368	3.469234
-0.095936	0.101024	2.620544	3.450098
-0.095872	0.100992	2.617376	3.410637
-0.095936	0.100992	2.625568	3.457012
-0.095968	0.101024	2.616192	3.406098
-0.095936	0.100992	2.619264	3.407983
-0.096416	0.101408	2.619136	3.407494
-0.096416	0.101440	2.621248	3.426770
-0.095904	0.101024	2.618272	3.390732
-0.095968	0.106432	2.625120	3.406376
+
+Couldn't find transition for state 11, input .
+0.096000	0.101824	3.013984	4.653745
+
+Couldn't find transition for state 11, input .
+0.096416	0.101120	2.611072	3.420066
+
+Couldn't find transition for state 11, input .
+0.096288	0.101600	2.617120	3.310973
+
+Couldn't find transition for state 11, input .
+0.100352	0.108224	2.599936	3.440878
+
+Couldn't find transition for state 11, input .
+0.096352	0.101120	2.608032	3.308459
+
+Couldn't find transition for state 11, input .
+0.096256	0.101152	2.608544	3.351412
+
+Couldn't find transition for state 11, input .
+0.096288	0.101152	2.600160	3.369501
+
+Couldn't find transition for state 11, input .
+0.096736	0.107584	2.605664	3.297214
+
+Couldn't find transition for state 11, input .
+0.096480	0.101152	2.615008	3.320192
+
+Couldn't find transition for state 11, input .
+0.096352	0.101152	2.614656	3.333742
+
+Couldn't find transition for state 11, input .
+0.096256	0.101152	2.610016	3.447933
+
+Couldn't find transition for state 11, input .
+0.100736	0.101152	2.615584	3.379348
+
+Couldn't find transition for state 11, input .
+0.096256	0.101344	2.618176	3.409659
+
+Couldn't find transition for state 11, input .
+0.096288	0.101216	2.608576	3.373272
+
+Couldn't find transition for state 11, input .
+0.096256	0.101088	2.618304	3.349595
+
+Couldn't find transition for state 11, input .
+0.096320	0.101120	2.608736	3.311672
+
+Couldn't find transition for state 11, input .
+0.096288	0.101120	2.608896	3.452961
+
+Couldn't find transition for state 11, input .
+0.096256	0.101120	2.617888	3.450726
+
+Couldn't find transition for state 11, input .
+0.096256	0.103360	2.614336	5.123219
+
+Couldn't find transition for state 11, input .
+0.102432	0.101056	2.614784	3.453240
+
+Couldn't find transition for state 11, input .
+0.096256	0.106784	2.606592	3.423418
+
+Couldn't find transition for state 11, input .
+0.096256	0.101152	2.613856	3.408542
+
+Couldn't find transition for state 11, input .
+0.096288	0.101152	2.599552	3.448351
+
+Couldn't find transition for state 11, input .
+0.096320	0.101056	2.608864	3.443811
+
+Couldn't find transition for state 11, input .
+0.096512	0.101152	2.622688	3.449469
+
+Couldn't find transition for state 11, input .
+0.096256	0.101088	2.610592	3.403723
+
+Couldn't find transition for state 11, input .
+0.096256	0.101152	2.610944	3.450656
+
+Couldn't find transition for state 11, input .
+0.096256	0.101120	2.614528	3.440459
+
+Couldn't find transition for state 11, input .
+0.096384	0.101248	2.612096	3.416155
+
+Couldn't find transition for state 11, input .
+0.096288	0.101088	2.608256	3.438923
+
+Couldn't find transition for state 11, input .
+0.096288	0.101152	2.605728	3.471678

@@ -7,16 +7,100 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 131072
 LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/soulseek.fsm
+Size of FSM with 3574 transitions is 21444 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-1.815360	4.200288	17.130496	24.540536
-1.470944	1.298816	17.021184	21.095747
-1.265472	1.216928	16.878624	20.627739
-1.212832	1.170880	16.901152	20.565580
-1.201440	1.172704	16.960608	20.603574
-1.190496	1.211680	17.039808	20.658958
-1.201952	1.203328	16.884704	20.549238
-1.188864	1.110496	17.004032	20.475276
-1.224512	1.053248	17.083232	20.596939
-1.184704	1.161248	17.035456	20.569282
-1.173952	1.188224	16.906336	20.990776
+
+Couldn't find transition for state 10, input .
+1.682048	5.247264	17.265024	26.242015
+
+Couldn't find transition for state 10, input .
+1.293728	1.077376	17.263616	20.765258
+
+Couldn't find transition for state 10, input .
+1.182752	1.021984	17.204128	20.488966
+
+Couldn't find transition for state 10, input .
+1.218240	1.015296	17.237120	20.581576
+
+Couldn't find transition for state 10, input .
+1.259936	1.015584	17.214688	20.592540
+
+Couldn't find transition for state 10, input .
+1.218400	0.846656	17.594304	20.845856
+
+Couldn't find transition for state 10, input .
+1.207520	1.402688	17.241152	21.167894
+
+Couldn't find transition for state 10, input .
+1.356160	1.302048	17.160000	21.112091
+
+Couldn't find transition for state 10, input .
+1.198336	1.107360	17.241312	20.802134
+
+Couldn't find transition for state 10, input .
+3.003776	3.460704	17.166912	25.859912
+
+Couldn't find transition for state 10, input .
+1.858784	3.911552	17.676832	25.510635
+
+Couldn't find transition for state 10, input .
+1.958592	3.775104	17.260192	25.083485
+
+Couldn't find transition for state 10, input .
+1.942144	3.656384	17.194432	24.818367
+
+Couldn't find transition for state 10, input .
+1.832320	3.597408	17.333568	24.731624
+
+Couldn't find transition for state 10, input .
+1.797184	3.551968	17.263904	24.602277
+
+Couldn't find transition for state 10, input .
+1.783424	3.528576	17.340736	24.631611
+
+Couldn't find transition for state 10, input .
+1.773376	3.641440	17.245728	24.679382
+
+Couldn't find transition for state 10, input .
+1.842816	1.921280	17.299296	22.500050
+
+Couldn't find transition for state 10, input .
+1.813952	3.541376	17.252448	24.578182
+
+Couldn't find transition for state 10, input .
+1.793056	3.542656	17.215936	24.576855
+
+Couldn't find transition for state 10, input .
+1.830048	3.518848	17.287104	24.631052
+
+Couldn't find transition for state 10, input .
+1.802208	3.576928	17.196864	24.616735
+
+Couldn't find transition for state 10, input .
+1.797504	3.613344	17.261952	24.677427
+
+Couldn't find transition for state 10, input .
+1.815168	3.539840	17.241728	24.576436
+
+Couldn't find transition for state 10, input .
+1.822272	1.540672	17.341632	22.159783
+
+Couldn't find transition for state 10, input .
+1.889120	1.289216	17.223424	21.709655
+
+Couldn't find transition for state 10, input .
+1.225280	1.343424	17.194240	21.060059
+
+Couldn't find transition for state 10, input .
+1.249664	1.164128	17.153568	20.851233
+
+Couldn't find transition for state 10, input .
+1.829376	3.447296	17.130720	24.404207
+
+Couldn't find transition for state 10, input .
+1.850944	3.597504	17.302336	24.728970
+
+Couldn't find transition for state 10, input .
+1.821440	3.583520	17.208032	24.598576

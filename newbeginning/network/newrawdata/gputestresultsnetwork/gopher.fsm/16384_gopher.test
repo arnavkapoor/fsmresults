@@ -7,16 +7,1650 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 16384
 LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/gopher.fsm
+Size of FSM with 3265 transitions is 19590 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-0.112640	0.138944	2.822752	5.623423
-0.098592	0.101152	2.066656	3.135043
-0.096352	0.101024	2.051008	3.073023
-0.096416	0.101120	2.063584	3.071767
-0.096352	0.101088	2.058848	3.102426
-0.096384	0.106976	2.061760	3.077633
-0.096512	0.101088	2.048448	3.069042
-0.096544	0.101024	2.065248	3.081404
-0.096480	0.101056	2.044032	2.991519
-0.096416	0.106784	2.062528	3.051861
-0.096416	0.101184	2.044128	3.040826
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.095872	0.101824	2.656896	4.494786
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096480	0.101120	2.139488	2.936483
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096384	0.101184	2.161760	2.957575
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096672	0.101536	2.156320	2.940744
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096320	0.106592	2.157888	2.952128
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096352	0.101152	2.149600	2.974407
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096352	0.101152	2.163872	2.979575
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096352	0.101184	2.160896	2.961417
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096384	0.101152	2.144224	2.984674
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096320	0.101088	2.140608	2.980483
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096320	0.101280	2.168928	2.997735
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096480	0.101216	2.150400	2.925029
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096352	0.101152	2.158176	2.925588
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096320	0.101152	2.147040	2.911620
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096352	0.101088	2.155680	2.933969
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096672	0.101536	2.139712	2.917487
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096352	0.101152	2.156128	2.933340
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096384	0.101088	2.140992	2.913995
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096352	0.106656	2.157984	2.955271
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096768	0.101600	2.152128	2.930686
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096448	0.101088	2.163296	2.945213
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096448	0.101152	2.145824	2.928382
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096864	0.101600	2.153152	2.940045
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096672	0.101664	2.157248	2.932782
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096352	0.101152	2.156192	2.954293
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096576	0.101152	2.147072	2.924820
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096320	0.107040	2.182112	2.971125
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096640	0.101536	2.155232	2.931036
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096352	0.101088	2.156192	2.939416
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096320	0.101184	2.137088	2.912458
+
+Couldn't find transition for state 11, input .
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input [.
+
+Couldn't find transition for state 22, input \.
+
+Couldn't find transition for state 22, input R.
+
+Couldn't find transition for state 22, input Q.
+
+Couldn't find transition for state 22, input T.
+
+Couldn't find transition for state 22, input U.
+
+Couldn't find transition for state 22, input |.
+
+Couldn't find transition for state 22, input .
+
+Couldn't find transition for state 22, input {.
+
+Couldn't find transition for state 22, input F.
+
+Couldn't find transition for state 22, input o.
+
+Couldn't find transition for state 22, input B.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input ~.
+
+Couldn't find transition for state 22, input `.
+
+Couldn't find transition for state 22, input L.
+
+Couldn't find transition for state 22, input X.
+
+Couldn't find transition for state 22, input =.
+
+Couldn't find transition for state 22, input x.
+
+Couldn't find transition for state 22, input j.
+
+Couldn't find transition for state 22, input k.
+
+Couldn't find transition for state 22, input h.
+
+Couldn't find transition for state 22, input ).
+
+Couldn't find transition for state 22, input 8.
+0.096384	0.101120	2.158752	2.935646

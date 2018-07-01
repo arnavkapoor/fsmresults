@@ -1,0 +1,106 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 4096
+LDIM = 128
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/irc.fsm
+Size of FSM with 4256 transitions is 53248 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 45, input .
+0.025952	0.027424	0.817056	1.675426
+
+Couldn't find transition for state 45, input .
+0.025984	0.026688	0.193728	0.634090
+
+Couldn't find transition for state 45, input .
+0.026048	0.026656	0.195360	0.608249
+
+Couldn't find transition for state 45, input .
+0.025856	0.026688	0.194688	0.633951
+
+Couldn't find transition for state 45, input .
+0.025984	0.026656	0.200736	0.667894
+
+Couldn't find transition for state 45, input .
+0.025856	0.026688	0.192320	0.580243
+
+Couldn't find transition for state 45, input .
+0.025984	0.026656	0.194976	0.614954
+
+Couldn't find transition for state 45, input .
+0.025984	0.026592	0.194272	0.586878
+
+Couldn't find transition for state 45, input .
+0.025824	0.026656	0.195776	0.663704
+
+Couldn't find transition for state 45, input .
+0.026048	0.026848	0.192448	0.570046
+
+Couldn't find transition for state 45, input .
+0.025824	0.026688	0.195296	0.597564
+
+Couldn't find transition for state 45, input .
+0.025984	0.026656	0.195136	0.603569
+
+Couldn't find transition for state 45, input .
+0.025984	0.026624	0.194304	0.653576
+
+Couldn't find transition for state 45, input .
+0.025984	0.026752	0.194720	0.570954
+
+Couldn't find transition for state 45, input .
+0.025792	0.026656	0.195072	0.600427
+
+Couldn't find transition for state 45, input .
+0.025952	0.026656	0.194112	0.603081
+
+Couldn't find transition for state 45, input .
+0.025984	0.026656	0.194528	0.660351
+
+Couldn't find transition for state 45, input .
+0.025952	0.026592	0.193216	0.575284
+
+Couldn't find transition for state 45, input .
+0.025984	0.026656	0.194464	0.600217
+
+Couldn't find transition for state 45, input .
+0.025824	0.026720	0.195456	0.590230
+
+Couldn't find transition for state 45, input .
+0.025984	0.026592	0.194432	0.653925
+
+Couldn't find transition for state 45, input .
+0.025856	0.026688	0.194592	0.587646
+
+Couldn't find transition for state 45, input .
+0.033600	0.026656	0.193504	0.602522
+
+Couldn't find transition for state 45, input .
+0.025984	0.026592	0.194752	0.601265
+
+Couldn't find transition for state 45, input .
+0.025824	0.026784	0.194272	0.659722
+
+Couldn't find transition for state 45, input .
+0.025952	0.026784	0.195328	0.572001
+
+Couldn't find transition for state 45, input .
+0.025856	0.026624	0.192960	0.594700
+
+Couldn't find transition for state 45, input .
+0.026144	0.026688	0.193984	0.602103
+
+Couldn't find transition for state 45, input .
+0.025952	0.026752	0.192224	0.628293
+
+Couldn't find transition for state 45, input .
+0.025984	0.026656	0.194048	0.570535
+
+Couldn't find transition for state 45, input .
+0.025984	0.026720	0.194784	0.554052

@@ -1,0 +1,106 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 65536
+LDIM = 128
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/dns.fsm
+Size of FSM with 40694 transitions is 202752 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 144, input n.
+0.934208	3.080096	0.399136	5.703043
+
+Couldn't find transition for state 144, input n.
+0.675648	0.791424	0.376192	2.816146
+
+Couldn't find transition for state 144, input n.
+0.575648	0.770464	0.378496	2.631556
+
+Couldn't find transition for state 144, input n.
+0.681856	0.711456	0.371168	2.657467
+
+Couldn't find transition for state 144, input n.
+0.612992	0.724032	0.380800	2.629460
+
+Couldn't find transition for state 144, input n.
+0.568928	0.722784	0.398912	2.580153
+
+Couldn't find transition for state 144, input n.
+0.578528	0.718016	0.385312	2.562203
+
+Couldn't find transition for state 144, input n.
+0.578144	0.737600	0.389856	2.618984
+
+Couldn't find transition for state 144, input n.
+0.583392	0.766944	0.385184	2.614096
+
+Couldn't find transition for state 144, input n.
+0.573312	0.709184	0.374976	2.530914
+
+Couldn't find transition for state 144, input n.
+0.578560	0.762592	0.387296	2.675836
+
+Couldn't find transition for state 144, input n.
+0.589568	0.712896	0.377760	2.562064
+
+Couldn't find transition for state 144, input n.
+0.555136	0.774400	0.377376	2.587137
+
+Couldn't find transition for state 144, input n.
+0.576160	0.727872	0.386624	2.551238
+
+Couldn't find transition for state 144, input n.
+0.588192	0.719072	0.391872	2.577219
+
+Couldn't find transition for state 144, input n.
+0.573376	0.707584	0.372960	2.525885
+
+Couldn't find transition for state 144, input n.
+0.569376	0.762688	0.372480	2.582317
+
+Couldn't find transition for state 144, input n.
+0.571104	0.754240	0.387968	2.624293
+
+Couldn't find transition for state 144, input n.
+0.550272	0.742624	0.364128	2.538527
+
+Couldn't find transition for state 144, input n.
+0.581408	0.734016	0.374016	2.561225
+
+Couldn't find transition for state 144, input n.
+0.569472	0.751776	0.377088	2.545930
+
+Couldn't find transition for state 144, input n.
+0.581440	0.708192	0.377888	2.530565
+
+Couldn't find transition for state 144, input n.
+0.585664	0.717312	0.374112	2.545651
+
+Couldn't find transition for state 144, input n.
+0.564896	0.698464	0.380960	2.531753
+
+Couldn't find transition for state 144, input n.
+0.576864	0.721344	0.393728	2.580921
+
+Couldn't find transition for state 144, input n.
+0.545472	0.712864	0.374400	2.514642
+
+Couldn't find transition for state 144, input n.
+0.565504	0.766176	0.389632	2.636305
+
+Couldn't find transition for state 144, input n.
+0.588608	0.773856	0.371616	2.603131
+
+Couldn't find transition for state 144, input n.
+1.151488	1.209440	0.383296	4.190766
+
+Couldn't find transition for state 144, input n.
+0.959264	1.273952	0.375360	4.324652
+
+Couldn't find transition for state 144, input n.
+0.771168	0.897632	0.380896	3.013938

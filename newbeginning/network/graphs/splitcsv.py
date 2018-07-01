@@ -11,6 +11,7 @@ count=[]
 
 a1=[]
 
+
 print(rowsall)
 for i in range(1,len(rowsall)-1):
 	if(rowsall[i][0]==rowsall[i+1][0]):

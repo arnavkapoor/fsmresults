@@ -1,0 +1,106 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 4096
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/liveforspeed.fsm
+Size of FSM with 511 transitions is 12288 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 8, input .
+0.026048	0.027616	0.733728	1.528131
+
+Couldn't find transition for state 8, input .
+0.025792	0.026784	0.174304	0.611881
+
+Couldn't find transition for state 8, input .
+0.025952	0.026784	0.173696	0.584922
+
+Couldn't find transition for state 8, input .
+0.025824	0.026880	0.175296	0.577379
+
+Couldn't find transition for state 8, input .
+0.025952	0.026720	0.173472	0.599239
+
+Couldn't find transition for state 8, input .
+0.025792	0.026624	0.174560	0.579055
+
+Couldn't find transition for state 8, input .
+0.025920	0.026656	0.174336	0.666218
+
+Couldn't find transition for state 8, input .
+0.025824	0.026624	0.176896	0.586738
+
+Couldn't find transition for state 8, input .
+0.025920	0.026816	0.178144	0.610693
+
+Couldn't find transition for state 8, input .
+0.025856	0.026944	0.176512	0.575703
+
+Couldn't find transition for state 8, input .
+0.025952	0.026720	0.172736	0.564598
+
+Couldn't find transition for state 8, input .
+0.025984	0.026656	0.176992	0.576541
+
+Couldn't find transition for state 8, input .
+0.025760	0.026688	0.175264	0.575145
+
+Couldn't find transition for state 8, input .
+0.025792	0.026688	0.174784	0.586179
+
+Couldn't find transition for state 8, input .
+0.025952	0.026816	0.175584	0.580942
+
+Couldn't find transition for state 8, input .
+0.025824	0.026816	0.175680	0.583525
+
+Couldn't find transition for state 8, input .
+0.025792	0.026848	0.175584	0.577659
+
+Couldn't find transition for state 8, input .
+0.025760	0.026688	0.176480	0.576261
+
+Couldn't find transition for state 8, input .
+0.025952	0.026848	0.176704	0.585551
+
+Couldn't find transition for state 8, input .
+0.025792	0.026848	0.176864	0.571583
+
+Couldn't find transition for state 8, input .
+0.025792	0.026784	0.173056	0.561665
+
+Couldn't find transition for state 8, input .
+0.030240	0.026688	0.181824	0.586948
+
+Couldn't find transition for state 8, input .
+0.025952	0.026784	0.174144	0.570744
+
+Couldn't find transition for state 8, input .
+0.025792	0.026880	0.174976	0.567811
+
+Couldn't find transition for state 8, input .
+0.025792	0.026816	0.175808	0.550421
+
+Couldn't find transition for state 8, input .
+0.025792	0.026848	0.174304	0.572630
+
+Couldn't find transition for state 8, input .
+0.025952	0.026880	0.174496	0.563900
+
+Couldn't find transition for state 8, input .
+0.025792	0.026784	0.175264	0.568509
+
+Couldn't find transition for state 8, input .
+0.025920	0.026848	0.175776	0.571303
+
+Couldn't find transition for state 8, input .
+0.025792	0.026816	0.173952	0.561945
+
+Couldn't find transition for state 8, input .
+0.025920	0.026784	0.172512	0.551049

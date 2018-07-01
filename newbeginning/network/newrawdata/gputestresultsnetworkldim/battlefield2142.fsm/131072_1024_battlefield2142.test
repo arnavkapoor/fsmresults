@@ -1,106 +1,0 @@
-Device: Tesla K40m 
-Compute units: 15 
-Work-group size: 1024 
-Local memory size (in bytes): 49152 
-Global memory size (in bytes): 11996954624 
-Global memory cache size (in bytes): 245760 
-Version: OpenCL 1.2 CUDA 
-Number of test cases: 131072
-LDIM = 1024
-Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/battlefield2142.fsm
-Size of FSM with 1540 transitions is 34816 bytes.
-Time in ms
-trans-inputs	trans-results	exec-kernel	time-total
-
-Couldn't find transition for state 2, input .
-1.874976	5.167584	0.592736	9.312030
-
-Couldn't find transition for state 2, input .
-1.529216	1.287104	0.544256	4.695650
-
-Couldn't find transition for state 2, input .
-1.285824	1.267808	0.517280	4.402526
-
-Couldn't find transition for state 2, input .
-1.276672	1.257024	0.530304	4.365719
-
-Couldn't find transition for state 2, input .
-1.273344	1.283872	0.533440	4.415935
-
-Couldn't find transition for state 2, input .
-1.292128	1.240128	0.524000	4.371586
-
-Couldn't find transition for state 2, input .
-1.278336	1.279808	0.533248	4.395751
-
-Couldn't find transition for state 2, input .
-1.248704	1.234496	0.498272	4.277230
-
-Couldn't find transition for state 2, input .
-1.274624	1.165600	0.569536	4.301465
-
-Couldn't find transition for state 2, input .
-1.250560	1.193984	0.551040	4.270385
-
-Couldn't find transition for state 2, input .
-1.241600	1.187200	0.523328	4.246430
-
-Couldn't find transition for state 2, input .
-1.214272	1.185696	0.524352	4.186995
-
-Couldn't find transition for state 2, input .
-1.249664	1.271328	0.553376	4.359363
-
-Couldn't find transition for state 2, input .
-1.199936	1.092896	0.496864	4.047661
-
-Couldn't find transition for state 2, input .
-1.219200	1.119424	0.517888	4.120855
-
-Couldn't find transition for state 2, input .
-1.216736	1.109632	0.513632	4.070709
-
-Couldn't find transition for state 2, input .
-1.232064	1.114016	0.545696	4.133356
-
-Couldn't find transition for state 2, input .
-1.224672	1.047328	0.545728	4.024893
-
-Couldn't find transition for state 2, input .
-1.237088	1.050432	0.529568	4.073433
-
-Couldn't find transition for state 2, input .
-1.230528	1.149632	0.524192	4.150887
-
-Couldn't find transition for state 2, input .
-1.198784	1.022912	0.519392	3.955890
-
-Couldn't find transition for state 2, input .
-1.191904	1.065824	0.530336	3.989692
-
-Couldn't find transition for state 2, input .
-1.207456	1.126240	0.526592	4.112404
-
-Couldn't find transition for state 2, input .
-1.197920	1.036832	0.492864	3.916080
-
-Couldn't find transition for state 2, input .
-2.824096	3.217024	0.560544	8.478543
-
-Couldn't find transition for state 2, input .
-1.873440	3.306592	0.514464	7.823011
-
-Couldn't find transition for state 2, input .
-1.682944	3.310336	0.549760	7.476946
-
-Couldn't find transition for state 2, input .
-1.679552	3.308448	0.530144	7.428057
-
-Couldn't find transition for state 2, input .
-1.683840	3.276736	0.517600	7.444680
-
-Couldn't find transition for state 2, input .
-1.676672	3.293408	0.532064	7.427079
-
-Couldn't find transition for state 2, input .
-1.685696	3.301312	0.554656	7.495594

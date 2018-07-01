@@ -1,168 +1,0 @@
-Device: Tesla K40m 
-Compute units: 15 
-Work-group size: 1024 
-Local memory size (in bytes): 49152 
-Global memory size (in bytes): 11996954624 
-Global memory cache size (in bytes): 245760 
-Version: OpenCL 1.2 CUDA 
-Number of test cases: 8192
-LDIM = 1024
-Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/whois.fsm
-Size of FSM with 286 transitions is 10240 bytes.
-Time in ms
-trans-inputs	trans-results	exec-kernel	time-total
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049248	0.065760	1.097536	2.744140
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049536	0.051296	0.178208	0.845710
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049536	0.051680	0.179552	0.822383
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049536	0.051712	0.179264	0.817634
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049568	0.059840	0.179968	0.844593
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049600	0.051680	0.179136	0.830415
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049536	0.051648	0.179296	0.835863
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049536	0.051744	0.180800	0.875253
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049568	0.051456	0.180064	0.902142
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049536	0.051584	0.181408	0.920231
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049568	0.051648	0.179456	0.887056
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049568	0.051584	0.179520	0.879025
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049568	0.051680	0.179328	0.874555
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.050240	0.051680	0.179680	0.918275
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.050208	0.051712	0.179648	0.826085
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.050592	0.051744	0.181984	0.820637
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.050656	0.051584	0.179968	0.843684
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.050368	0.051520	0.179872	0.840751
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.050464	0.057600	0.181920	0.907380
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.050144	0.051680	0.178720	0.878955
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.050528	0.051616	0.182016	0.902980
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.050176	0.051360	0.179232	0.955989
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.050368	0.051712	0.179392	0.927634
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.050432	0.051680	0.181632	0.900257
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049568	0.051648	0.180224	0.880841
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049568	0.051712	0.180288	0.864567
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049632	0.051680	0.180096	0.866593
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049536	0.051712	0.180256	0.883634
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049632	0.051680	0.181504	0.811488
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049536	0.051744	0.179904	0.798567
-
-Couldn't find transition for state 2, input .
-
-Couldn't find transition for state 5, input .
-0.049568	0.051584	0.179776	0.793189

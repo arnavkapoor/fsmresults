@@ -8,9 +8,10 @@ import pandas as pd
 import matplotlib as mplt
 import itertools
 import matplotlib.pyplot as plt 
-neededfiles = ['aim.test','battlefield2.test','counterstrike-source.test','dns.test','h323.test','halflife2-deathmatch.test''hotline.test','ntp.test','rtp.test','ssl.test','tsp.test','yahoo.test']
+neededfiles = ['aim.test','battlefield2.test','counterstrike-source.test','dns.test','h323.test','halflife2-deathmatch.test','hotline.test','ntp.test','rtp.test','ssl.test','tsp.test','yahoo.test']
+
 for filename in neededfiles:
-    df = pd.read_csv('./individualcsv/'+filename+'2.csv')
+    df = pd.read_csv('./individualcsv/'+filename+'.csv')
     testcases=(df['Testcases'].drop_duplicates().values.tolist())
     totalcpu = (df['Total CPU'].values.tolist())
     totalcpu32=[]
@@ -38,8 +39,8 @@ for filename in neededfiles:
 
     names = ['cpu1','cpu8','cpu16','cpu32','gpuexec','gputotal']
 
-    executiongpuop = (df['Execution GPU Optimised'].drop_duplicates().values.tolist())
-    totalgpuop = (df['Total GPU Optimised'].drop_duplicates().values.tolist())
+    executiongpu = (df['Execution GPU'].drop_duplicates().values.tolist())
+    totalgpu = (df['Total GPU'].drop_duplicates().values.tolist())
     allaboard = []
     print(len(testcases))
     for i in range(0,len(testcases)):
@@ -47,10 +48,10 @@ for filename in neededfiles:
         totalcpu8[i] = (testcases[i]/totalcpu8[i])*1000
         totalcpu16[i] = (testcases[i]/totalcpu16[i])*1000
         totalcpu32[i] = (testcases[i]/totalcpu32[i])*1000
-        executiongpuop[i] = (testcases[i]/executiongpuop[i])*1000
-        totalgpuop[i] = (testcases[i]/totalgpuop[i])*1000
+        executiongpu[i] = (testcases[i]/executiongpu[i])*1000
+        totalgpu[i] = (testcases[i]/totalgpu[i])*1000
 
-    allaboard.extend([totalcpu1,totalcpu8,totalcpu16,totalcpu32,executiongpuop,totalgpuop])
+    allaboard.extend([totalcpu1,totalcpu8,totalcpu16,totalcpu32,executiongpu,totalgpu])
     print(allaboard)
     
     dataPanda=[]
@@ -67,7 +68,7 @@ for filename in neededfiles:
 
     plt.ticklabel_format(style = 'plain')
     
-    plt.ylabel('Number of testcases per second', fontsize=10)
+    plt.ylabel('Number of testcases per second')
     plt.xlabel('Number of tests (log base 2)',  fontsize=10)
 
     #sort the labels/handles by the sorting points
@@ -78,7 +79,7 @@ for filename in neededfiles:
     manager = plt.get_current_fig_manager()
     manager.resize(*manager.window.maxsize())
     #plt.show()
-    plt.savefig('./individualgraphs/'+bmk+'2.png')
+    plt.savefig('./individualgraphs/'+bmk+'.png',bbox_inches='tight')
     plt.close()
     #plt.show()    
     # layout ={

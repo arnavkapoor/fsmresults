@@ -1,230 +1,0 @@
-Device: Tesla K40m 
-Compute units: 15 
-Work-group size: 1024 
-Local memory size (in bytes): 49152 
-Global memory size (in bytes): 11996954624 
-Global memory cache size (in bytes): 245760 
-Version: OpenCL 1.2 CUDA 
-Number of test cases: 262144
-LDIM = 512
-Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/tsp.fsm
-Size of FSM with 5123 transitions is 30738 bytes.
-Time in ms
-trans-inputs	trans-results	exec-kernel	time-total
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-4.435360	13.528800	35.341696	55.362545
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.175552	2.524160	35.241760	43.041745
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.380064	2.733376	35.492256	43.690643
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input .
-3.304416	5.638592	35.000256	46.448961
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.614048	2.999904	35.380896	44.073304
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.292864	2.909632	35.370912	43.742954
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.307520	5.526688	35.491936	46.881768
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input .
-3.117184	2.906368	34.885760	43.079530
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.280064	2.914592	35.269888	43.606763
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.277856	5.657280	34.874432	46.359215
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.092480	2.962624	34.911648	43.111308
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.281120	2.918528	35.356320	43.721931
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input .
-3.261440	5.947104	34.829216	46.587177
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.081408	9.093344	35.422976	50.652857
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-8.416064	5.223328	34.835072	51.470491
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.195776	2.968608	35.423744	43.740160
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.322272	2.937888	35.282400	43.681983
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.279904	5.229472	35.367904	46.423049
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.216576	2.903712	35.340480	43.620871
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.362016	2.915264	35.430528	43.867551
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.262688	5.929568	34.887424	46.645844
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.080224	2.950208	35.355136	43.520090
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.262656	2.894560	35.434464	43.742395
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.267808	4.145312	35.375648	45.340507
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.209216	2.710496	35.499488	43.519531
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.060928	2.910144	35.447232	43.532033
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.291392	4.883744	35.361056	46.102128
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.136704	2.944672	35.160864	43.397937
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.269824	2.896736	35.506496	43.842548
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.283168	4.888448	34.879488	45.595080
-
-Couldn't find transition for state 27, input .
-
-Couldn't find transition for state 27, input 	.
-
-Couldn't find transition for state 27, input .
-3.148000	2.986976	34.763776	43.064723

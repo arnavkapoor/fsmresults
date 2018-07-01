@@ -64,7 +64,8 @@ for filename in neededfiles:
         handle,=plt.plot(logtestcases,allaboard[i],label=names[i],linestyle=handlestyle[0],marker=handlestyle[1])
         handles.append(handle)
         labels.append(names[i])
-        sortingpoints.append(allaboard[i][-1])
+        print("sorting by",allaboard[i][0])
+        sortingpoints.append(allaboard[i][0])
 
     plt.ticklabel_format(style = 'plain')
     

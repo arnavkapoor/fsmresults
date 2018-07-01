@@ -1,4 +1,4 @@
-git mv newrawdata/* computed_results/t1/
-git mv graphs/*.csv computed_results/t1/
-git mv graphs/individualgraphs/* computed_results/t1/
-git mv graphs/individualcsv/* computed_results/t1/
+mv newrawdata/* computed_results/testing_run_dense/
+mv graphs/*.csv computed_results/testing_run_dense/
+mv graphs/individualgraphs/* computed_results/testing_run_dense/individualgraphs
+mv graphs/individualcsv/* computed_results/testing_run_dense/individualcsv

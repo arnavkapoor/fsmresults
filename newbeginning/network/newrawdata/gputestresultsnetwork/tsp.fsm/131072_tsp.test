@@ -1,106 +1,0 @@
-Device: Tesla K40m 
-Compute units: 15 
-Work-group size: 1024 
-Local memory size (in bytes): 49152 
-Global memory size (in bytes): 11996954624 
-Global memory cache size (in bytes): 245760 
-Version: OpenCL 1.2 CUDA 
-Number of test cases: 131072
-LDIM = 512
-Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/tsp.fsm
-Size of FSM with 5123 transitions is 28672 bytes.
-Time in ms
-trans-inputs	trans-results	exec-kernel	time-total
-
-Couldn't find transition for state 25, input .
-1.940864	4.999296	0.734048	9.323554
-
-Couldn't find transition for state 25, input .
-1.649856	1.325120	0.707232	5.012800
-
-Couldn't find transition for state 25, input .
-1.338400	1.381344	0.700608	4.751244
-
-Couldn't find transition for state 25, input .
-1.339744	1.346816	0.741472	4.756901
-
-Couldn't find transition for state 25, input .
-1.347232	1.315072	0.726304	4.717162
-
-Couldn't find transition for state 25, input .
-1.330752	1.269408	0.692896	4.597942
-
-Couldn't find transition for state 25, input .
-1.285120	1.360896	0.712352	4.642291
-
-Couldn't find transition for state 25, input .
-1.285376	1.309376	0.718624	4.610234
-
-Couldn't find transition for state 25, input .
-1.295360	1.332608	0.727808	4.647669
-
-Couldn't find transition for state 25, input .
-1.294112	1.242592	0.699232	4.538577
-
-Couldn't find transition for state 25, input .
-1.290464	1.270208	0.706880	4.566513
-
-Couldn't find transition for state 25, input .
-1.247968	1.198464	0.695456	4.438983
-
-Couldn't find transition for state 25, input .
-1.263168	1.186528	0.716032	4.412164
-
-Couldn't find transition for state 25, input .
-1.320704	1.221312	0.720384	4.553522
-
-Couldn't find transition for state 25, input .
-1.254720	1.267424	0.707328	4.508755
-
-Couldn't find transition for state 25, input .
-1.268544	1.274112	0.723840	4.505332
-
-Couldn't find transition for state 25, input .
-1.253920	1.277760	0.714368	4.494157
-
-Couldn't find transition for state 25, input .
-1.257248	1.258496	0.696448	4.460913
-
-Couldn't find transition for state 25, input .
-1.257696	1.198816	0.706560	4.409579
-
-Couldn't find transition for state 25, input .
-1.266112	1.271424	0.719232	4.516716
-
-Couldn't find transition for state 25, input .
-1.297088	1.205984	0.744832	4.530475
-
-Couldn't find transition for state 25, input .
-1.306560	1.190048	0.714048	4.509174
-
-Couldn't find transition for state 25, input .
-1.287968	1.203488	0.755136	4.494577
-
-Couldn't find transition for state 25, input .
-1.256640	1.122208	0.710624	4.310265
-
-Couldn't find transition for state 25, input .
-1.231616	1.111008	0.712352	4.281630
-
-Couldn't find transition for state 25, input .
-1.238368	1.512224	0.693184	4.720235
-
-Couldn't find transition for state 25, input .
-1.322016	1.304544	0.722208	4.672602
-
-Couldn't find transition for state 25, input .
-1.276192	1.269888	0.739008	4.603460
-
-Couldn't find transition for state 25, input .
-1.287840	1.253792	0.709024	4.567700
-
-Couldn't find transition for state 25, input .
-1.273760	1.252416	0.704672	4.534037
-
-Couldn't find transition for state 25, input .
-1.248704	1.248960	0.722560	4.532501

@@ -1,13 +1,14 @@
 import os,csv
-path = './cputestresultsopensource1'
-path2 = './gputestresultsopensource1'
+path = '../newrawdata/cputestresultsopensource'
+path2 = '../newrawdata/gputestresultsopensource'
 
-file = csv.writer(open('cpuresultsopensource1.csv', 'w'))
-file.writerow(['Fsm', 'No_of_testcases', 'No_of_threads', 'Time taken']),
+file = csv.writer(open('../graphs/cpuresultsnetwork.csv', 'w'))
+#file.writerow(['Fsm', 'No_of_testcases', 'No_of_threads', 'Time taken']),
 
 for folder, sub_folders, files in os.walk(path):
     for special_file in files:
         file_path = os.path.join(folder, special_file)
+    
         with open(file_path, 'r+') as read_file:
             count = 0
             time = []
@@ -18,13 +19,14 @@ for folder, sub_folders, files in os.walk(path):
                     time.append(float(line))
                 except:
                    pass    
+            print(special_file)
             special_file=special_file.split('_')        
             time.sort()
-            if count == 11 and special_file[0] != "0":
+            if count == 31 and special_file[0] != "0":
                 file.writerow([special_file[2],special_file[0],special_file[1],time[5]])
 
-file2 = csv.writer(open('gpuresultsopensource1.csv', 'w'))
-file2.writerow(['Fsm', 'No_of_testcases', 'Execution Time', 'Total Time taken']),
+file2 = csv.writer(open('../graphs/gpuresultsnetwork.csv', 'w'))
+# file2.writerow(['Fsm', 'No_of_testcases', 'Execution Time', 'Total Time taken']),
 
 for folder, sub_folders, files in os.walk(path2):
     for special_file in files:
@@ -48,5 +50,5 @@ for folder, sub_folders, files in os.walk(path2):
             special_file=special_file.split('_')  
             totaltime.sort()
             exectime.sort()
-            if count == 11 and special_file[0]!= "0" and special_file[0]!=".":
+            if count == 31 and special_file[0]!= "0" and special_file[0]!=".":
                 file2.writerow([special_file[1],special_file[0],exectime[5],totaltime[5]])

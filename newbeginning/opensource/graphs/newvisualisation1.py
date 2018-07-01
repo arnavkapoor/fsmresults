@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 neededfiles = ['bbsse.test','s386.test','s1.test','pma.test','cse.test','keyb.test']
 
 for filename in neededfiles:
-    df = pd.read_csv('./individualcsv/'+filename+'1.csv')
+    df = pd.read_csv('./individualcsv/'+filename+'.csv')
     testcases=(df['Testcases'].drop_duplicates().values.tolist())
     totalcpu = (df['Total CPU'].values.tolist())
     totalcpu32=[]
@@ -39,8 +39,8 @@ for filename in neededfiles:
 
     names = ['cpu1','cpu8','cpu16','cpu32','gpuexec','gputotal']
 
-    executiongpuop = (df['Execution GPU Optimised'].drop_duplicates().values.tolist())
-    totalgpuop = (df['Total GPU Optimised'].drop_duplicates().values.tolist())
+    executiongpu = (df['Execution GPU'].drop_duplicates().values.tolist())
+    totalgpu = (df['Total GPU'].drop_duplicates().values.tolist())
     allaboard = []
     print(len(testcases))
     for i in range(0,len(testcases)):
@@ -48,10 +48,10 @@ for filename in neededfiles:
         totalcpu8[i] = (testcases[i]/totalcpu8[i])*1000
         totalcpu16[i] = (testcases[i]/totalcpu16[i])*1000
         totalcpu32[i] = (testcases[i]/totalcpu32[i])*1000
-        executiongpuop[i] = (testcases[i]/executiongpuop[i])*1000
-        totalgpuop[i] = (testcases[i]/totalgpuop[i])*1000
+        executiongpu[i] = (testcases[i]/executiongpu[i])*1000
+        totalgpu[i] = (testcases[i]/totalgpu[i])*1000
 
-    allaboard.extend([totalcpu1,totalcpu8,totalcpu16,totalcpu32,executiongpuop,totalgpuop])
+    allaboard.extend([totalcpu1,totalcpu8,totalcpu16,totalcpu32,executiongpu,totalgpu])
     print(allaboard)
     
     dataPanda=[]
@@ -64,11 +64,11 @@ for filename in neededfiles:
         handle,=plt.plot(logtestcases,allaboard[i],label=names[i],linestyle=handlestyle[0],marker=handlestyle[1])
         handles.append(handle)
         labels.append(names[i])
-        sortingpoints.append(allaboard[i][0])
+        sortingpoints.append(allaboard[i][-1])
 
     plt.ticklabel_format(style = 'plain')
     
-    plt.ylabel('Number of testcases per second', fontsize=10)
+    plt.ylabel('Number of testcases per second')
     plt.xlabel('Number of tests (log base 2)',  fontsize=10)
 
     #sort the labels/handles by the sorting points
@@ -79,7 +79,7 @@ for filename in neededfiles:
     manager = plt.get_current_fig_manager()
     manager.resize(*manager.window.maxsize())
     #plt.show()
-    plt.savefig('./individualgraphs/'+bmk+'.png')
+    plt.savefig('./individualgraphs/'+bmk+'.png',bbox_inches='tight')
     plt.close()
     #plt.show()    
     # layout ={

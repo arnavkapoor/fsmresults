@@ -1,0 +1,720 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 16384
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/smtp.fsm
+Size of FSM with 201 transitions is 9216 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095488	0.101824	0.596608	2.831023
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.096192	0.101056	0.197312	1.091901
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101216	0.195904	1.069343
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101280	0.195232	1.080028
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101024	0.195168	1.037145
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101280	0.192384	1.055513
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.096032	0.101024	0.192832	1.037983
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.096032	0.101280	0.193312	1.026040
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095936	0.101216	0.192832	1.019266
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.096000	0.101056	0.193280	1.024225
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.105632	0.101184	0.194528	1.042034
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.096064	0.101216	0.193184	1.057888
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.099456	0.101056	0.191328	1.014586
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.096000	0.101728	0.193856	1.023247
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101088	0.191904	1.018777
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101184	0.193536	0.997196
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101248	0.194016	1.001108
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.100992	0.192480	1.004110
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101216	0.193952	1.011164
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101216	0.193344	1.005786
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.096032	0.101152	0.192512	1.037565
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101184	0.194528	1.018428
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+0.096000	0.101056	0.193312	0.983088
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101152	0.194272	1.025622
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.096064	0.101248	0.195200	1.017310
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101056	0.190688	1.017380
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101056	0.193728	1.034911
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101152	0.193856	0.997894
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.100992	0.194112	1.023107
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101216	0.192608	1.027856
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.096096	0.101216	0.192320	1.026180
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.096032	0.101152	0.193600	1.035399
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.096000	0.101248	0.194240	1.041616
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101216	0.194848	1.051882
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095904	0.101056	0.193824	0.993843
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.096064	0.101056	0.196288	1.036586
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101024	0.193888	1.007393
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101248	0.194240	1.032396
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+0.096000	0.101120	0.196096	1.028555
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101152	0.196704	1.058377
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101216	0.192704	1.014517
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.104128	0.100992	0.190592	1.005717
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101024	0.192032	1.012212
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101056	0.195296	1.054536
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101216	0.194336	1.050066
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095936	0.101536	0.190944	1.056421
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101568	0.194592	1.045037
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101184	0.193664	1.475331
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.096544	0.101632	0.204320	1.151895
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095936	0.101056	0.192576	1.156504
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+0.096288	0.101568	0.202240	1.137647
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095936	0.101472	0.203104	1.162720
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101088	0.192992	1.022409
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101280	0.195648	1.029393
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.096224	0.101024	0.195936	1.062777
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101248	0.192288	1.059495
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101024	0.192928	1.049927
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101024	0.192928	1.068504
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+0.096032	0.101312	0.195296	1.026948
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095936	0.101248	0.192608	1.068504
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.096000	0.101184	0.191712	1.021361
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101376	0.190048	1.043501
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.103552	0.101024	0.194944	1.063266
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101280	0.192448	1.043291
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101248	0.191360	1.064174
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.096000	0.101088	0.192576	1.086384
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095936	0.101472	0.192896	1.028904
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101280	0.194592	1.071578
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.096064	0.101184	0.194304	1.004460
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101248	0.192416	1.022478
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101056	0.202912	1.053139
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101184	0.195808	1.006694
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+0.095904	0.101184	0.194400	1.013260
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101056	0.192608	1.059285
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101280	0.194400	1.014726
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101216	0.191744	1.046504
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.096000	0.101056	0.197120	1.049856
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.096000	0.101216	0.192768	1.022898
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095936	0.101120	0.192576	1.067456
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101184	0.192128	1.028834
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101248	0.192448	1.027647
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.096288	0.101056	0.191968	1.053069
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101216	0.191200	1.010117
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.096064	0.101248	0.192416	1.046853
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101056	0.195456	1.048949
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.111968	0.191968	1.022060
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095936	0.101056	0.192352	1.024435
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101280	0.192768	1.038402
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.096000	0.101056	0.193472	1.040149
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.096288	0.101088	0.194848	1.019685
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+0.096000	0.101248	0.192768	1.054536
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095936	0.101280	0.192352	1.044200
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101088	0.197024	1.012351
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.097856	0.101216	0.192256	1.037914
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101024	0.193376	1.063755
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101120	0.193280	1.015704
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.096064	0.101248	0.190624	1.028904
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101120	0.193408	1.013958
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101184	0.192224	1.039450
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+
+Couldn't find transition for state 8, input .
+0.095968	0.101216	0.191232	1.059355
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 8, input .
+
+Couldn't find transition for state 7, input .
+0.095968	0.101056	0.193888	1.006764

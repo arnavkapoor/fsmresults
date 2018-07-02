@@ -1,0 +1,518 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 8192
+LDIM = 512
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/tftp.fsm
+Size of FSM with 1600 transitions is 22528 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049120	0.054144	0.632224	1.921897
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051616	0.188960	0.713570
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.053760	0.051552	0.188864	0.714897
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051584	0.186720	0.726211
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051552	0.188320	0.746256
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049536	0.051616	0.188480	0.775799
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051552	0.189248	0.758897
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049472	0.051552	0.185536	0.755056
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051552	0.186720	0.715107
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.057344	0.051648	0.188384	0.741366
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051680	0.187392	0.747512
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051584	0.188160	0.688776
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049760	0.051584	0.186208	0.706726
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051584	0.187168	0.751424
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051616	0.186976	0.713081
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051552	0.187520	0.704420
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051552	0.188576	0.720275
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049472	0.051616	0.185760	0.715106
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051616	0.186272	0.699881
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051584	0.187008	0.730192
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051552	0.186720	0.738853
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049472	0.051584	0.185824	0.729494
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051584	0.186624	0.735500
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049472	0.051584	0.188800	0.715805
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049376	0.051776	0.186240	0.727817
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051808	0.186368	0.704351
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049696	0.051552	0.188352	0.741856
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051616	0.186112	0.730192
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051520	0.185088	0.731310
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051616	0.187360	0.715875
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051584	0.186624	0.720135
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051584	0.186880	0.727259
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051648	0.186560	0.707424
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051616	0.186624	0.715665
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051584	0.186752	0.721671
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051616	0.186656	0.709169
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051584	0.188160	0.711475
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051584	0.188160	0.711964
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049536	0.051584	0.187776	0.690453
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.057184	0.188864	0.725164
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051552	0.188384	0.718878
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049504	0.051648	0.189056	0.703024
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051552	0.187328	0.703932
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051520	0.186560	0.711824
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051584	0.186048	0.707284
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051776	0.185312	0.688846
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051648	0.187872	0.704840
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051552	0.186752	0.699602
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049376	0.051648	0.187488	0.689125
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049472	0.051584	0.186496	0.700370
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051552	0.187680	0.694154
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049504	0.051552	0.186816	0.692967
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051552	0.187328	0.699531
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051616	0.186784	0.705189
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051552	0.186816	0.687519
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051584	0.187392	0.691640
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049472	0.051680	0.186368	0.701487
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051616	0.186496	0.735151
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049472	0.051584	0.187360	0.724396
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051616	0.187136	0.689684
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051584	0.186656	0.689126
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049472	0.051584	0.187392	0.700580
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051584	0.188704	0.694643
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051552	0.188064	0.692199
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051520	0.185984	0.702535
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049376	0.051552	0.187616	0.679766
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049504	0.051520	0.186688	0.688916
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051584	0.188096	0.693944
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051616	0.187200	0.686681
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051584	0.188128	0.766998
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051584	0.187488	0.706236
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051584	0.186368	0.684376
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051552	0.188480	0.690661
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049472	0.051648	0.188288	0.700580
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049536	0.051584	0.188640	0.691989
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051552	0.186912	0.697367
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051584	0.186496	0.696179
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051584	0.186240	0.670757
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051552	0.186688	0.677183
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049472	0.051584	0.186240	0.684166
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049568	0.051648	0.186976	0.688497
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049568	0.051584	0.187328	0.703442
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049536	0.057216	0.186464	0.712033
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051584	0.186976	0.691919
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049504	0.051584	0.186656	0.678719
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049504	0.051520	0.185888	0.673900
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049504	0.051520	0.186880	0.711196
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051648	0.187456	0.711614
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051584	0.186880	0.681792
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049696	0.051584	0.187008	0.686681
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051552	0.186368	0.686122
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049472	0.051584	0.186208	0.673551
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051552	0.188480	0.725583
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051616	0.186528	0.700649
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049696	0.051552	0.187328	0.705957
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049536	0.051616	0.188608	0.681861
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051552	0.187200	0.687868
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049504	0.051584	0.188672	0.691361
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049408	0.051584	0.187104	0.717900
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049440	0.051584	0.186496	0.700579
+
+Couldn't find transition for state 9, input .
+
+Couldn't find transition for state 15, input .
+0.049504	0.051584	0.188640	0.666497

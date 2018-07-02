@@ -4,7 +4,10 @@ import re
 path = "./transition-pair-tests-network"
 for folder, sub_folders, files in os.walk(path):
     for special_file in files:
+        pattern = re.compile("sed*")
         file_path = os.path.join(folder, special_file)
+        if(pattern.match(special_file)):
+            continue
         with open(file_path, 'r+') as fsmfile:
             alllines=fsmfile.readlines()
             length=[]

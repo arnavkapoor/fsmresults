@@ -6,107 +6,3343 @@ Global memory size (in bytes): 11996954624
 Global memory cache size (in bytes): 245760 
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 262144
-LDIM = 512
+LDIM = 256, chunks = 1
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/soribada.fsm
+Size of FSM with 2822 transitions is 47104 bytes.
+Size of 262144 test inputs is 4718592 bytes.
+Size of 262144 test results is 6291456 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-4.457472	8.561376	1.315264	16.389201
-3.291808	2.537792	1.288480	9.228358
-2.957952	2.461952	1.322400	8.865253
-2.894528	2.520128	1.322528	8.828866
-2.821760	2.455616	1.283680	8.693373
-2.838560	2.444096	1.320032	8.698123
-2.874016	2.518528	1.295872	8.813919
-2.834272	2.449728	1.314112	8.665925
-2.768704	3.172512	1.316544	9.924328
-2.730592	2.478368	1.320288	8.608236
-2.772800	2.393280	1.311680	8.522471
-2.751296	2.275936	1.301504	8.371404
-2.749088	2.290784	1.322432	8.434052
-2.817888	2.297952	1.321920	8.481963
-2.824000	2.378368	1.310560	8.599437
-2.761568	2.331360	1.331872	8.477074
-2.777728	2.294144	1.324544	8.473093
-2.772800	2.291008	1.303104	8.443270
-4.506272	7.263552	1.298304	15.711599
-5.049344	7.274944	1.296224	16.557379
-3.792288	7.277280	1.294208	15.143928
-3.697184	7.305920	1.322720	15.101255
-4.214560	7.276288	1.304384	15.566050
-3.715808	7.321056	1.313312	15.098461
-3.708832	7.196992	1.293312	14.937337
-3.781344	7.240000	1.265312	15.076671
-3.804768	7.297632	1.291168	15.143020
-3.669600	7.257088	1.293888	14.980988
-3.608640	7.162016	1.347072	14.836836
-3.525408	7.155712	1.291904	14.696873
-3.561120	7.155488	1.288064	14.739965
-3.557184	7.285760	1.318784	14.896829
-3.617824	7.146944	1.320000	14.803032
-3.580032	7.283488	1.314272	14.953540
-3.555424	7.228576	1.331872	14.867775
-3.543648	7.162368	1.330880	14.787038
-3.523392	7.185568	1.319456	14.734098
-3.532768	7.100704	1.322592	14.681019
-3.487200	6.951072	1.323392	14.471774
-3.465920	6.960448	1.290816	14.440485
-3.446208	6.944448	1.335552	14.462275
-3.458688	6.968160	1.296544	14.425818
-3.459264	6.943872	1.320800	14.421139
-3.431584	6.794720	1.314336	14.245069
-3.437888	6.798176	1.304928	14.222789
-3.407552	6.810592	1.298656	14.212522
-3.397152	6.792000	1.309408	14.161398
-3.395360	6.803904	1.320960	14.180535
-3.403584	6.790272	1.295808	14.160700
-3.403552	6.646880	1.292064	14.011449
-3.295936	6.439584	1.295712	13.651068
-3.265184	6.213408	1.297344	13.382038
-3.166208	6.082560	1.330208	13.158895
-3.215424	6.073408	1.282784	13.130329
-3.181120	6.058944	1.307104	13.117758
-3.187744	6.043872	1.312448	13.123135
-3.177248	6.057472	1.326976	13.161549
-3.167200	6.091968	1.310656	13.190253
-3.167200	6.041312	1.320640	13.133892
-3.147328	6.028512	1.297088	13.059161
-3.147552	6.049504	1.273792	13.008177
-3.131296	6.057056	1.301888	13.102952
-6.478496	9.642304	1.293696	22.291989
-3.075520	3.375936	1.305024	11.745235
-3.037600	3.336960	1.298880	9.870132
-3.042304	3.356960	1.290816	9.877813
-3.026848	3.373376	1.293408	9.900931
-3.020224	3.389920	1.350048	9.954220
-3.022240	3.324640	1.265504	9.851483
-3.035936	3.390912	1.353568	9.963021
-3.037792	3.336000	1.308928	9.879210
-2.987840	3.359264	1.314080	9.839052
-3.025280	3.337184	1.306816	9.870201
-3.022688	3.388704	1.301984	9.939065
-3.049248	3.394688	1.288928	9.935782
-3.014464	3.353632	1.295072	9.839540
-3.049088	3.297568	1.303872	9.845897
-3.063584	3.360736	1.292288	9.898697
-3.048672	3.366848	1.300064	9.944093
-3.030880	3.322880	1.310848	9.852601
-3.032896	3.349856	1.288032	9.866779
-3.020576	3.328640	1.330144	9.864474
-3.043968	3.348288	1.310016	9.892201
-3.005024	3.374976	1.283584	9.874391
-3.005056	3.338688	1.312064	9.838562
-3.040896	3.345472	1.328096	9.888151
-3.016480	3.355744	1.307520	9.863776
-3.062400	3.366176	1.340320	9.960227
-2.989760	3.332736	1.313952	9.870061
-3.016320	3.307712	1.309248	9.803502
-2.987840	3.343456	1.323136	9.851344
-2.982528	3.342432	1.332160	9.854277
-3.565344	3.408896	1.292288	10.469999
-3.090816	3.357280	1.295264	9.918252
-3.028800	3.398752	1.312352	9.909452
-3.053824	3.405376	1.326560	9.979293
-3.025248	3.400224	1.297472	9.934525
-3.029792	3.351072	1.336384	9.920207
-3.043104	3.405472	1.328960	9.977897
-3.060480	3.405184	1.294016	9.961135
-3.033920	3.354912	1.320192	9.966792
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.999456	5.277152	1.220352	10.677360
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.821600	1.086656	1.223680	4.166810
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.707872	0.969248	1.213568	3.920060
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.711424	0.956608	1.228352	3.835273
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.691008	0.971552	1.214624	3.853362
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.683936	0.965984	1.221088	3.837647
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.674080	0.931936	1.212928	3.762149
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.693568	0.920032	1.229408	3.769762
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.691360	0.861824	1.215200	3.669399
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.687936	0.840992	1.228256	3.668491
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.681024	0.870496	1.204768	3.642231
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.685344	0.827936	1.207072	3.613527
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.743840	0.844544	1.221760	3.732676
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.681440	0.835200	1.209888	3.631267
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.686784	0.851488	1.224960	3.651660
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.743968	0.843232	1.212992	3.695241
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.708864	0.832448	1.217536	3.632942
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.685952	0.842624	1.196096	3.605145
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.687392	0.853920	1.225920	3.656759
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.719712	0.839360	1.212480	3.669609
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.710208	0.819008	1.217600	3.641043
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.715456	0.813120	1.208032	3.624212
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.720608	0.822816	1.220576	3.829965
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.685696	0.835008	1.223552	3.623793
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.706592	0.975200	1.212256	3.914194
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.722944	0.958048	1.227552	3.941152
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.714816	0.904064	1.212928	3.719267
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.700224	0.820800	1.218112	3.728905
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+1.179424	1.147648	1.221120	4.582716
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.745344	1.156960	1.219424	4.228271
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.734208	1.139392	1.216352	4.169464
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.689056	1.000032	1.214656	3.934657
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.682624	1.010144	1.237792	3.965736
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.694144	0.994336	1.209408	3.983755
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.733696	0.945696	1.215712	3.934588
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.693472	1.010240	1.216352	3.964619
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.710976	0.864512	1.214176	3.865724
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.676992	1.013696	1.218336	3.940734
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.720672	1.051328	1.216640	4.059674
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.701088	1.047680	1.230944	3.999820
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.681504	1.025312	1.220256	3.939896
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.684000	0.988320	1.210176	3.937660
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+1.079360	0.886560	1.208800	4.244754
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.858240	0.865440	1.206496	3.985572
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.696768	1.040480	1.228128	4.211648
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.684096	1.008736	1.233216	4.014277
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.696800	0.928448	1.219520	3.868168
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.688384	0.892576	1.231872	3.886467
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.737376	1.005248	1.235200	4.037324
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.687648	1.005600	1.211296	3.951908
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.701536	1.035968	1.224576	4.027756
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.692768	1.005632	1.228896	3.946181
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.683232	1.011168	1.221120	3.954981
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.684800	1.052928	1.214784	4.057368
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.702400	1.034176	1.226496	4.005826
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.689408	1.038880	1.220320	3.985501
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.681120	0.995328	1.218048	3.975375
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.680672	0.966752	1.208320	3.856575
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.688992	0.859552	1.213760	3.787432
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.693568	0.969856	1.218144	3.897013
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.674144	0.951104	1.218080	3.919851
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.706080	0.929888	1.219552	3.857412
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.683264	0.920192	1.220576	3.848194
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+1.017952	0.814272	1.230880	4.118480
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.787488	1.045792	1.222880	4.091800
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.680064	0.998432	1.220256	3.952118
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.684480	1.023296	1.212000	4.148092
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.686016	1.043808	1.219648	3.964620
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.680416	1.020416	1.213248	3.944296
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.726688	1.015104	1.232352	4.032505
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.692448	1.000864	1.220832	3.941362
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.680800	1.036000	1.217120	3.991019
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.714048	1.005984	1.210432	3.991997
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.730848	0.928640	1.203040	3.919781
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.704800	0.981984	1.225536	3.978798
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.690432	1.026368	1.217536	3.958124
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.729344	1.036960	1.213760	4.057997
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.692160	0.995744	1.220896	3.974816
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.739232	1.022912	1.239840	4.076505
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.706784	1.038272	1.215040	4.025940
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.717632	1.038240	1.210368	4.037744
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.711520	1.012096	1.218048	3.976422
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.692000	1.033312	1.220352	4.027267
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.680320	1.028320	1.224896	3.980962
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.844736	0.857408	1.220672	3.937451
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.679616	0.927520	1.220096	3.824378
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.705632	0.965248	1.213408	3.925717
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.675232	0.947968	1.209312	3.844283
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.723776	0.968736	1.213472	4.111915
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.713952	0.990208	1.223680	3.940175
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.672768	0.993856	1.225536	3.896803
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.685920	0.944832	1.207200	3.874175
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.676416	0.958144	1.214464	3.840372
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.719520	1.009280	1.230784	4.008550
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input m.
+0.685376	1.002112	1.217056	3.891356
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.676736	0.988256	1.227104	3.929909
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.721536	1.010080	1.227776	3.965248
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.673600	0.857472	1.209536	3.752930
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.689664	0.924448	1.208064	3.824727
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.713472	0.965472	1.223520	3.943108
+
+Couldn't find transition for state 34, input F.
+
+Couldn't find transition for state 34, input Fil.
+
+Couldn't find transition for state 34, input File.
+
+Couldn't find transition for state 34, input Filena.
+
+Couldn't find transition for state 0, input l.
+
+Couldn't find transition for state 0, input le.
+
+Couldn't find transition for state 0, input lena.
+
+Couldn't find transition for state 34, input Filename.
+
+Couldn't find transition for state 0, input na.
+
+Couldn't find transition for state 0, input lename.
+
+Couldn't find transition for state 34, input Filenam.
+
+Couldn't find transition for state 0, input name.
+
+Couldn't find transition for state 0, input lenam.
+
+Couldn't find transition for state 0, input me.
+
+Couldn't find transition for state 0, input nam.
+
+Couldn't find transition for state 0, input m.
+0.702720	0.827456	1.227808	3.803635

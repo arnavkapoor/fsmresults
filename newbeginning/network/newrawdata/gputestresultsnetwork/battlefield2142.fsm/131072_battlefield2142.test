@@ -6,107 +6,313 @@ Global memory size (in bytes): 11996954624
 Global memory cache size (in bytes): 245760 
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 131072
-LDIM = 512
+LDIM = 256, chunks = 1
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/battlefield2142.fsm
+Size of FSM with 1540 transitions is 34816 bytes.
+Size of 131072 test inputs is 1572864 bytes.
+Size of 131072 test results is 2097152 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-1.814688	4.861632	0.577792	8.775017
-1.487232	1.269376	0.561248	4.592563
-1.282304	1.254272	0.548768	4.403712
-1.294976	1.274784	0.552448	4.444150
-1.266048	1.236352	0.543200	4.356290
-1.297184	1.310816	0.559168	4.482842
-1.288576	1.241888	0.540736	4.398613
-1.287168	1.259584	0.546624	4.383947
-1.275616	1.252064	0.546304	4.410626
-1.283584	1.269696	0.543328	4.400988
-1.282240	1.291008	0.551200	4.437935
-1.299136	1.276096	0.553728	4.436397
-1.281120	1.255840	0.546944	4.388067
-1.300768	1.290400	0.543744	4.469014
-1.265408	1.241568	0.559200	4.369629
-1.249248	1.186080	0.549248	4.271991
-1.265856	1.188064	0.552512	4.299299
-1.223648	1.165600	0.543264	4.207458
-1.222208	1.232096	0.542944	4.259070
-1.241088	1.176448	0.546816	4.245451
-1.234336	1.218880	0.557280	4.278067
-1.248544	1.175264	0.548224	4.275134
-1.207264	1.232416	0.567648	4.284074
-1.206080	1.219232	0.545632	4.187832
-1.242432	1.184896	0.559776	4.277020
-1.215776	1.251584	0.546848	4.288195
-1.210048	1.164416	0.548352	4.199985
-1.238880	1.234272	0.554496	4.353077
-1.781920	1.319264	0.546208	5.004418
-1.327040	1.299552	0.549408	4.468176
-1.294976	1.308288	0.585920	4.500652
-1.272512	1.260064	0.558720	4.402246
-1.252640	1.250624	0.549408	4.358454
-1.219264	1.228992	0.554304	4.298670
-1.237056	1.160096	0.548768	4.216886
-2.020640	2.781152	0.560960	7.117331
-2.056448	2.805952	0.554912	7.365547
-1.502400	2.834976	0.561440	6.716231
-1.509568	2.834848	0.547200	6.694231
-1.498304	2.820480	0.532768	6.672161
-1.512416	2.836832	0.555680	6.732924
-1.504448	2.856992	0.539808	6.687876
-1.485152	2.821920	0.548160	6.701565
-1.525088	2.837376	0.548704	6.736555
-1.507520	2.851392	0.560960	6.716441
-1.509536	2.809216	0.544288	6.669787
-1.514656	2.824896	0.559872	6.733413
-1.534304	2.870848	0.549088	6.759045
-1.522848	2.843840	0.556832	6.729711
-1.510752	2.831904	0.542784	6.719095
-1.507520	2.787936	0.532224	6.636612
-1.485888	2.782400	0.544736	6.582695
-1.478848	2.753888	0.547936	6.565932
-1.458080	2.761568	0.544480	6.530104
-1.493184	2.766880	0.548288	6.599736
-1.470592	2.799648	0.565088	6.627812
-1.487008	2.806080	0.550144	6.657914
-1.497280	2.824640	0.576000	6.713857
-1.508544	2.837472	0.545440	6.710086
-1.491136	2.856896	0.557952	6.714486
-1.518848	2.857984	0.542816	6.731317
-1.496416	2.848672	0.545472	6.717768
-1.517920	2.877120	0.547744	6.801228
-1.541280	2.911488	0.549344	6.824486
-1.517920	2.893952	0.533728	6.767845
-1.532256	2.896480	0.540128	6.813661
-1.505472	2.937632	0.538944	6.842435
-1.555808	2.941152	0.545024	6.896353
-1.553600	2.989056	0.554624	6.978836
-1.598624	3.023904	0.550272	7.055870
-1.604800	3.023168	0.555936	7.050213
-1.584320	3.040160	0.554272	7.042321
-1.590176	3.013056	0.549600	7.050073
-1.585184	3.028160	0.538656	7.029889
-1.605792	2.977920	0.559328	7.003001
-1.598816	3.041856	0.552640	7.067185
-1.596896	3.003296	0.539616	6.976811
-1.579232	2.985664	0.546176	6.945800
-1.581088	3.001952	0.540064	6.978277
-1.595744	3.005696	0.552672	7.001953
-1.571232	3.016320	0.536992	6.993991
-1.593728	3.019040	0.549792	7.031147
-1.573408	3.016704	0.549248	6.968918
-1.568992	3.009056	0.549664	6.984563
-1.577472	3.023584	0.549952	6.985052
-1.576288	3.007168	0.565824	7.032264
-1.593696	2.955936	0.559136	6.943495
-1.528480	2.931328	0.558144	6.843692
-1.538400	2.857024	0.551872	6.773571
-1.494208	2.832352	0.551296	6.673699
-1.486080	2.782688	0.554400	6.612098
-1.501504	2.789696	0.546816	6.609095
-1.457696	2.766624	0.555168	6.552244
-1.475776	2.752576	0.541632	6.564466
-1.459552	3.306176	0.549248	7.102594
-1.479872	2.770272	0.542464	6.584231
-1.478272	2.732224	0.561152	6.558250
-1.489088	2.759296	0.544224	6.577247
-1.476192	2.754464	0.534208	6.553012
-1.447424	2.759648	0.544288	6.503774
-1.481056	2.761536	0.551520	6.567679
+
+Couldn't find transition for state 2, input .
+0.386688	0.285248	0.361600	4.736857
+
+Couldn't find transition for state 2, input .
+0.265792	0.203264	0.188928	1.610963
+
+Couldn't find transition for state 2, input .
+0.273664	0.203200	0.191104	1.573178
+
+Couldn't find transition for state 2, input .
+0.266496	0.203360	0.190048	1.569477
+
+Couldn't find transition for state 2, input .
+0.261344	0.203136	0.185376	1.538328
+
+Couldn't find transition for state 2, input .
+0.263008	0.203360	0.194144	1.556836
+
+Couldn't find transition for state 2, input .
+0.271904	0.203264	0.188832	1.531693
+
+Couldn't find transition for state 2, input .
+0.272480	0.203264	0.193632	1.546709
+
+Couldn't find transition for state 2, input .
+0.267360	0.203232	0.189440	1.518353
+
+Couldn't find transition for state 2, input .
+0.266304	0.203264	0.187968	1.543775
+
+Couldn't find transition for state 2, input .
+0.272384	0.203072	0.189120	1.541820
+
+Couldn't find transition for state 2, input .
+0.276320	0.203296	0.190176	1.539865
+
+Couldn't find transition for state 2, input .
+0.265024	0.203200	0.189568	1.544544
+
+Couldn't find transition for state 2, input .
+0.271520	0.208576	0.191776	1.548385
+
+Couldn't find transition for state 2, input .
+0.265728	0.203296	0.191296	1.515559
+
+Couldn't find transition for state 2, input .
+0.265824	0.203264	0.188192	1.531273
+
+Couldn't find transition for state 2, input .
+0.273280	0.203296	0.189920	1.532811
+
+Couldn't find transition for state 2, input .
+0.271008	0.206784	0.189824	1.509344
+
+Couldn't find transition for state 2, input .
+0.397568	0.217152	0.191584	1.770969
+
+Couldn't find transition for state 2, input .
+0.315008	0.203488	0.189152	1.668024
+
+Couldn't find transition for state 2, input .
+0.298656	0.203200	0.187456	1.612499
+
+Couldn't find transition for state 2, input .
+0.292800	0.203232	0.191360	1.597413
+
+Couldn't find transition for state 2, input .
+0.289856	0.203200	0.192160	1.578068
+
+Couldn't find transition for state 2, input .
+0.268128	0.203168	0.188992	1.524569
+
+Couldn't find transition for state 2, input .
+0.271008	0.203296	0.188960	1.527503
+
+Couldn't find transition for state 2, input .
+0.272576	0.203328	0.191104	1.550131
+
+Couldn't find transition for state 2, input .
+0.268192	0.203264	0.188992	1.539934
+
+Couldn't find transition for state 2, input .
+0.274208	0.203232	0.188704	1.525477
+
+Couldn't find transition for state 2, input .
+0.260064	0.203232	0.190752	1.526734
+
+Couldn't find transition for state 2, input .
+0.271424	0.203264	0.190272	1.491743
+
+Couldn't find transition for state 2, input .
+0.259616	0.203488	0.190048	1.686741
+
+Couldn't find transition for state 2, input .
+0.267648	0.203488	0.189024	1.525267
+
+Couldn't find transition for state 2, input .
+0.266720	0.203456	0.188544	1.523102
+
+Couldn't find transition for state 2, input .
+0.259456	0.203456	0.191296	1.501591
+
+Couldn't find transition for state 2, input .
+0.269568	0.203584	0.190688	1.551598
+
+Couldn't find transition for state 2, input .
+0.266368	0.203456	0.191232	1.546220
+
+Couldn't find transition for state 2, input .
+0.268768	0.203424	0.186688	1.522963
+
+Couldn't find transition for state 2, input .
+0.262688	0.203360	0.190816	1.521565
+
+Couldn't find transition for state 2, input .
+0.268320	0.203456	0.187808	1.505852
+
+Couldn't find transition for state 2, input .
+0.264352	0.203424	0.189376	1.512207
+
+Couldn't find transition for state 2, input .
+0.261920	0.203424	0.191904	1.521077
+
+Couldn't find transition for state 2, input .
+0.279072	0.203584	0.192256	1.510531
+
+Couldn't find transition for state 2, input .
+0.273568	0.203360	0.193056	1.529458
+
+Couldn't find transition for state 2, input .
+0.269952	0.203360	0.189984	1.522264
+
+Couldn't find transition for state 2, input .
+0.263200	0.203424	0.191968	1.536372
+
+Couldn't find transition for state 2, input .
+0.266592	0.203488	0.192992	1.521984
+
+Couldn't find transition for state 2, input .
+0.266272	0.203392	0.192960	1.499077
+
+Couldn't find transition for state 2, input .
+0.272448	0.203360	0.190848	1.505572
+
+Couldn't find transition for state 2, input .
+0.263296	0.203392	0.191712	1.524080
+
+Couldn't find transition for state 2, input .
+0.262688	0.203360	0.189376	1.524988
+
+Couldn't find transition for state 2, input .
+0.271808	0.203392	0.189376	1.508645
+
+Couldn't find transition for state 2, input .
+0.270496	0.203552	0.190560	1.541471
+
+Couldn't find transition for state 2, input .
+0.269152	0.203552	0.190432	1.513743
+
+Couldn't find transition for state 2, input .
+0.270272	0.203744	0.188160	1.512836
+
+Couldn't find transition for state 2, input .
+0.274528	0.203328	0.192864	1.507458
+
+Couldn't find transition for state 2, input .
+0.272928	0.203328	0.192416	1.496632
+
+Couldn't find transition for state 2, input .
+0.270496	0.203392	0.191040	1.500334
+
+Couldn't find transition for state 2, input .
+0.275136	0.203488	0.192288	1.533369
+
+Couldn't find transition for state 2, input .
+0.267392	0.203296	0.188704	1.534207
+
+Couldn't find transition for state 2, input .
+0.260576	0.203744	0.187680	1.534486
+
+Couldn't find transition for state 2, input .
+0.271040	0.203232	0.189824	1.678569
+
+Couldn't find transition for state 2, input .
+0.264576	0.203136	0.189728	1.512626
+
+Couldn't find transition for state 2, input .
+0.264768	0.203232	0.190496	1.508715
+
+Couldn't find transition for state 2, input .
+0.272352	0.203104	0.190112	1.504944
+
+Couldn't find transition for state 2, input .
+0.272096	0.203200	0.194432	1.535744
+
+Couldn't find transition for state 2, input .
+0.269920	0.203360	0.192640	1.535953
+
+Couldn't find transition for state 2, input .
+0.267232	0.203232	0.192032	1.504594
+
+Couldn't find transition for state 2, input .
+0.270688	0.203264	0.189888	1.551877
+
+Couldn't find transition for state 2, input .
+0.266496	0.203264	0.193920	1.535883
+
+Couldn't find transition for state 2, input .
+0.221440	0.203488	0.187520	1.550061
+
+Couldn't find transition for state 2, input .
+0.275712	0.203296	0.190432	2.054456
+
+Couldn't find transition for state 2, input .
+0.272000	0.203360	0.190656	1.560746
+
+Couldn't find transition for state 2, input .
+0.265568	0.203392	0.192864	1.593293
+
+Couldn't find transition for state 2, input .
+0.274656	0.203776	0.187904	1.587357
+
+Couldn't find transition for state 2, input .
+0.270272	0.203264	0.189696	1.599858
+
+Couldn't find transition for state 2, input .
+0.270976	0.203712	0.194112	1.568429
+
+Couldn't find transition for state 2, input .
+0.275328	0.203328	0.190944	1.547687
+
+Couldn't find transition for state 2, input .
+0.265376	0.203424	0.189984	1.521915
+
+Couldn't find transition for state 2, input .
+0.281280	0.203360	0.190432	1.528061
+
+Couldn't find transition for state 2, input .
+0.274560	0.203232	0.190336	1.517654
+
+Couldn't find transition for state 2, input .
+0.274880	0.203232	0.187712	1.549223
+
+Couldn't find transition for state 2, input .
+0.264480	0.203200	0.188960	1.561236
+
+Couldn't find transition for state 2, input .
+0.264832	0.203200	0.189632	1.521496
+
+Couldn't find transition for state 2, input .
+0.271584	0.203232	0.190976	1.565077
+
+Couldn't find transition for state 2, input .
+0.269120	0.203104	0.189280	1.562842
+
+Couldn't find transition for state 2, input .
+0.264288	0.203744	0.189536	1.604677
+
+Couldn't find transition for state 2, input .
+0.272672	0.203296	0.190336	1.571992
+
+Couldn't find transition for state 2, input .
+0.270944	0.203072	0.189760	1.570525
+
+Couldn't find transition for state 2, input .
+0.267360	0.210656	0.191264	1.560887
+
+Couldn't find transition for state 2, input .
+0.266592	0.203296	0.195264	1.537838
+
+Couldn't find transition for state 2, input .
+0.268096	0.203680	0.192896	1.696240
+
+Couldn't find transition for state 2, input .
+0.275392	0.203456	0.188608	1.526943
+
+Couldn't find transition for state 2, input .
+0.263008	0.203584	0.192416	1.528969
+
+Couldn't find transition for state 2, input .
+0.267840	0.203552	0.188832	1.571782
+
+Couldn't find transition for state 2, input .
+0.262592	0.203616	0.192064	1.546290
+
+Couldn't find transition for state 2, input .
+0.258112	0.203616	0.188928	1.546639
+
+Couldn't find transition for state 2, input .
+0.272256	0.204032	0.192768	1.528271
+
+Couldn't find transition for state 2, input .
+0.264416	0.203680	0.193408	1.578906
+
+Couldn't find transition for state 2, input .
+0.264128	0.203584	0.192960	1.546499
+
+Couldn't find transition for state 2, input .
+0.266144	0.203584	0.194592	1.563401
+
+Couldn't find transition for state 2, input .
+0.274304	0.203648	0.193888	1.542588

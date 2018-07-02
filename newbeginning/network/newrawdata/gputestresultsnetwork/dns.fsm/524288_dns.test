@@ -6,107 +6,919 @@ Global memory size (in bytes): 11996954624
 Global memory cache size (in bytes): 245760 
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 524288
-LDIM = 512
+LDIM = 256, chunks = 1
+Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/dns.fsm
+Size of FSM with 40694 transitions is 202752 bytes.
+Size of 524288 test inputs is 6815744 bytes.
+Size of 524288 test results is 10485760 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-9.085216	15.007712	2.318784	29.179961
-7.450656	4.490528	2.257920	17.900918
-7.317376	4.239904	2.266848	17.477260
-7.225184	3.954944	2.249888	17.088313
-11.224096	13.724992	2.262880	31.399382
-12.198528	13.860320	2.255008	32.731607
-12.341984	14.083232	2.283328	33.127119
-12.323616	14.400480	2.257120	33.433933
-12.754528	15.232096	2.260960	34.745904
-12.900800	15.204544	2.279200	34.888451
-12.843872	15.089472	2.273024	34.678716
-12.323424	13.749760	2.292736	32.746553
-11.725056	13.554912	2.268416	31.897142
-11.404992	12.669440	2.257760	30.664859
-11.407264	12.639136	2.260224	30.618555
-11.385344	12.631040	2.268000	30.608428
-11.358464	12.638784	2.276224	30.582726
-11.374912	12.629248	2.273024	30.600047
-11.354848	12.642432	2.273248	30.580561
-11.367232	12.645504	2.257696	30.585869
-11.371744	12.630976	2.272512	30.594249
-11.388704	14.670656	2.270464	36.011710
-15.800160	6.813056	2.260096	29.196234
-6.117408	6.840736	2.260512	19.012445
-6.130688	6.826880	2.261056	18.990235
-6.091840	6.827552	2.270560	18.988909
-6.122688	6.822368	2.271168	18.993098
-6.086688	6.786848	2.280096	18.966698
-6.065344	6.777376	2.252128	18.877301
-6.596640	6.798304	2.259264	19.448116
-6.150816	6.868000	2.251584	18.997569
-6.097952	6.861536	2.268864	18.966559
-6.124384	6.791136	2.251424	18.948191
-6.119616	6.817312	2.273120	18.958527
-6.061952	6.784416	2.265952	18.848038
-6.085952	6.768416	2.266432	18.908870
-6.062144	6.747776	2.263264	18.866826
-6.091808	6.840064	2.260864	18.936876
-6.063168	6.815872	2.241408	18.890712
-6.054720	6.748672	2.252576	18.785250
-6.088512	6.787904	2.252800	18.866895
-6.054720	6.819200	2.250144	18.894901
-6.092768	6.774304	2.250400	18.853626
-6.046592	6.769504	2.275264	18.830229
-6.069504	6.844768	2.263072	18.960622
-6.064928	6.817248	2.261664	18.867314
-6.090752	6.763072	2.247712	18.888406
-6.122688	6.805568	2.255808	18.966839
-6.088544	6.851168	2.299808	19.019429
-6.067552	6.727168	2.256928	18.829180
-6.076256	6.849056	2.266592	18.989398
-6.079744	6.752064	2.278112	18.891060
-6.097920	6.746016	2.257600	18.850343
-6.108192	6.823040	2.256512	18.971657
-6.077472	6.804320	2.263712	18.920115
-6.068064	6.777696	2.265152	18.865010
-6.102240	6.771040	2.263136	18.893365
-6.096704	6.885696	2.271072	19.036401
-6.083584	6.752384	2.253792	18.806133
-6.084480	6.824416	2.268992	18.931848
-6.074400	6.865792	2.248768	18.952661
-6.061248	6.841632	2.255584	18.946793
-6.062080	6.790848	2.249376	18.854673
-6.100992	6.793152	2.265664	18.933314
-6.107168	6.812640	2.253024	18.957201
-6.112384	6.799072	2.262368	18.950915
-6.052736	6.887264	2.261216	18.984718
-6.101280	6.787264	2.248128	18.921930
-6.077280	6.776320	2.241344	18.865988
-6.082656	6.850752	2.260928	18.986255
-6.062944	6.841984	2.250368	18.947772
-6.061312	6.779040	2.262080	18.889035
-6.063104	6.759616	2.257728	18.813257
-6.096896	6.822240	2.262528	18.976058
-6.086496	6.740480	2.256736	18.900000
-6.100128	6.831072	2.246432	18.906565
-6.136000	6.779136	2.254912	18.963137
-6.081376	6.813088	2.249376	18.912711
-6.111424	6.808896	2.268128	18.957060
-6.065248	6.875776	2.252256	18.984858
-6.062080	6.853312	2.245440	18.894972
-6.058016	6.763584	2.254144	18.848247
-6.081664	6.812992	2.268608	18.946375
-6.083648	6.817024	2.259488	18.938902
-6.040448	6.757184	2.276416	18.880165
-6.088992	6.773792	2.258144	18.921022
-6.058880	6.797568	2.283392	18.908451
-6.111296	6.779232	2.253280	18.909499
-6.117376	6.751008	2.259936	18.920185
-6.079552	6.758976	2.259552	18.893644
-6.122688	6.789408	2.251936	18.923746
-6.068288	6.859840	2.253760	18.983810
-6.082592	6.844512	2.254720	18.942394
-6.101952	6.739168	2.271808	18.877511
-6.090976	6.815808	2.269856	18.954197
-6.066240	6.807296	2.264640	18.923048
-6.053088	6.821952	2.246304	18.910547
-6.183104	6.910976	2.270592	19.174268
-6.125696	6.874784	2.251968	19.060775
-6.121504	6.821952	2.247744	18.973124
-6.095904	6.868384	2.247552	19.016287
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+2.893504	8.214784	1.273632	15.362184
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.996192	1.898176	1.261184	6.893421
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.845696	1.909952	1.258624	6.693394
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+2.028000	1.940320	1.259744	6.876170
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.828384	1.917696	1.260192	6.670905
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input p.
+1.838720	2.092928	1.266336	6.990081
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.852288	1.862016	1.264960	6.743261
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input p.
+1.839840	1.876160	1.261184	6.711344
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.903360	1.871904	1.259456	6.798436
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.828000	1.832000	1.263616	6.662175
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.899776	1.844992	1.259840	6.819738
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.850656	1.862496	1.260096	6.704150
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input p.
+1.652928	1.848672	1.265472	6.507476
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+2.061440	1.860128	1.260544	6.923312
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.829536	1.864000	1.258944	6.680892
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.883744	1.853088	1.262528	6.795223
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.841248	1.860736	1.259072	6.715046
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.825120	1.862080	1.265312	6.695560
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.847584	1.867424	1.267296	6.743610
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.832192	1.854304	1.259904	6.685362
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.834656	1.836448	1.256960	6.738442
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.913056	1.828640	1.260640	6.715674
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.898400	1.844832	1.261280	6.733065
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.967104	1.836352	1.263776	6.799204
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.826464	1.851328	1.263968	6.651979
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.908352	1.841568	1.261440	6.821693
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.922048	1.832384	1.257184	6.769173
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input p.
+1.834560	1.832128	1.263904	6.663293
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.904960	1.831296	1.263200	6.753598
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.848288	1.845568	1.260608	6.691229
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.820128	1.818272	1.259968	6.711623
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.911552	1.845152	1.258976	6.761071
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.836928	1.824736	1.259584	6.654702
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.920320	1.822080	1.263168	6.730829
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.839616	1.833184	1.263008	6.660429
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.836352	1.851680	1.262752	6.751643
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.830240	1.815904	1.258656	6.658892
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.931392	1.813696	1.263392	6.724823
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input p.
+1.827200	1.804416	1.266912	6.628372
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.839424	1.794656	1.260352	6.633331
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.914688	1.811168	1.262368	6.812335
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input p.
+1.835264	1.835136	1.259264	6.634309
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.957728	1.847936	1.263936	6.815966
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.832192	1.800064	1.261120	6.632493
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input p.
+1.843776	1.800320	1.262240	6.648138
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.921792	1.809152	1.260832	6.769871
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input p.
+1.945824	1.836960	1.261408	6.775598
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.965408	1.823712	1.262272	6.776087
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.839776	1.822336	1.259296	6.615731
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.963488	1.833568	1.261920	6.810937
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input p.
+1.916736	1.819936	1.257984	6.834056
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.251392	2.372928	1.261216	6.731388
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.179040	1.988128	1.259040	6.239495
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+2.029472	1.835616	1.268960	7.003770
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input p.
+1.861248	1.770240	1.261600	6.760652
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.842240	1.734272	1.262848	6.758486
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+2.089664	1.789344	1.259488	6.935325
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.837984	2.423488	1.262336	7.299129
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.154016	2.481408	1.259584	6.650652
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.183008	2.023968	1.260352	6.237469
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.175360	1.786784	1.260416	6.047850
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.869984	1.812832	1.259296	6.740607
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+2.717056	4.013696	1.256864	10.259778
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+2.872608	2.086144	1.260672	8.776485
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.870912	1.836608	1.259968	6.713369
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input p.
+1.907072	1.859200	1.266112	6.864227
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.835776	1.820960	1.261696	6.672093
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.911264	1.851360	1.259936	6.790405
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+2.297952	1.881248	1.260256	7.189828
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.840640	1.876832	1.263136	6.751154
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.839328	1.880640	1.263424	6.790474
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.840800	1.887392	1.260160	6.728525
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.828864	1.863520	1.263072	6.707643
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.845024	1.848544	1.262176	6.692696
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.922912	1.873056	1.260800	6.798226
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.833920	1.832160	1.257536	6.748709
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.842400	1.863936	1.260672	6.720912
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.828736	1.854752	1.262304	6.693534
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.857152	1.861792	1.259264	6.710854
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.829152	1.828960	1.260576	6.686061
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.821600	1.836224	1.257408	6.707922
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.832128	1.839040	1.259360	6.680055
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.843232	1.830976	1.261184	6.661546
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.898976	1.813280	1.262912	6.691578
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.825248	1.827584	1.258400	6.628303
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.880608	1.830528	1.258304	6.751991
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.931904	1.838656	1.261728	6.750106
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input p.
+2.001504	1.831488	1.262080	6.825255
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.824192	1.839360	1.259584	6.653446
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+2.001664	1.832640	1.260224	6.825465
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.839456	1.821696	1.257568	6.732855
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.830048	1.823008	1.260544	6.701077
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input p.
+1.909088	1.814592	1.258976	6.706734
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.827616	1.828416	1.260960	6.662175
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input p.
+1.933056	1.826816	1.256448	6.732645
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.824544	1.857792	1.259264	6.756531
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.920512	1.837344	1.262048	6.770919
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.879968	1.836576	1.262368	6.698004
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.834080	1.827616	1.263264	6.648906
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input p.
+1.831008	1.810912	1.265152	6.608676
+
+Couldn't find transition for state 144, input i.
+
+Couldn't find transition for state 181, input y.
+
+Couldn't find transition for state 144, input u.
+
+Couldn't find transition for state 144, input p.
+1.837760	1.817664	1.255552	6.708690

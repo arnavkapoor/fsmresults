@@ -7,512 +7,106 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 65536
 LDIM = 512
-Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/tsp.fsm
-Size of FSM with 5123 transitions is 28672 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.033728	3.278112	0.493632	6.532059
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.199552	0.704320	0.487808	3.413500
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.203488	0.694112	0.489248	3.401277
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.208096	0.680768	0.482272	3.358884
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.198592	0.730272	0.478240	3.405747
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.177792	0.704992	0.490304	3.355462
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.244960	0.683520	0.491392	3.408052
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.174112	0.693920	0.517792	3.379627
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.147392	0.670560	0.489792	3.283106
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.157632	0.687808	0.470816	3.280172
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.154784	0.687296	0.478016	3.276960
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.155392	0.671360	0.486784	3.288554
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.146688	0.666048	0.477024	3.235404
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.147296	0.703392	0.492128	3.260827
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.156544	0.630080	0.500448	3.228770
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.146656	0.720000	0.484448	3.296725
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.152704	0.652256	0.483168	3.218992
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.158464	0.656768	0.484768	3.237220
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.146304	0.641440	0.487104	3.207188
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.152544	0.659424	0.467968	3.186864
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.211200	0.647552	0.484704	3.287925
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.156960	0.712512	0.505536	3.308109
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.152576	0.722816	0.488000	3.285481
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.145952	0.641952	0.479328	3.199017
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.208352	0.713216	0.478656	3.327875
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.159264	0.686976	0.491872	3.254750
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.128960	0.593024	0.523136	3.162140
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.154656	0.670464	0.482176	3.284852
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.160640	0.665568	0.487456	3.240852
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.158752	0.678208	0.480128	3.257125
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.210624	0.679648	0.482144	3.322427
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.155360	0.664864	0.510752	3.237359
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.150784	0.666080	0.484352	3.212356
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.161344	0.650752	0.476512	3.231842
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.151648	0.659680	0.481920	3.209144
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.144288	0.677952	0.481536	3.222064
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.154848	0.649184	0.487648	3.228001
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.221536	0.657728	0.501888	3.301614
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 0.687456	0.881376	0.490720	3.098026
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 0.684960	0.923392	0.484320	3.008210
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.143616	0.682848	0.491296	3.262922
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.162080	0.694400	0.479968	3.239386
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.156480	0.701632	0.493600	3.280103
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.144896	0.705792	0.490880	3.293302
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.151872	0.768256	0.487040	3.808593
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.159616	0.705312	0.485408	3.301823
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.152352	0.678784	0.483136	3.238547
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.156096	0.715008	0.497600	3.338490
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.159136	0.704864	0.485952	3.344637
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.271104	0.677728	0.531584	3.458478
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.204576	0.668896	0.481408	3.329201
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.203264	0.688160	0.464000	3.318795
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.223968	0.729888	0.491264	3.402116
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.203808	0.715104	0.494560	3.393525
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.173632	0.723040	0.487040	3.327246
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.194976	0.691264	0.483232	3.343449
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.189760	0.693984	0.500064	3.354135
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.144544	0.733888	0.467200	3.321588
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.148128	0.698208	0.516224	3.346662
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.148768	0.697152	0.496448	3.328084
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.154432	0.688640	0.489888	3.283455
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.122080	0.676608	0.512288	3.231005
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.146848	0.710656	0.489344	3.304268
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 0.687936	0.800896	0.487136	3.099702
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 0.693824	0.908128	0.486592	3.035239
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.153248	0.727008	0.483136	3.321519
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.152352	0.688672	0.495136	3.272700
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.156608	0.696416	0.490816	3.307900
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.159136	0.706048	0.477472	3.297354
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.153568	0.702368	0.486688	3.277589
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.156480	0.688352	0.510144	3.282128
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.156096	0.698176	0.482848	3.285410
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.150688	0.697184	0.487552	3.286459
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.157984	0.694752	0.478848	3.265925
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.151456	0.685824	0.469888	3.245252
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.263584	0.725344	0.484672	3.411963
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.154400	0.695168	0.490176	3.303640
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.160896	0.704128	0.490176	3.298681
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.146400	0.728896	0.483392	3.314185
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.145632	0.700096	0.514944	3.302382
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.152320	0.694848	0.502272	3.287087
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.236608	0.704448	0.491744	3.418668
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.156800	0.696896	0.485536	3.312300
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.157632	0.687648	0.511456	3.313278
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.155840	0.732160	0.519040	3.348128
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.147936	0.694368	0.502912	3.292186
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.148928	0.713984	0.487936	3.320611
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.155264	0.706112	0.472544	3.292255
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 0.774848	0.820544	0.486560	3.149360
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 0.700576	0.884320	0.474144	2.978108
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.156480	0.680224	0.484544	3.287716
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.157344	0.708032	0.505600	3.345056
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.160736	0.703488	0.487008	3.305036
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.161792	0.704896	0.480096	3.278217
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.159520	0.706688	0.477856	3.278147
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.151264	0.733376	0.491776	3.313278
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.147104	0.685216	0.464192	3.261525
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.154912	0.698528	0.488064	3.291487
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.150976	0.670432	0.489952	3.257265
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.146560	0.689120	0.480352	3.291348
-
-Couldn't find transition for state 25, input 	.
-
-Couldn't find transition for state 25, input .
 1.153472	0.687776	0.495264	3.308877

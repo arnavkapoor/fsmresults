@@ -7,310 +7,106 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 16384
 LDIM = 512
-Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/gopher.fsm
-Size of FSM with 3265 transitions is 34816 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-
-Couldn't find transition for state 26, input .
 0.095456	0.109056	0.709152	2.788280
-
-Couldn't find transition for state 26, input .
 0.095904	0.101024	0.233760	1.085336
-
-Couldn't find transition for state 26, input .
 0.095904	0.101504	0.232352	1.062219
-
-Couldn't find transition for state 26, input .
 0.095968	0.106528	0.230432	1.068714
-
-Couldn't find transition for state 26, input .
 0.095872	0.101152	0.233216	1.063056
-
-Couldn't find transition for state 26, input .
 0.095904	0.101152	0.232416	1.090155
-
-Couldn't find transition for state 26, input .
 0.095936	0.101376	0.226496	1.048529
-
-Couldn't find transition for state 26, input .
 0.095936	0.101088	0.228320	1.041266
-
-Couldn't find transition for state 26, input .
 0.095904	0.101184	0.230016	1.030161
-
-Couldn't find transition for state 26, input .
 0.095936	0.101024	0.231232	1.083869
-
-Couldn't find transition for state 26, input .
 0.095872	0.101152	0.232736	1.037774
-
-Couldn't find transition for state 26, input .
 0.095936	0.106752	0.231648	1.055793
-
-Couldn't find transition for state 26, input .
 0.095936	0.101184	0.233600	1.046364
-
-Couldn't find transition for state 26, input .
 0.096256	0.101088	0.236160	1.089037
-
-Couldn't find transition for state 26, input .
 0.095936	0.101408	0.229472	1.036587
-
-Couldn't find transition for state 26, input .
 0.095904	0.101184	0.225440	1.067597
-
-Couldn't find transition for state 26, input .
 0.095936	0.101184	0.227264	1.039171
-
-Couldn't find transition for state 26, input .
 0.095904	0.101056	0.233024	1.086244
-
-Couldn't find transition for state 26, input .
 0.095904	0.100992	0.229600	1.023666
-
-Couldn't find transition for state 26, input .
 0.095936	0.106752	0.232384	1.047482
-
-Couldn't find transition for state 26, input .
 0.096224	0.101152	0.235424	1.045945
-
-Couldn't find transition for state 26, input .
 0.096128	0.105152	0.233536	1.033443
-
-Couldn't find transition for state 26, input .
 0.095904	0.101184	0.232000	1.024783
-
-Couldn't find transition for state 26, input .
 0.095872	0.101120	0.233728	1.029672
-
-Couldn't find transition for state 26, input .
 0.095904	0.100992	0.226592	1.055932
-
-Couldn't find transition for state 26, input .
 0.096128	0.101664	0.231136	1.021012
-
-Couldn't find transition for state 26, input .
 0.096064	0.101024	0.227040	1.012073
-
-Couldn't find transition for state 26, input .
 0.096288	0.101600	0.228032	1.047831
-
-Couldn't find transition for state 26, input .
 0.095904	0.101216	0.232064	1.024853
-
-Couldn't find transition for state 26, input .
 0.095936	0.101376	0.234432	1.000269
-
-Couldn't find transition for state 26, input .
 0.095904	0.101216	0.233088	1.036307
-
-Couldn't find transition for state 26, input .
 0.096032	0.101120	0.231840	1.020104
-
-Couldn't find transition for state 26, input .
 0.095936	0.101024	0.226624	1.038892
-
-Couldn't find transition for state 26, input .
 0.095904	0.101568	0.229952	1.026530
-
-Couldn't find transition for state 26, input .
 0.095904	0.101440	0.228736	1.035329
-
-Couldn't find transition for state 26, input .
 0.095936	0.101344	0.232256	1.019755
-
-Couldn't find transition for state 26, input .
 0.095968	0.101536	0.232832	1.024435
-
-Couldn't find transition for state 26, input .
 0.095904	0.106816	0.235104	1.039101
-
-Couldn't find transition for state 26, input .
 0.096032	0.101504	0.231680	1.022479
-
-Couldn't find transition for state 26, input .
 0.095936	0.101568	0.230784	1.022409
-
-Couldn't find transition for state 26, input .
 0.095904	0.101056	0.227360	1.039241
-
-Couldn't find transition for state 26, input .
 0.095904	0.101632	0.228704	1.021292
-
-Couldn't find transition for state 26, input .
 0.096000	0.101536	0.227168	1.033024
-
-Couldn't find transition for state 26, input .
 0.095872	0.101024	0.230240	1.038193
-
-Couldn't find transition for state 26, input .
 0.095936	0.101504	0.231232	1.027368
-
-Couldn't find transition for state 26, input .
 0.095872	0.101504	0.231904	1.028345
-
-Couldn't find transition for state 26, input .
 0.095968	0.101152	0.231360	1.047901
-
-Couldn't find transition for state 26, input .
 0.095968	0.101184	0.232992	1.054117
-
-Couldn't find transition for state 26, input .
 0.095936	0.100992	0.228352	1.057539
-
-Couldn't find transition for state 26, input .
 0.095936	0.101408	0.231264	1.044898
-
-Couldn't find transition for state 26, input .
 0.095904	0.101184	0.231488	1.050275
-
-Couldn't find transition for state 26, input .
 0.095968	0.101024	0.228256	1.036517
-
-Couldn't find transition for state 26, input .
 0.095936	0.101152	0.234496	1.016752
-
-Couldn't find transition for state 26, input .
 0.095904	0.101216	0.234944	1.047343
-
-Couldn't find transition for state 26, input .
 0.095904	0.101024	0.231616	1.034981
-
-Couldn't find transition for state 26, input .
 0.096000	0.101504	0.231872	1.017659
-
-Couldn't find transition for state 26, input .
 0.096000	0.100992	0.227840	1.025203
-
-Couldn't find transition for state 26, input .
 0.095872	0.101024	0.229728	1.052790
-
-Couldn't find transition for state 26, input .
 0.095936	0.101248	0.232832	1.017031
-
-Couldn't find transition for state 26, input .
 0.095904	0.101184	0.228992	1.040148
-
-Couldn't find transition for state 26, input .
 0.095904	0.101536	0.231296	1.039589
-
-Couldn't find transition for state 26, input .
 0.095904	0.101152	0.232832	1.023108
-
-Couldn't find transition for state 26, input .
 0.095968	0.101024	0.229568	1.049298
-
-Couldn't find transition for state 26, input .
 0.095968	0.101504	0.230720	1.034352
-
-Couldn't find transition for state 26, input .
 0.095936	0.101152	0.231328	1.013678
-
-Couldn't find transition for state 26, input .
 0.096000	0.101024	0.228064	1.027856
-
-Couldn't find transition for state 26, input .
 0.095904	0.101568	0.232608	1.047552
-
-Couldn't find transition for state 26, input .
 0.095904	0.101152	0.230080	1.028834
-
-Couldn't find transition for state 26, input .
 0.095904	0.100960	0.230272	1.074301
-
-Couldn't find transition for state 26, input .
 0.095968	0.101184	0.230976	1.041825
-
-Couldn't find transition for state 26, input .
 0.095936	0.101024	0.227968	1.006485
-
-Couldn't find transition for state 26, input .
 0.095936	0.101056	0.230368	1.022549
-
-Couldn't find transition for state 26, input .
 0.095904	0.101504	0.232800	1.016612
-
-Couldn't find transition for state 26, input .
 0.095936	0.101056	0.229888	1.014796
-
-Couldn't find transition for state 26, input .
 0.095968	0.101536	0.236704	1.027856
-
-Couldn't find transition for state 26, input .
 0.095936	0.101088	0.234400	1.066758
-
-Couldn't find transition for state 26, input .
 0.095904	0.101504	0.228512	1.029952
-
-Couldn't find transition for state 26, input .
 0.096032	0.101152	0.231104	1.060332
-
-Couldn't find transition for state 26, input .
 0.095904	0.101024	0.227648	1.023037
-
-Couldn't find transition for state 26, input .
 0.096160	0.100992	0.230592	1.041615
-
-Couldn't find transition for state 26, input .
 0.095936	0.101504	0.231904	1.028485
-
-Couldn't find transition for state 26, input .
 0.095936	0.100992	0.229344	1.030999
-
-Couldn't find transition for state 26, input .
 0.095872	0.101568	0.232544	1.023386
-
-Couldn't find transition for state 26, input .
 0.096064	0.101344	0.233920	1.039939
-
-Couldn't find transition for state 26, input .
 0.095904	0.101152	0.227616	1.038822
-
-Couldn't find transition for state 26, input .
 0.095904	0.100960	0.232672	1.064663
-
-Couldn't find transition for state 26, input .
 0.095936	0.101120	0.227328	1.062289
-
-Couldn't find transition for state 26, input .
 0.095968	0.101504	0.232672	1.062079
-
-Couldn't find transition for state 26, input .
 0.095904	0.101504	0.232416	1.045177
-
-Couldn't find transition for state 26, input .
 0.095904	0.101760	0.229184	1.072765
-
-Couldn't find transition for state 26, input .
 0.095904	0.101184	0.230816	1.053768
-
-Couldn't find transition for state 26, input .
 0.095872	0.100992	0.232576	1.050694
-
-Couldn't find transition for state 26, input .
 0.096000	0.101184	0.227136	1.064732
-
-Couldn't find transition for state 26, input .
 0.095936	0.101440	0.231520	1.052440
-
-Couldn't find transition for state 26, input .
 0.095904	0.101216	0.227072	1.041545
-
-Couldn't find transition for state 26, input .
 0.095936	0.101152	0.231328	1.050694
-
-Couldn't find transition for state 26, input .
 0.095904	0.101184	0.234112	1.054117
-
-Couldn't find transition for state 26, input .
 0.095936	0.101184	0.232832	1.054745
-
-Couldn't find transition for state 26, input .
 0.095936	0.101536	0.233216	1.080167
-
-Couldn't find transition for state 26, input .
 0.095968	0.101184	0.233152	1.023107
-
-Couldn't find transition for state 26, input .
 0.096128	0.101024	0.228064	1.042802

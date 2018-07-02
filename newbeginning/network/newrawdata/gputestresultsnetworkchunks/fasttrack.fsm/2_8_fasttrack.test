@@ -7,8 +7,6 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 1024
 LDIM = 128
-Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/fasttrack.fsm
-Size of FSM with 3 transitions is 8192 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
 0.002144	0.002208	0.015936	1.547757

@@ -7,8 +7,6 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 1048576
 LDIM = 512
-Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/halflife2-deathmatch.fsm
-Size of FSM with 4305 transitions is 25600 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
 0.048416	0.051616	0.094560	51.879826

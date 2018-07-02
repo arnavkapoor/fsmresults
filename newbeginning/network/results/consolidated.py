@@ -21,9 +21,9 @@ for folder, sub_folders, files in os.walk(path):
                    pass    
             special_file=special_file.split('_')        
             time.sort()
-            if count == 31 and special_file[0]!= "0" and special_file[2] in neededfiles:
+            if count == 101 and special_file[0]!= "0" and special_file[2] in neededfiles:
                 #print(special_file[2],special_file[0],special_file[1],time[5])
-                file.writerow([special_file[2],special_file[0],special_file[1],time[15]])
+                file.writerow([special_file[2],special_file[0],special_file[1],time[50]])
 
 file2 = csv.writer(open('../graphs/gpuresultsnetwork.csv', 'w'))
 #file2.writerow(['Fsm', 'No_of_testcases', 'Execution Time', 'Total Time taken']),
@@ -50,5 +50,5 @@ for folder, sub_folders, files in os.walk(path2):
             special_file=special_file.split('_')  
             totaltime.sort()
             exectime.sort()
-            if count == 31 and special_file[0]!= "0" and special_file[1] in neededfiles:
-                file2.writerow([special_file[1],special_file[0],exectime[15],totaltime[15]])
+            if count == 101 and special_file[0]!= "0" and special_file[1] in neededfiles:
+                file2.writerow([special_file[1],special_file[0],exectime[15],totaltime[50]])

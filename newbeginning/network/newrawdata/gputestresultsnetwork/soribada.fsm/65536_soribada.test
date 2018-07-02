@@ -7,512 +7,106 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 65536
 LDIM = 512
-Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/soribada.fsm
-Size of FSM with 2822 transitions is 47104 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.881920	2.874208	0.531360	5.502737
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.698560	0.558272	0.507392	2.636234
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.654944	0.678080	0.515008	2.791423
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.568768	0.730112	0.533184	2.750216
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.628736	0.592480	0.506592	2.649225
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.599872	0.707584	0.531040	2.806648
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.599872	0.735840	0.527648	2.796241
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.623232	0.685984	0.513216	2.734083
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.583936	0.686688	0.517728	2.719835
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.620544	0.707328	0.517760	2.751822
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.614784	0.696352	0.531040	2.756851
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.590464	0.690816	0.528640	2.722279
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.572960	0.704096	0.501600	2.681003
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.610432	0.675424	0.521792	2.703283
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.594176	0.688544	0.511840	2.745187
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.572288	0.711648	0.522624	2.701607
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.608608	0.676256	0.511104	2.710825
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.580608	0.684320	0.508448	2.690781
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.596704	0.755136	0.524800	2.787022
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.576544	0.715072	0.529216	2.747562
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.571104	0.703456	0.513472	2.719695
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.589440	0.733184	0.514720	2.756851
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.592128	0.704672	0.514112	2.738832
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.581568	0.724800	0.519872	2.727867
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.613440	0.695936	0.514656	2.744419
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.603808	0.689344	0.531488	2.778362
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.588832	0.733056	0.513728	2.755943
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.596448	0.717824	0.508320	2.723606
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.577312	0.694368	0.495648	2.741137
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.578272	0.732736	0.519936	2.768933
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.576896	0.706976	0.530432	2.710476
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.586240	0.686144	0.527808	2.734222
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.569696	0.742400	0.522432	2.718508
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.594464	0.702464	0.529952	2.732337
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.575840	0.686016	0.513344	2.712432
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.606496	0.723616	0.524704	2.763346
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.597760	0.693120	0.520992	2.723118
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.595680	0.733280	0.540928	2.773682
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.578432	0.706976	0.533088	2.716762
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.598912	0.686240	0.516032	2.712851
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.588608	0.738016	0.528448	2.763555
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.568896	0.667296	0.527488	2.663962
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.600320	0.688160	0.511776	2.708521
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.572352	0.687712	0.532160	2.686311
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.553728	0.685280	0.528224	2.619124
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.568608	0.667328	0.528576	2.604737
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.561568	0.690528	0.527232	2.653975
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.543456	0.705152	0.519328	2.654254
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.561184	0.723136	0.511808	2.679048
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.563488	0.656960	0.510272	2.574285
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.578528	0.665824	0.511808	2.640775
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.564064	0.670048	0.517760	2.651460
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.570080	0.685792	0.523360	2.624082
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.572800	0.660800	0.516672	2.632114
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.570016	0.696000	0.514144	2.672203
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.558144	0.676896	0.538208	2.655441
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.575712	0.667392	0.532128	2.663333
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.585728	0.650784	0.522496	2.645035
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.598976	0.669248	0.522336	2.721581
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.566848	0.684256	0.526688	2.639518
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.567104	0.696224	0.532544	2.662076
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.582208	0.697312	0.526144	2.699162
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.557664	0.712448	0.492192	2.619612
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.567264	0.673888	0.535008	2.655790
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.572192	0.711040	0.509824	2.632883
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.584416	0.686080	0.520736	2.685473
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.557056	0.669568	0.517312	2.635257
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.558080	0.685632	0.523648	2.618495
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.611168	0.659840	0.534208	2.683658
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.593952	0.669056	0.523200	2.688616
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.559520	0.707232	0.542592	2.660819
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.556288	0.709312	0.521440	2.667454
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.583744	0.707648	0.513760	2.689384
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.554912	0.693728	0.525408	2.652927
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.560032	0.744000	0.511456	2.683448
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.573632	0.700192	0.521184	2.644826
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.579968	0.694656	0.530208	2.716204
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.548768	0.724608	0.520160	2.675765
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.570208	0.685152	0.518144	2.617308
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.599808	0.716672	0.504576	2.695251
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.569184	0.671296	0.517472	2.680793
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.560224	0.676640	0.532096	2.644546
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.594496	0.676992	0.509952	2.664101
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.586304	0.676160	0.536480	2.693295
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.572480	0.706176	0.521568	2.685753
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.610144	0.649216	0.511008	2.678000
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 1.299712	1.127488	0.511840	4.395890
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.780960	1.212224	0.511104	4.153191
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.740992	0.778624	0.523808	3.023087
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.874592	0.672768	0.521120	2.962394
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.573312	0.693856	0.522176	2.650971
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.551808	0.648832	0.529696	2.581968
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.557344	0.679264	0.525248	2.576939
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.564896	0.679936	0.515936	2.619753
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.571424	0.647232	0.522144	2.606413
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.570208	0.647008	0.506176	2.602781
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.559648	0.650752	0.520032	2.569257
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.561152	0.686560	0.536896	2.598521
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.562496	0.650144	0.511904	2.549422
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.570176	0.647264	0.530304	2.578266
-
-Couldn't find transition for state 34, input File.
-
-Couldn't find transition for state 0, input le.
 0.569856	0.657664	0.511520	2.568698

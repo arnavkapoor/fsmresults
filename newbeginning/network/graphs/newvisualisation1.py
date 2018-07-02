@@ -67,7 +67,7 @@ for filename in neededfiles:
         print("sorting by",allaboard[i][0])
         sortingpoints.append(allaboard[i][0])
 
-    plt.ticklabel_format(style = 'plain')
+    #plt.ticklabel_format(style = 'plain')
     
     plt.ylabel('Number of testcases per second')
     plt.xlabel('Number of tests (log base 2)',  fontsize=10)

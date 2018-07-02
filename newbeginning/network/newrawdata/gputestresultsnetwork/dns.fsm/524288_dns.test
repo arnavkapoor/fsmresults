@@ -7,310 +7,106 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 524288
 LDIM = 512
-Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/dns.fsm
-Size of FSM with 40694 transitions is 202752 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-
-Couldn't find transition for state 144, input s.
 9.085216	15.007712	2.318784	29.179961
-
-Couldn't find transition for state 144, input s.
 7.450656	4.490528	2.257920	17.900918
-
-Couldn't find transition for state 144, input s.
 7.317376	4.239904	2.266848	17.477260
-
-Couldn't find transition for state 144, input s.
 7.225184	3.954944	2.249888	17.088313
-
-Couldn't find transition for state 144, input s.
 11.224096	13.724992	2.262880	31.399382
-
-Couldn't find transition for state 144, input s.
 12.198528	13.860320	2.255008	32.731607
-
-Couldn't find transition for state 144, input s.
 12.341984	14.083232	2.283328	33.127119
-
-Couldn't find transition for state 144, input s.
 12.323616	14.400480	2.257120	33.433933
-
-Couldn't find transition for state 144, input s.
 12.754528	15.232096	2.260960	34.745904
-
-Couldn't find transition for state 144, input s.
 12.900800	15.204544	2.279200	34.888451
-
-Couldn't find transition for state 144, input s.
 12.843872	15.089472	2.273024	34.678716
-
-Couldn't find transition for state 144, input s.
 12.323424	13.749760	2.292736	32.746553
-
-Couldn't find transition for state 144, input s.
 11.725056	13.554912	2.268416	31.897142
-
-Couldn't find transition for state 144, input s.
 11.404992	12.669440	2.257760	30.664859
-
-Couldn't find transition for state 144, input s.
 11.407264	12.639136	2.260224	30.618555
-
-Couldn't find transition for state 144, input s.
 11.385344	12.631040	2.268000	30.608428
-
-Couldn't find transition for state 144, input s.
 11.358464	12.638784	2.276224	30.582726
-
-Couldn't find transition for state 144, input s.
 11.374912	12.629248	2.273024	30.600047
-
-Couldn't find transition for state 144, input s.
 11.354848	12.642432	2.273248	30.580561
-
-Couldn't find transition for state 144, input s.
 11.367232	12.645504	2.257696	30.585869
-
-Couldn't find transition for state 144, input s.
 11.371744	12.630976	2.272512	30.594249
-
-Couldn't find transition for state 144, input s.
 11.388704	14.670656	2.270464	36.011710
-
-Couldn't find transition for state 144, input s.
 15.800160	6.813056	2.260096	29.196234
-
-Couldn't find transition for state 144, input s.
 6.117408	6.840736	2.260512	19.012445
-
-Couldn't find transition for state 144, input s.
 6.130688	6.826880	2.261056	18.990235
-
-Couldn't find transition for state 144, input s.
 6.091840	6.827552	2.270560	18.988909
-
-Couldn't find transition for state 144, input s.
 6.122688	6.822368	2.271168	18.993098
-
-Couldn't find transition for state 144, input s.
 6.086688	6.786848	2.280096	18.966698
-
-Couldn't find transition for state 144, input s.
 6.065344	6.777376	2.252128	18.877301
-
-Couldn't find transition for state 144, input s.
 6.596640	6.798304	2.259264	19.448116
-
-Couldn't find transition for state 144, input s.
 6.150816	6.868000	2.251584	18.997569
-
-Couldn't find transition for state 144, input s.
 6.097952	6.861536	2.268864	18.966559
-
-Couldn't find transition for state 144, input s.
 6.124384	6.791136	2.251424	18.948191
-
-Couldn't find transition for state 144, input s.
 6.119616	6.817312	2.273120	18.958527
-
-Couldn't find transition for state 144, input s.
 6.061952	6.784416	2.265952	18.848038
-
-Couldn't find transition for state 144, input s.
 6.085952	6.768416	2.266432	18.908870
-
-Couldn't find transition for state 144, input s.
 6.062144	6.747776	2.263264	18.866826
-
-Couldn't find transition for state 144, input s.
 6.091808	6.840064	2.260864	18.936876
-
-Couldn't find transition for state 144, input s.
 6.063168	6.815872	2.241408	18.890712
-
-Couldn't find transition for state 144, input s.
 6.054720	6.748672	2.252576	18.785250
-
-Couldn't find transition for state 144, input s.
 6.088512	6.787904	2.252800	18.866895
-
-Couldn't find transition for state 144, input s.
 6.054720	6.819200	2.250144	18.894901
-
-Couldn't find transition for state 144, input s.
 6.092768	6.774304	2.250400	18.853626
-
-Couldn't find transition for state 144, input s.
 6.046592	6.769504	2.275264	18.830229
-
-Couldn't find transition for state 144, input s.
 6.069504	6.844768	2.263072	18.960622
-
-Couldn't find transition for state 144, input s.
 6.064928	6.817248	2.261664	18.867314
-
-Couldn't find transition for state 144, input s.
 6.090752	6.763072	2.247712	18.888406
-
-Couldn't find transition for state 144, input s.
 6.122688	6.805568	2.255808	18.966839
-
-Couldn't find transition for state 144, input s.
 6.088544	6.851168	2.299808	19.019429
-
-Couldn't find transition for state 144, input s.
 6.067552	6.727168	2.256928	18.829180
-
-Couldn't find transition for state 144, input s.
 6.076256	6.849056	2.266592	18.989398
-
-Couldn't find transition for state 144, input s.
 6.079744	6.752064	2.278112	18.891060
-
-Couldn't find transition for state 144, input s.
 6.097920	6.746016	2.257600	18.850343
-
-Couldn't find transition for state 144, input s.
 6.108192	6.823040	2.256512	18.971657
-
-Couldn't find transition for state 144, input s.
 6.077472	6.804320	2.263712	18.920115
-
-Couldn't find transition for state 144, input s.
 6.068064	6.777696	2.265152	18.865010
-
-Couldn't find transition for state 144, input s.
 6.102240	6.771040	2.263136	18.893365
-
-Couldn't find transition for state 144, input s.
 6.096704	6.885696	2.271072	19.036401
-
-Couldn't find transition for state 144, input s.
 6.083584	6.752384	2.253792	18.806133
-
-Couldn't find transition for state 144, input s.
 6.084480	6.824416	2.268992	18.931848
-
-Couldn't find transition for state 144, input s.
 6.074400	6.865792	2.248768	18.952661
-
-Couldn't find transition for state 144, input s.
 6.061248	6.841632	2.255584	18.946793
-
-Couldn't find transition for state 144, input s.
 6.062080	6.790848	2.249376	18.854673
-
-Couldn't find transition for state 144, input s.
 6.100992	6.793152	2.265664	18.933314
-
-Couldn't find transition for state 144, input s.
 6.107168	6.812640	2.253024	18.957201
-
-Couldn't find transition for state 144, input s.
 6.112384	6.799072	2.262368	18.950915
-
-Couldn't find transition for state 144, input s.
 6.052736	6.887264	2.261216	18.984718
-
-Couldn't find transition for state 144, input s.
 6.101280	6.787264	2.248128	18.921930
-
-Couldn't find transition for state 144, input s.
 6.077280	6.776320	2.241344	18.865988
-
-Couldn't find transition for state 144, input s.
 6.082656	6.850752	2.260928	18.986255
-
-Couldn't find transition for state 144, input s.
 6.062944	6.841984	2.250368	18.947772
-
-Couldn't find transition for state 144, input s.
 6.061312	6.779040	2.262080	18.889035
-
-Couldn't find transition for state 144, input s.
 6.063104	6.759616	2.257728	18.813257
-
-Couldn't find transition for state 144, input s.
 6.096896	6.822240	2.262528	18.976058
-
-Couldn't find transition for state 144, input s.
 6.086496	6.740480	2.256736	18.900000
-
-Couldn't find transition for state 144, input s.
 6.100128	6.831072	2.246432	18.906565
-
-Couldn't find transition for state 144, input s.
 6.136000	6.779136	2.254912	18.963137
-
-Couldn't find transition for state 144, input s.
 6.081376	6.813088	2.249376	18.912711
-
-Couldn't find transition for state 144, input s.
 6.111424	6.808896	2.268128	18.957060
-
-Couldn't find transition for state 144, input s.
 6.065248	6.875776	2.252256	18.984858
-
-Couldn't find transition for state 144, input s.
 6.062080	6.853312	2.245440	18.894972
-
-Couldn't find transition for state 144, input s.
 6.058016	6.763584	2.254144	18.848247
-
-Couldn't find transition for state 144, input s.
 6.081664	6.812992	2.268608	18.946375
-
-Couldn't find transition for state 144, input s.
 6.083648	6.817024	2.259488	18.938902
-
-Couldn't find transition for state 144, input s.
 6.040448	6.757184	2.276416	18.880165
-
-Couldn't find transition for state 144, input s.
 6.088992	6.773792	2.258144	18.921022
-
-Couldn't find transition for state 144, input s.
 6.058880	6.797568	2.283392	18.908451
-
-Couldn't find transition for state 144, input s.
 6.111296	6.779232	2.253280	18.909499
-
-Couldn't find transition for state 144, input s.
 6.117376	6.751008	2.259936	18.920185
-
-Couldn't find transition for state 144, input s.
 6.079552	6.758976	2.259552	18.893644
-
-Couldn't find transition for state 144, input s.
 6.122688	6.789408	2.251936	18.923746
-
-Couldn't find transition for state 144, input s.
 6.068288	6.859840	2.253760	18.983810
-
-Couldn't find transition for state 144, input s.
 6.082592	6.844512	2.254720	18.942394
-
-Couldn't find transition for state 144, input s.
 6.101952	6.739168	2.271808	18.877511
-
-Couldn't find transition for state 144, input s.
 6.090976	6.815808	2.269856	18.954197
-
-Couldn't find transition for state 144, input s.
 6.066240	6.807296	2.264640	18.923048
-
-Couldn't find transition for state 144, input s.
 6.053088	6.821952	2.246304	18.910547
-
-Couldn't find transition for state 144, input s.
 6.183104	6.910976	2.270592	19.174268
-
-Couldn't find transition for state 144, input s.
 6.125696	6.874784	2.251968	19.060775
-
-Couldn't find transition for state 144, input s.
 6.121504	6.821952	2.247744	18.973124
-
-Couldn't find transition for state 144, input s.
 6.095904	6.868384	2.247552	19.016287

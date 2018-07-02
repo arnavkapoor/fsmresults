@@ -7,224 +7,36 @@ Global memory cache size (in bytes): 245760
 Version: OpenCL 1.2 CUDA 
 Number of test cases: 16384
 LDIM = 512
-Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/smtp.fsm
-Size of FSM with 201 transitions is 9216 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.048704	0.051776	0.172224	3.182535
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.055840	0.051616	0.172128	1.272022
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.057984	0.051616	0.171712	1.338790
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.057632	0.051648	0.172288	1.270485
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.057248	0.051648	0.172096	1.260638
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.062016	0.051616	0.172448	1.297444
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.062144	0.051616	0.171520	1.254841
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.063008	0.051808	0.172160	1.260987
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.063488	0.051648	0.172416	1.279216
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.058720	0.051616	0.172160	1.272162
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.061152	0.051616	0.172768	1.293673
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.061600	0.051648	0.172896	1.269647
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.060992	0.051648	0.174432	1.282218
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.065088	0.051648	0.173152	1.255330
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.062048	0.051648	0.171264	1.218314
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.060928	0.051648	0.171680	1.261057
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.064032	0.051648	0.171680	1.237451
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.059264	0.051680	0.172704	1.276702
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.060736	0.051648	0.173440	1.261266
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.064224	0.051584	0.175168	1.226555
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.063584	0.051648	0.172928	1.266016
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.066208	0.051648	0.172288	1.239825
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.067072	0.051648	0.171648	1.248695
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.063840	0.051648	0.173248	1.224530
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.063968	0.051616	0.170560	1.244924
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.062240	0.051648	0.171808	1.219222
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.061408	0.051648	0.171104	1.213006
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.060672	0.051616	0.172000	1.173546
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.061344	0.051584	0.171616	1.191914
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.058784	0.051616	0.172288	1.185209
-
-Couldn't find transition for state 8, input .
-
-Couldn't find transition for state 7, input .
-
-Couldn't find transition for state 8, input .
 0.059488	0.051680	0.172832	1.218594

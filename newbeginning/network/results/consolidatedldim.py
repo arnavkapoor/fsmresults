@@ -17,7 +17,7 @@ for folder, sub_folders, files in os.walk(path):
                     float(line[2])
                     float(line[3])
                     count+=1
-                    totaltime.append(float(line[3]))
+                    totaltime.append(float(line[2]))
                 except:
                     pass   
             special_file=special_file.split('_')  

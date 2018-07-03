@@ -1,0 +1,28 @@
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Version: OpenCL 1.2 CUDA 
+Number of test cases: 1477632
+LDIM = 256, chunks = 1
+Size of 1477632 test inputs is 17731584 bytes.
+Size of 1477632 test results is 23642112 bytes.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+error: clEnqueueReadBuffer 0: -5
+error: clFinish queue_inputs: -36
+error: clFinish queue_kernel: -36
+error: clFinish queue_results: -36
+18446744073707.281250	18446744073707.281250	18446744073707.281250	68.414860
+error: clReleaseEvent (event_results) 0: -58
+error: clFinish queue_inputs: -36
+error: clFinish queue_kernel: -36
+error: clFinish queue_results: -36
+error: clEnqueueWriteBuffer 0: -5
+error: clEnqueueNDRangeKernel 0: -58
+error: clEnqueueReadBuffer 0: -58
+error: clFinish queue_inputs: -36
+error: clFinish queue_kernel: -36
+error: clFinish queue_results: -36

@@ -44,12 +44,12 @@ for filename in neededfiles:
     allaboard = []
     print(len(testcases))
     for i in range(0,len(testcases)):
-        totalcpu1[i] = (testcases[i]/totalcpu1[i])*1000
-        totalcpu8[i] = (testcases[i]/totalcpu8[i])*1000
-        totalcpu16[i] = (testcases[i]/totalcpu16[i])*1000
-        totalcpu32[i] = (testcases[i]/totalcpu32[i])*1000
-        executiongpu[i] = (testcases[i]/executiongpu[i])*1000
-        totalgpu[i] = (testcases[i]/totalgpu[i])*1000
+        totalcpu1[i] = (testcases[i]/totalcpu1[i])*1000/1000000
+        totalcpu8[i] = (testcases[i]/totalcpu8[i])*1000/1000000
+        totalcpu16[i] = (testcases[i]/totalcpu16[i])*1000/1000000
+        totalcpu32[i] = (testcases[i]/totalcpu32[i])*1000/1000000
+        executiongpu[i] = (testcases[i]/executiongpu[i])*1000/1000000
+        totalgpu[i] = (testcases[i]/totalgpu[i])*1000/1000000
 
     allaboard.extend([totalcpu1,totalcpu8,totalcpu16,totalcpu32,executiongpu,totalgpu])
     print(allaboard)
@@ -67,9 +67,8 @@ for filename in neededfiles:
         print("sorting by",allaboard[i][0])
         sortingpoints.append(allaboard[i][0])
 
-    #plt.ticklabel_format(style = 'plain')
-    
-    plt.ylabel('Number of testcases per second')
+    plt.ticklabel_format(style = 'plain')
+    plt.ylabel('Number of testcases (in millions) per second')
     plt.xlabel('Number of tests (log base 2)',  fontsize=10)
 
     #sort the labels/handles by the sorting points

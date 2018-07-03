@@ -1,318 +1,0 @@
-Device: Tesla K40m 
-Compute units: 15 
-Work-group size: 1024 
-Local memory size (in bytes): 49152 
-Global memory size (in bytes): 11996954624 
-Global memory cache size (in bytes): 245760 
-Version: OpenCL 1.2 CUDA 
-Number of test cases: 16384
-LDIM = 256, chunks = 1
-Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/whois.fsm
-Size of FSM with 286 transitions is 10240 bytes.
-Size of 16384 test inputs is 114688 bytes.
-Size of 16384 test results is 196608 bytes.
-Time in ms
-trans-inputs	trans-results	exec-kernel	time-total
-
-Couldn't find transition for state 7, input .
-0.013344	0.021408	0.804640	1.826004
-
-Couldn't find transition for state 7, input .
-0.013376	0.020352	0.156544	0.586039
-
-Couldn't find transition for state 7, input .
-0.013376	0.020352	0.158592	0.543296
-
-Couldn't find transition for state 7, input .
-0.013344	0.020384	0.158432	0.590020
-
-Couldn't find transition for state 7, input .
-0.013408	0.020320	0.155968	0.610484
-
-Couldn't find transition for state 7, input .
-0.013376	0.020352	0.154464	0.605875
-
-Couldn't find transition for state 7, input .
-0.013376	0.020320	0.154848	0.578636
-
-Couldn't find transition for state 7, input .
-0.013376	0.020352	0.155904	0.580173
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.155968	0.537290
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154592	0.587297
-
-Couldn't find transition for state 7, input .
-0.013696	0.020320	0.154624	0.571792
-
-Couldn't find transition for state 7, input .
-0.013344	0.020352	0.154336	0.584922
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154432	0.603989
-
-Couldn't find transition for state 7, input .
-0.013344	0.020352	0.156608	0.599938
-
-Couldn't find transition for state 7, input .
-0.013792	0.020352	0.155584	0.580033
-
-Couldn't find transition for state 7, input .
-0.013568	0.020320	0.154144	0.591068
-
-Couldn't find transition for state 7, input .
-0.013312	0.020320	0.154112	0.597424
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.155456	0.574586
-
-Couldn't find transition for state 7, input .
-0.013472	0.020320	0.155072	0.519830
-
-Couldn't find transition for state 7, input .
-0.013376	0.020320	0.155072	0.578637
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154560	0.596935
-
-Couldn't find transition for state 7, input .
-0.013312	0.020352	0.156608	0.587716
-
-Couldn't find transition for state 7, input .
-0.013664	0.020320	0.154688	0.566135
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.155872	0.595049
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.155968	0.603290
-
-Couldn't find transition for state 7, input .
-0.013376	0.020320	0.157568	0.577449
-
-Couldn't find transition for state 7, input .
-0.013728	0.020352	0.156608	0.569557
-
-Couldn't find transition for state 7, input .
-0.013312	0.020352	0.155872	0.587157
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.156000	0.595329
-
-Couldn't find transition for state 7, input .
-0.013312	0.020320	0.154592	0.572560
-
-Couldn't find transition for state 7, input .
-0.013696	0.020352	0.156032	0.576471
-
-Couldn't find transition for state 7, input .
-0.013312	0.020320	0.155232	0.585411
-
-Couldn't find transition for state 7, input .
-0.013312	0.020320	0.155552	0.602941
-
-Couldn't find transition for state 7, input .
-0.013312	0.020320	0.154176	0.575284
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154560	0.570465
-
-Couldn't find transition for state 7, input .
-0.013312	0.020320	0.155200	0.591906
-
-Couldn't find transition for state 7, input .
-0.013344	0.020352	0.154624	0.595189
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.155200	0.568160
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154688	0.566763
-
-Couldn't find transition for state 7, input .
-0.013376	0.020384	0.154304	0.605875
-
-Couldn't find transition for state 7, input .
-0.013344	0.020160	0.154240	0.624662
-
-Couldn't find transition for state 7, input .
-0.013440	0.020320	0.155328	0.599449
-
-Couldn't find transition for state 7, input .
-0.013376	0.020320	0.154816	0.603080
-
-Couldn't find transition for state 7, input .
-0.013376	0.020320	0.155712	0.596446
-
-Couldn't find transition for state 7, input .
-0.013344	0.020512	0.156416	0.627874
-
-Couldn't find transition for state 7, input .
-0.013376	0.020512	0.154496	0.578706
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154464	0.584293
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154400	0.591767
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.155296	0.621030
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154176	0.599310
-
-Couldn't find transition for state 7, input .
-0.013600	0.020320	0.156800	0.586110
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154560	0.579195
-
-Couldn't find transition for state 7, input .
-0.013312	0.020320	0.155680	0.639817
-
-Couldn't find transition for state 7, input .
-0.013312	0.020352	0.154240	0.579614
-
-Couldn't find transition for state 7, input .
-0.013568	0.020320	0.154304	0.570884
-
-Couldn't find transition for state 7, input .
-0.013344	0.020288	0.154336	0.585341
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.153920	0.601195
-
-Couldn't find transition for state 7, input .
-0.013312	0.020352	0.154880	0.601265
-
-Couldn't find transition for state 7, input .
-0.013504	0.020320	0.155200	0.584643
-
-Couldn't find transition for state 7, input .
-0.013312	0.020320	0.154656	0.566973
-
-Couldn't find transition for state 7, input .
-0.013312	0.020320	0.154080	0.568091
-
-Couldn't find transition for state 7, input .
-0.013408	0.020448	0.155136	0.571652
-
-Couldn't find transition for state 7, input .
-0.013408	0.020352	0.157152	0.563969
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.155072	0.577100
-
-Couldn't find transition for state 7, input .
-0.013440	0.020352	0.155776	0.591976
-
-Couldn't find transition for state 7, input .
-0.013376	0.020352	0.155360	0.575075
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.156992	0.581640
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.155264	0.582547
-
-Couldn't find transition for state 7, input .
-0.013312	0.020320	0.153760	0.604268
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154912	0.585061
-
-Couldn't find transition for state 7, input .
-0.013696	0.027392	0.155872	0.578706
-
-Couldn't find transition for state 7, input .
-0.013376	0.020320	0.155456	0.592395
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.153984	0.597564
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154432	0.566834
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.155776	0.573328
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.156096	0.581989
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154752	0.596306
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.156128	0.584503
-
-Couldn't find transition for state 7, input .
-0.013600	0.020320	0.155392	0.580173
-
-Couldn't find transition for state 7, input .
-0.013312	0.020320	0.153984	0.583316
-
-Couldn't find transition for state 7, input .
-0.013472	0.020320	0.154368	0.594491
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.155392	0.575424
-
-Couldn't find transition for state 7, input .
-0.013568	0.020320	0.156192	0.578217
-
-Couldn't find transition for state 7, input .
-0.013344	0.020608	0.154144	0.596237
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.153312	0.597982
-
-Couldn't find transition for state 7, input .
-0.013344	0.020352	0.155808	0.585550
-
-Couldn't find transition for state 7, input .
-0.013344	0.020352	0.155488	0.584642
-
-Couldn't find transition for state 7, input .
-0.013344	0.020608	0.155968	0.596446
-
-Couldn't find transition for state 7, input .
-0.013376	0.020320	0.156128	0.596306
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154688	0.580872
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154784	0.577309
-
-Couldn't find transition for state 7, input .
-0.013376	0.020288	0.154368	0.587786
-
-Couldn't find transition for state 7, input .
-0.013440	0.020320	0.155648	0.604058
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.156032	0.571862
-
-Couldn't find transition for state 7, input .
-0.013696	0.020320	0.156704	0.568300
-
-Couldn't find transition for state 7, input .
-0.013536	0.020544	0.154336	0.584782
-
-Couldn't find transition for state 7, input .
-0.013312	0.020320	0.153664	0.594211
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154368	0.550281
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154496	0.559988
-
-Couldn't find transition for state 7, input .
-0.013312	0.020288	0.154560	0.579544
-
-Couldn't find transition for state 7, input .
-0.013344	0.020320	0.154688	0.628922

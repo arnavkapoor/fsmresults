@@ -9,73 +9,39 @@ Number of test cases: 1477632
 LDIM = 256, chunks = 1
 Reading fsm: /afs/inf.ed.ac.uk/user/v/v1akapoo/fsmresults/newbeginning/network/allregexnew/battlefield2.fsm
 Size of FSM with 8640 transitions is 73728 bytes.
-Size of 1477632 test inputs is 11375357 bytes.
-Size of 1477632 test results is 11375357 bytes.
+Size of 1477632 test inputs is 17731584 bytes.
+Size of 1477632 test results is 23642112 bytes.
 Time in ms
 trans-inputs	trans-results	exec-kernel	time-total
 
-Couldn't find transition for state 0, input þýÌs.
+Couldn't find transition for state 0, input .
 
-Couldn't find transition for state 0, input Ìs.
+Couldn't find transition for state 0, input .
 
-Couldn't find transition for state 0, input Ìs.
+Couldn't find transition for state 0, input .
 
-Couldn't find transition for state 0, input s.
-3.170304	10.501408	2.539936	20.950897
+Couldn't find transition for state 0, input .
 
-Couldn't find transition for state 0, input þýÌs.
+Couldn't find transition for state 0, input .
 
-Couldn't find transition for state 0, input Ìs.
+Couldn't find transition for state 0, input .
 
-Couldn't find transition for state -1, input Ìs.
+Couldn't find transition for state 0, input .
 
-Couldn't find transition for state -1, input Ìs.
-
-Couldn't find transition for state -1, input Ìs.
-
-Couldn't find transition for state -1, input s.
-3.079424	2.050784	2.777248	10.568757
-
-Couldn't find transition for state 0, input þýÌs.
-
-Couldn't find transition for state 0, input Ìs.
-
-Couldn't find transition for state -1, input Ìs.
-
-Couldn't find transition for state -1, input Ìs.
-
-Couldn't find transition for state -1, input Ìs.
-
-Couldn't find transition for state -1, input s.
-3.080672	2.025984	2.775008	10.505690
-
-Couldn't find transition for state 0, input þýÌs.
-
-Couldn't find transition for state 0, input Ìs.
-
-Couldn't find transition for state -1, input Ìs.
-
-Couldn't find transition for state -1, input Ìs.
-
-Couldn't find transition for state -1, input Ìs.
-
-Couldn't find transition for state -1, input s.
-3.116416	2.050944	2.777888	10.542985
-
-Couldn't find transition for state 0, input þýÌs.
+Couldn't find transition for state 0, input .
 error: clEnqueueReadBuffer 0: -5
 error: clFinish queue_inputs: -36
 error: clFinish queue_kernel: -36
 error: clFinish queue_results: -36
-2.777888	2.777888	2.777888	98.425941
+18446744073707.281250	18446744073707.281250	18446744073707.281250	68.414860
 error: clReleaseEvent (event_results) 0: -58
 error: clFinish queue_inputs: -36
 error: clFinish queue_kernel: -36
 error: clFinish queue_results: -36
 error: clEnqueueWriteBuffer buf_transitions: -5
 error: clEnqueueWriteBuffer 0: -5
-error: clEnqueueWriteBuffer 0: -58
-error: clEnqueueNDRangeKernel 0: -34
+error: clEnqueueNDRangeKernel 0: -58
 error: clEnqueueReadBuffer 0: -58
 error: clFinish queue_inputs: -36
 error: clFinish queue_kernel: -36
+error: clFinish queue_results: -36

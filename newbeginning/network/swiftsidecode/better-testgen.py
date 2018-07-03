@@ -26,6 +26,9 @@ with open(sys.argv[1], 'r') as myfile1: # the fsm file
         if(len(line)==4):
             line[1] = int(line[1],base=10)    
             line[2] = int(line[2],base=10) 
-            testcase=prefixdict[str(line[1])]+line[0]
-            filewrite.write(str(count) + " " + testcase + '\n' )
-            count+=1
+            try:
+	        testcase=prefixdict[str(line[1])]+line[0]
+                filewrite.write(str(count) + " " + testcase + '\n' )
+                count+=1
+	    except:
+		pass	

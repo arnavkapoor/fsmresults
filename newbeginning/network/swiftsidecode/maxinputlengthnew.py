@@ -8,8 +8,9 @@ with open(path, 'r+') as fsmfile:
     length=[]
     for lines in alllines:
         if len(lines.split(" ")) == 2: 
-            string = lines.split(" ")[1].strip()
+            string = lines.split(" ")[1]
             totallen = len(string)
+	    string = string.strip()
             escaped = ['a','b','t','n','v','f','r','\\']
             numbers = [ '0','1','2','3','4','5','6','7']
             i = 0

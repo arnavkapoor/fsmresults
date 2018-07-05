@@ -79,7 +79,7 @@ for filename in neededfiles:
     manager = plt.get_current_fig_manager()
     manager.resize(*manager.window.maxsize())
     #plt.show()
-    plt.savefig('./individualgraphs/'+bmk+'.png',bbox_inches='tight')
+    plt.savefig('./individualgraphs/'+bmk+'.svg',bbox_inches='tight',dpi=1000)
     plt.close()
     #plt.show()    
     # layout ={

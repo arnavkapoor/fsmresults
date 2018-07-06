@@ -18,11 +18,12 @@ for filename in neededfiles:
     freq=(df['Percentage'].values.tolist())
     vals = df['Length'].values.tolist()
     bmk = filename
+    print(freq)
     #create handle combinations
     # linestyles = ['-', ':', '-.', '--']
     # markers = ['x', '^', 'o', '*']
     # handlestyles = itertools.product(linestyles, markers)
-    gaussian = sns.kdeplot(freq,shade=True,bw=0.02)
+    gaussian = sns.kdeplot(freq,shade=True,bw=2)
     
     #plt.show()    
     # layout ={
@@ -34,6 +35,7 @@ for filename in neededfiles:
     #         'title' : 'Log Number of Testcases'
     #         },
     #  }
+    plt.xticks(np.arange(vals[0], vals[-1], step=1))
     fig = gaussian.get_figure()
     fig.savefig('./individualgraphspercent/'+bmk+"gaussian.svg",dpi=1000)
     # fig = dict(data=dataPanda,layout=layout)

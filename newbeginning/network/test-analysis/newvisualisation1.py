@@ -8,7 +8,7 @@ import pandas as pd
 import matplotlib as mplt
 import itertools
 import matplotlib.pyplot as plt 
-neededfiles = ['aim.fsm','battlefield2.fsm','counterstrike-source.fsm','dns.fsm','h323.fsm','hotline.fsm','ntp.fsm','rtp.fsm','ssl.fsm','tsp.fsm','yahoo.fsm']
+neededfiles = ['aim.fsm','battlefield2.fsm','counterstrike-source.fsm','halflife2-deathmatch.fsm','dns.fsm','h323.fsm','hotline.fsm','ntp.fsm','rtp.fsm','ssl.fsm','tsp.fsm','yahoo.fsm']
 
 for filename in neededfiles:
     filename=filename.split('.')[0]
@@ -20,7 +20,7 @@ for filename in neededfiles:
     # linestyles = ['-', ':', '-.', '--']
     # markers = ['x', '^', 'o', '*']
     # handlestyles = itertools.product(linestyles, markers)
-    
+    #gaussian = sns.kdeplot(x,shade=True)
     
     plt.bar(x,testcases,align='center')
     plt.xticks(np.arange(x[0], x[-1], step=1))
@@ -32,7 +32,7 @@ for filename in neededfiles:
     manager = plt.get_current_fig_manager()
     manager.resize(*manager.window.maxsize())
     #plt.show()
-    plt.savefig('./individualgraphs/'+bmk+'.png')
+    plt.savefig('./individualgraphspercent/'+bmk+'.png')
     plt.close()
     #plt.show()    
     # layout ={
@@ -44,7 +44,8 @@ for filename in neededfiles:
     #         'title' : 'Log Number of Testcases'
     #         },
     #  }
-
+    #fig = gaussian.get_figure()
+    #fig.savefig('./individualgraphspercent/'+bmk+"gaussian.png")
     # fig = dict(data=dataPanda,layout=layout)
     # py.image.save_as(fig, './individualgraphs/'+filename+'2.png')
 

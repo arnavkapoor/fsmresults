@@ -8,7 +8,7 @@ import pandas as pd
 import matplotlib as mplt
 import itertools
 import matplotlib.pyplot as plt 
-neededfiles = ['aim.fsm','battlefield2.fsm','counterstrike-source.fsm','dns.fsm','h323.fsm','hotline.fsm','ntp.fsm','rtp.fsm','ssl.fsm','tsp.fsm','yahoo.fsm']
+neededfiles = ['aim.fsm','battlefield2.fsm','counterstrike-source.fsm','dns.fsm','halflife2-deathmatch.fsm','h323.fsm','hotline.fsm','ntp.fsm','rtp.fsm','ssl.fsm','tsp.fsm','yahoo.fsm']
 
 for filename in neededfiles:
     filename=filename.split('.')[0]

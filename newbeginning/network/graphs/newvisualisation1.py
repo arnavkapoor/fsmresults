@@ -38,9 +38,17 @@ for filename in neededfiles:
             totalcpu1.append(totalcpu[i])
 
     names = ['cpu1','cpu8','cpu16','cpu32','gpuexec','gputotal']
+    myindices = []
 
-    executiongpu = (df['Execution GPU'].drop_duplicates().values.tolist())
-    totalgpu = (df['Total GPU'].drop_duplicates().values.tolist())
+    executiongpupre = (df['Execution GPU'].values.tolist())
+    totalgpupre = (df['Total GPU'].values.tolist())
+    
+    for i in range(0,len(executiongpupre)):
+        if i%4 == 0:
+            myindices.append(i)
+    executiongpu  = [ executiongpupre[i] for i in myindices ]  
+    totalgpu  = [ totalgpupre[i] for i in myindices ]       
+
     allaboard = []
     print(len(testcases))
     for i in range(0,len(testcases)):
